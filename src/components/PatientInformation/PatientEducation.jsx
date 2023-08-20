@@ -137,14 +137,14 @@ const PatientEducation = () => {
               <ul className="space-y-1">
 
                 <li>
-                  <Link to="/patientinformation/patienteducation/digitalxrays" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/patienteducation/digitalxrays" className="hover:underline transition duration-300">
                     Digital X-Rays
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/patientinformation/patienteducation/intraoralcamera" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/patienteducation/intraoralcamera" className="hover:underline transition duration-300">
                     Intraoral Camera
-                  </Link>
+                  </a>
                 </li>
 
               </ul>
@@ -154,19 +154,19 @@ const PatientEducation = () => {
               <ul className="space-y-1">
 
                 <li>
-                  <Link to="/patientinformation/patienteducation/localanesthesia" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/patienteducation/localanesthesia" className="hover:underline transition duration-300">
                     Local Anesthesia
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/patientinformation/patienteducation/patientsafety" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/patienteducation/patientsafety" className="hover:underline transition duration-300">
                     Patient Safety
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/patientinformation/patienteducation/toothdecay" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/patienteducation/toothdecay" className="hover:underline transition duration-300">
                     Tooth Decay
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

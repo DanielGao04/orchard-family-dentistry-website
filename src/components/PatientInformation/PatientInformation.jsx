@@ -17,7 +17,7 @@ const PatientInformation = () => {
         </p>
 
         <p className="text-2xl py-4 whitespace-wrap">
-          To us, being a dentist in Mississauga, Toronto, Scarborough, & Etobicoke means being a pillar of health in the community. To achieve that, we want to be as clear as possible about what you can expect & what we provide. Every patient is different, so this is by no means an exhaustive list of what you might want to know when visiting our office, but it’s a start. Please feel free to call us if you have questions about these topics or anything else.
+          To us, being a dentist in Burlington means being a pillar of health in the community. To achieve that, we want to be as clear as possible about what you can expect & what we provide. Every patient is different, so this is by no means an exhaustive list of what you might want to know when visiting our office, but it’s a start. Please feel free to call us if you have questions about these topics or anything else.
         </p>
 
         <p className="text-2xl py-4 whitespace-wrap">
@@ -33,24 +33,24 @@ const PatientInformation = () => {
             <div className="nav-column mr-8">
               <ul className="space-y-1">
                 <li>
-                  <Link to="/patientinformation/scheduling" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/scheduling" className="hover:underline transition duration-300">
                     Scheduling
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/patientinformation/studentdiscount" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/studentdiscount" className="hover:underline transition duration-300">
                     Student Discounts
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/patientinformation/patienteducation" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/patienteducation" className="hover:underline transition duration-300">
                     Patient Education
-                  </Link>
+                  </a>
                 </li>
-                <li className="pl-4">
-                  <Link to="/patientinformation/patienteducation/digitalxrays" className="hover:underline transition duration-300">
+                <li className="text-left justify-left">
+                  <a href="/patientinformation/patienteducation/digitalxrays" className="hover:underline transition duration-300">
                     Digital X-Rays
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -58,24 +58,24 @@ const PatientInformation = () => {
             <div className="nav-column">
               <ul className="space-y-1">
                 <li>
-                  <Link to="/patientinformation/patienteducation/intraoralcamera" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/patienteducation/intraoralcamera" className="hover:underline transition duration-300">
                     Intraoral Camera
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/patientinformation/patienteducation/localanesthesia" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/patienteducation/localanesthesia" className="hover:underline transition duration-300">
                     Local Anesthesia
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/patientinformation/patienteducation/patientsafety" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/patienteducation/patientsafety" className="hover:underline transition duration-300">
                     Patient Safety
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/patientinformation/patienteducation/toothdecay" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/patienteducation/toothdecay" className="hover:underline transition duration-300">
                     Tooth Decay
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
