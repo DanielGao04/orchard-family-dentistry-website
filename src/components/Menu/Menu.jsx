@@ -187,30 +187,82 @@ const Menu = () => {
                             Emergency Dentistry
                           </Link>
                         </li>
-                        <li>
-                          <Link
-                            to="/dentalservices/generaldentistry"
-                            className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                          >
-                            General Dentistry
-                          </Link>
+
+                        <li class="relative">
+                          <a href="/patientinformation/patienteducation">
+                            <button id="doubleDropdownButton2" data-dropdown-toggle="doubleDropdown2" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                              General Dentistry
+                              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                            </button>
+                          </a>
+                            <div id="doubleDropdown2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 left-0 top-0 min-w-[0] p-0 m-0">
+                              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton2">
+                                <li>
+                                  <a href="/DentalServices/GeneralDentistry/DigitalXRays2" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Digital X-Ray</a>
+                                </li>
+                                <li>
+                                  <a href="/DentalServices/GeneralDentistry/SedationDentistry" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sedation Dentistry</a>
+                                </li>
+                                <li>
+                                  <a href="/DentalServices/GeneralDentistry/WisdomTeethRemoval" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Wisdom Teeth Removal</a>
+                                </li>
+                                <li>
+                                  <a href="/DentalServices/GeneralDentistry/RootCanalTherapy" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Root Canal Therapy</a>
+                                </li>
+                              </ul>
+                            </div>
                         </li>
-                        <li>
-                          <Link
-                            to="/dentalservices/restorativedentistry"
-                            className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                          >
+
+                        <li class="relative">
+                          <a href="/patientinformation/patienteducation">
+                            <button id="doubleDropdownButton3" data-dropdown-toggle="doubleDropdown3" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                             Restorative Dentistry
-                          </Link>
+                              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                            </button>
+                          </a>
+                            <div id="doubleDropdown3" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 left-0 top-0 min-w-[0] p-0 m-0">
+                              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton3">
+                                <li>
+                                  <a href="/DentalServices/RestorativeDentistry/Crowns" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Crowns</a>
+                                </li>
+                                <li>
+                                  <a href="/DentalServices/RestorativeDentistry/DentalImplants" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dentures</a>
+                                </li>
+                                <li>
+                                  <a href="/DentalServices/RestorativeDentistry/Dentures" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dental Implants</a>
+                                </li>
+                              </ul>
+                            </div>
                         </li>
-                        <li>
-                          <Link
-                            to="/dentalservices/cosmeticdentist"
-                            className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                          >
+
+                        <li class="relative">
+                          <a href="/patientinformation/patienteducation">
+                            <button id="doubleDropdownButton4" data-dropdown-toggle="doubleDropdown4" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                             Cosmetic Dentist
-                          </Link>
+                              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                            </button>
+                          </a>
+                            <div id="doubleDropdown4" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 left-0 top-0 min-w-[0] p-0 m-0">
+                              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton4">
+                                <li>
+                                  <a href="/DentalServices/CosmeticDentist/ToothColouredDentistry" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Tooth-Coloured Dentistry</a>
+                                </li>
+                                <li>
+                                  <a href="/DentalServices/CosmeticDentist/DentalFillings" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dental Filing</a>
+                                </li>
+                                <li>
+                                  <a href="/DentalServices/CosmeticDentist/PorcelainVeneers" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Porcelain Veneers</a>
+                                </li>
+                                <li>
+                                  <a href="/DentalServices/CosmeticDentist/MercuryFreeDentistry" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mercury-Free Dentistry</a>
+                                </li>
+                                <li>
+                                  <a href="/DentalServices/CosmeticDentist/TeethWhitening" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Teeth Whitening</a>
+                                </li>
+                              </ul>
+                            </div>
                         </li>
+
                         <li>
                           <Link
                             to="/dentalservices/preventativecare"
