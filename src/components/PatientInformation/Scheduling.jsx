@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Scheduling = () => {
   return (
@@ -14,9 +15,15 @@ const Scheduling = () => {
           <h1 className="text-6xl font-semibold text-left text-blue-900 ">
             Scheduling
           </h1>
-          <p className="mt-4 text-2xl text-left text-blue-900 ">
+          <p className="mt-4 mb-10 text-2xl text-left text-blue-900">
           We don’t want there to be any obstacles between you & your family & great dental care. We have great hours & we are proud to offer our patients convenient appointments that fit even the busiest schedules.
           </p>
+          <Link
+            to="/appointment"
+            className="bg-sky-600 px-3 py-3 items-center text-xs uppercase font-bold text-white hover:opacity-75"
+          >
+            Book Appointment
+          </Link>
         </section>
 
         <section className="mb-16">

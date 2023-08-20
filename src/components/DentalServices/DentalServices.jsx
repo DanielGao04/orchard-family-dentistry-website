@@ -21,7 +21,7 @@ const DentalServices = () => {
           Dental Care Services:
           </h1>
           <p className="text-3xl text-blue-900 py-8 whitespace-wrap text-left">
-          At Taunton Village Dental, we offer an array of different dental care services that we can provide for your family right here in Oshawa, ON. From preventive cleanings to dental implants & dentures, Taunton Village Dental is the place to go for all of your dental needs & in one convenient location. Please take your time to view & read more about all the dental services below that our patients can receive.
+          At Orchard Family Dentistry, we offer an array of different dental care services that we can provide for your family right here in Oshawa, ON. From preventive cleanings to dental implants & dentures, Orchard Family Dentistry is the place to go for all of your dental needs & in one convenient location. Please take your time to view & read more about all the dental services below that our patients can receive.
           </p>
         </div>
         <img className={`md:w-1/8 h-1/8 lg:h-1/2 w-1/2`} src={qualityServiceImg} alt="" />
@@ -40,7 +40,7 @@ const DentalServices = () => {
       <div className="py-4 text-blue-900 text-center px-80">
         <h1 className="text-4xl font-semibold mt-20 mb-5">Preventive Dental Care for the Entire Family</h1>
         <p className="text-blue-400 text-2xl font-semibold">
-        At Taunton Village Dental, we practice dentistry for the whole family. From preventive education & regular hygiene to identifying & caring for dental issues that may arise, your continued oral health is our top priority.
+        At Orchard Family Dentistry, we practice dentistry for the whole family. From preventive education & regular hygiene to identifying & caring for dental issues that may arise, your continued oral health is our top priority.
         </p>
       </div>
 
@@ -94,7 +94,7 @@ const DentalServices = () => {
       <div className="py-4 text-blue-900 text-center px-80">
         <h1 className="text-4xl font-semibold mt-20 mb-5">Cosmetic Dental Care</h1>
         <p className="text-blue-400 text-2xl font-semibold">
-        Having a great smile can make a huge difference in the way you look & feel. Taunton Village Dental offers a complete range of cosmetic dental care treatments to create the confident smile you’ve always wanted. We begin with a detailed smile assessment, discussing with you which aspects you like & dislike about your smile. Once our assessment is complete, we will discuss with you treatment options to help your smile look more natural, youthful & healthy.
+        Having a great smile can make a huge difference in the way you look & feel. Orchard Family Dentistry offers a complete range of cosmetic dental care treatments to create the confident smile you’ve always wanted. We begin with a detailed smile assessment, discussing with you which aspects you like & dislike about your smile. Once our assessment is complete, we will discuss with you treatment options to help your smile look more natural, youthful & healthy.
         </p>
         <div className="mt-8 flex justify-center">
           <div className="w-1/4">
@@ -152,7 +152,7 @@ const DentalServices = () => {
       <div className="py-4 text-blue-900 text-center px-80 mb-24">
         <h1 className="text-4xl font-semibold mt-20 mb-5">General Dental Care</h1>
         <p className="text-blue-400 text-2xl font-semibold">
-        The dentists of Taunton Village Dental have extensive experience in the diagnosis, treatment, management & coordination of dental care services to care for their patients & their families. General dental care includes everything from preventive education & regular visits to fillings, crowns, bridges & more. Moreover, the dentists provide care for both kids & adults, & know how best to care for both. At Taunton Village Dental, your continued oral health is our top priority.
+        The dentists of Orchard Family Dentistry have extensive experience in the diagnosis, treatment, management & coordination of dental care services to care for their patients & their families. General dental care includes everything from preventive education & regular visits to fillings, crowns, bridges & more. Moreover, the dentists provide care for both kids & adults, & know how best to care for both. At Orchard Family Dentistry, your continued oral health is our top priority.
         </p>
         <div className="mt-8 flex justify-center">
           <div className="w-1/3">

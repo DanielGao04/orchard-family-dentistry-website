@@ -12,7 +12,7 @@ const Menu = () => {
   return (
     <div className="flex flex-wrap">
       <div className="w-full">
-        <nav className="relative flex flex-wrap items-center justify-between px-2 py-3">
+        <nav className="static flex flex-wrap items-center justify-between px-2 py-3">
           <div className="px-4 mx-auto flex flex-wrap items-center justify-between">
             <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
               <Link
@@ -57,39 +57,39 @@ const Menu = () => {
                   </button>
                 </a>
                   
-                  <div id="dropdown2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 ">
-                      <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="multiLevelDropdownButton">
+                  <div id="dropdown2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+                      <ul class="py-2 text-sm text-gray-700" aria-labelledby="multiLevelDropdownButton">
                         
                         <li>
-                          <a href="/patientinformation/scheduling" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Scheduling</a>
+                          <a href="/patientinformation/scheduling" class="block px-4 py-2 hover:bg-gray-100">Scheduling</a>
                         </li>
                         <li>
-                          <a href="/patientinformation/studentdiscounts" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Student Discounts</a>
+                          <a href="/patientinformation/studentdiscounts" class="block px-4 py-2 hover:bg-gray-100">Student Discounts</a>
                         </li>
                              
                         <li class="relative">
                           <a href="/patientinformation/patienteducation">
-                            <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                            <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100">
                               Patient Education
                               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                             </button>
                           </a>
-                            <div id="doubleDropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 left-0 top-0 min-w-[0] p-0 m-0">
-                              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton">
+                            <div id="doubleDropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] p-0 m-0">
+                              <ul class="py-2 text-sm text-gray-700" aria-labelledby="doubleDropdownButton">
                                 <li>
-                                  <a href="/patientinformation/patienteducation/digitalxrays" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Digital X-Ray</a>
+                                  <a href="/patientinformation/patienteducation/digitalxrays" class="block px-4 py-2 hover:bg-gray-100">Digital X-Ray</a>
                                 </li>
                                 <li>
-                                  <a href="/patientinformation/patienteducation/intraoralcamera" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Intraoral Camera</a>
+                                  <a href="/patientinformation/patienteducation/intraoralcamera" class="block px-4 py-2 hover:bg-gray-100">Intraoral Camera</a>
                                 </li>
                                 <li>
-                                  <a href="/patientinformation/patienteducation/localanesthesia" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Local Anesthesia</a>
+                                  <a href="/patientinformation/patienteducation/localanesthesia" class="block px-4 py-2 hover:bg-gray-100">Local Anesthesia</a>
                                 </li>
                                 <li>
-                                  <a href="/patientinformation/patienteducation/patientsafety" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Patient Safety</a>
+                                  <a href="/patientinformation/patienteducation/patientsafety" class="block px-4 py-2 hover:bg-gray-100">Patient Safety</a>
                                 </li>
                                 <li>
-                                  <a href="/patientinformation/patienteducation/toothdecay" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Tooth Decay</a>
+                                  <a href="/patientinformation/patienteducation/toothdecay" class="block px-4 py-2 hover:bg-gray-100">Tooth Decay</a>
                                 </li>
                               </ul>
                             </div>
@@ -173,16 +173,16 @@ const Menu = () => {
 
                     <div
                       id="dropdownAnother40"
-                      className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
+                      className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44"
                     >
                       <ul
-                        className="py-2 text-sm text-gray-700 dark:text-gray-200"
+                        className="py-2 text-sm text-gray-700"
                         aria-labelledby="dropdownAnotherButton4"
                       >
                         <li>
                           <Link
                             to="/dentalservices/emergencydentistry"
-                            className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                            className="block px-4 py-2 hover:bg-gray-100"
                           >
                             Emergency Dentistry
                           </Link>
@@ -190,24 +190,24 @@ const Menu = () => {
 
                         <li class="relative">
                           <a href="/patientinformation/patienteducation">
-                            <button id="doubleDropdownButton2" data-dropdown-toggle="doubleDropdown2" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                            <button id="doubleDropdownButton2" data-dropdown-toggle="doubleDropdown2" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100">
                               General Dentistry
                               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                             </button>
                           </a>
-                            <div id="doubleDropdown2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 left-0 top-0 min-w-[0] p-0 m-0">
-                              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton2">
+                            <div id="doubleDropdown2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] p-0 m-0">
+                              <ul class="py-2 text-sm text-gray-700" aria-labelledby="doubleDropdownButton2">
                                 <li>
-                                  <a href="/DentalServices/GeneralDentistry/DigitalXRays2" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Digital X-Ray</a>
+                                  <a href="/DentalServices/GeneralDentistry/DigitalXRays2" class="block px-4 py-2 hover:bg-gray-100">Digital X-Ray</a>
                                 </li>
                                 <li>
-                                  <a href="/DentalServices/GeneralDentistry/SedationDentistry" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sedation Dentistry</a>
+                                  <a href="/DentalServices/GeneralDentistry/SedationDentistry" class="block px-4 py-2 hover:bg-gray-100">Sedation Dentistry</a>
                                 </li>
                                 <li>
-                                  <a href="/DentalServices/GeneralDentistry/WisdomTeethRemoval" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Wisdom Teeth Removal</a>
+                                  <a href="/DentalServices/GeneralDentistry/WisdomTeethRemoval" class="block px-4 py-2 hover:bg-gray-100">Wisdom Teeth Removal</a>
                                 </li>
                                 <li>
-                                  <a href="/DentalServices/GeneralDentistry/RootCanalTherapy" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Root Canal Therapy</a>
+                                  <a href="/DentalServices/GeneralDentistry/RootCanalTherapy" class="block px-4 py-2 hover:bg-gray-100">Root Canal Therapy</a>
                                 </li>
                               </ul>
                             </div>
@@ -215,21 +215,21 @@ const Menu = () => {
 
                         <li class="relative">
                           <a href="/patientinformation/patienteducation">
-                            <button id="doubleDropdownButton3" data-dropdown-toggle="doubleDropdown3" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                            <button id="doubleDropdownButton3" data-dropdown-toggle="doubleDropdown3" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100">
                             Restorative Dentistry
                               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                             </button>
                           </a>
-                            <div id="doubleDropdown3" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 left-0 top-0 min-w-[0] p-0 m-0">
-                              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton3">
+                            <div id="doubleDropdown3" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] p-0 m-0">
+                              <ul class="py-2 text-sm text-gray-700" aria-labelledby="doubleDropdownButton3">
                                 <li>
-                                  <a href="/DentalServices/RestorativeDentistry/Crowns" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Crowns</a>
+                                  <a href="/DentalServices/RestorativeDentistry/Crowns" class="block px-4 py-2 hover:bg-gray-100">Crowns</a>
                                 </li>
                                 <li>
-                                  <a href="/DentalServices/RestorativeDentistry/DentalImplants" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dentures</a>
+                                  <a href="/DentalServices/RestorativeDentistry/DentalImplants" class="block px-4 py-2 hover:bg-gray-100">Dentures</a>
                                 </li>
                                 <li>
-                                  <a href="/DentalServices/RestorativeDentistry/Dentures" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dental Implants</a>
+                                  <a href="/DentalServices/RestorativeDentistry/Dentures" class="block px-4 py-2 hover:bg-gray-100">Dental Implants</a>
                                 </li>
                               </ul>
                             </div>
@@ -237,27 +237,27 @@ const Menu = () => {
 
                         <li class="relative">
                           <a href="/patientinformation/patienteducation">
-                            <button id="doubleDropdownButton4" data-dropdown-toggle="doubleDropdown4" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                            <button id="doubleDropdownButton4" data-dropdown-toggle="doubleDropdown4" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100">
                             Cosmetic Dentist
                               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                             </button>
                           </a>
-                            <div id="doubleDropdown4" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 left-0 top-0 min-w-[0] p-0 m-0">
-                              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton4">
+                            <div id="doubleDropdown4" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] p-0 m-0">
+                              <ul class="py-2 text-sm text-gray-700" aria-labelledby="doubleDropdownButton4">
                                 <li>
-                                  <a href="/DentalServices/CosmeticDentist/ToothColouredDentistry" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Tooth-Coloured Dentistry</a>
+                                  <a href="/DentalServices/CosmeticDentist/ToothColouredDentistry" class="block px-4 py-2 hover:bg-gray-100">Tooth-Coloured Dentistry</a>
                                 </li>
                                 <li>
-                                  <a href="/DentalServices/CosmeticDentist/DentalFillings" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dental Filing</a>
+                                  <a href="/DentalServices/CosmeticDentist/DentalFillings" class="block px-4 py-2 hover:bg-gray-100">Dental Filing</a>
                                 </li>
                                 <li>
-                                  <a href="/DentalServices/CosmeticDentist/PorcelainVeneers" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Porcelain Veneers</a>
+                                  <a href="/DentalServices/CosmeticDentist/PorcelainVeneers" class="block px-4 py-2 hover:bg-gray-100">Porcelain Veneers</a>
                                 </li>
                                 <li>
-                                  <a href="/DentalServices/CosmeticDentist/MercuryFreeDentistry" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mercury-Free Dentistry</a>
+                                  <a href="/DentalServices/CosmeticDentist/MercuryFreeDentistry" class="block px-4 py-2 hover:bg-gray-100">Mercury-Free Dentistry</a>
                                 </li>
                                 <li>
-                                  <a href="/DentalServices/CosmeticDentist/TeethWhitening" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Teeth Whitening</a>
+                                  <a href="/DentalServices/CosmeticDentist/TeethWhitening" class="block px-4 py-2 hover:bg-gray-100">Teeth Whitening</a>
                                 </li>
                               </ul>
                             </div>
@@ -266,7 +266,7 @@ const Menu = () => {
                         <li>
                           <Link
                             to="/dentalservices/preventativecare"
-                            className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                            className="block px-4 py-2 hover:bg-gray-100"
                           >
                             Preventive Care
                           </Link>
@@ -274,7 +274,7 @@ const Menu = () => {
                         <li>
                           <Link
                             to="/dentalservices/invisaline"
-                            className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                            className="block px-4 py-2 hover:bg-gray-100"
                           >
                             Invisalign
                           </Link>

@@ -12,10 +12,10 @@ const Contact = () => {
       >
         <div className={`px-40 p-20 flex flex-col justify-center md:w-3/4`}>
           <h1 className={`my-5 text-6xl text-sky-900 font-semibold text-center`}>
-          Contact Lake Tahoe Dental
+          Contact Orchard Family Dentistry
           </h1>
           <p className={`text-3xl text-blue-900 py-8 whitespace-wrap text-center`}>
-          If you are looking for dentists in Lake Tahoe, look no further. 
+          If you are looking for dentists in Orchard Family Dentistry, look no further. 
           We’ve revolutionized dentistry to be truly personalized & convenient. 
           We have hours that fit your busy schedule. Plus, we take the time to 
           listen & clearly explain everything.
@@ -30,10 +30,10 @@ const Contact = () => {
 >
   <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
     <h1 className={`my-5 text-6xl text-green-800 font-semibold text-left`}>
-      Contact Lake Tahoe Dental
+      Contact Orchard Family Dentistry
     </h1>
     <p className={`text-3xl py-8 text-black whitespace-wrap text-left`}>
-      If you are looking for dentists in Lake Tahoe, look no further.
+      If you are looking for dentists in Orchard Family Dentistry, look no further.
       We’ve revolutionized dentistry to be truly personalized & convenient.
       We have hours that fit your busy schedule. Plus, we take the time to
       listen & clearly explain everything.

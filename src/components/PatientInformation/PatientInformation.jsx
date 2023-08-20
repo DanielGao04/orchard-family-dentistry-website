@@ -21,7 +21,7 @@ const PatientInformation = () => {
         </p>
 
         <p className="text-2xl py-4 whitespace-wrap">
-          Please view the pages below to see what sets us apart from any other dentist in Mississauga, Toronto, Scarborough, & Etobicoke. We look forward to your visit & showing you the difference that caring & compassionate dental care can make in your life.
+          Please view the pages below to see what sets us apart from any other dentist. We look forward to your visit & showing you the difference that caring & compassionate dental care can make in your life.
         </p>
 
         <div className="w-full max-w-3xl text-2xl py-12">

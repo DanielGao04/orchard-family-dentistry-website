@@ -5,7 +5,7 @@ import banner from "../../images/Orchard3.png";
 const Banner = () => {
   return (
     <div
-      className="bg-cover bg-no-repeat bg-center py-40"
+      className="bg-cover bg-no-repeat bg-center bg-fixed py-80"
       style={{
         backgroundImage: `url(${banner})`,
         backgroundPosition: "center",
@@ -24,7 +24,7 @@ const Banner = () => {
         <div>
           <Link
             to="/appointment"
-            className="bg-sky-800 text-white px-6 py-4 font-medium rounded hover:bg-transparent hover:text-blue-300 transition"
+            className="bg-sky-800 text-white px-6 py-4 font-medium rounded hover:bg-sky-700 transition"
           >
             Make an Appointment
           </Link>

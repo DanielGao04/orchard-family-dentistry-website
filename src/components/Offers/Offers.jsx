@@ -17,7 +17,7 @@ const Offers = () => {
           Special Offers for All Patients
         </h1>
         <p className="text-3xl font-semibold mb-24">
-          We want to make it as easy as possible for all Mississauga, Toronto, Scarborough, & Etobicoke residents to get the dental care they need. Whether you are new to our office or a longtime patient, we're here for you & will make sure you pay as little as possible, in some cases nothing at all, for our excellent services.
+          We want to make it as easy as possible for all Burlington residents to get the dental care they need. Whether you are new to our office or a longtime patient, we're here for you & will make sure you pay as little as possible, in some cases nothing at all, for our excellent services.
         </p>
       </div>
 
@@ -39,7 +39,7 @@ const Offers = () => {
             *Patient responsible for deductible & co-payment fees.
           </p>
           <h1 className={`my-5 text-4xl text-blue-900 font-semibold text-center`}>
-            At Studio Dental, we have convenient hours that won’t make you miss work or school. In fact, we can see you this week & you’ll be in & out within an hour.
+            At Orchard Family Dentistry, we have convenient hours that won’t make you miss work or school. In fact, we can see you this week & you’ll be in & out within an hour.
           </h1>
         </div>
         <img className={`md:w-1/8 h-1/8 lg:h-1/3 w-1/3`} src={qualityServiceImg} alt="" />

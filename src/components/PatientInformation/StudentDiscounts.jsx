@@ -15,7 +15,7 @@ const StudentDiscounts = () => {
       <div className="bg-sky-100 py-4 text-blue-900 text-center p-24">
         <h1 className="text-6xl font-semibold mt-24 mb-5">Student Discounts</h1>
         <p className="text-4xl font-semibold mb-24">
-          Studio Dental is proud to be a part of the Student Discount Network.
+          Orchard Family Dentistry is proud to be a part of the Student Discount Network.
           We want to make dentistry affordable for everyone in the community, including students.
         </p>
       </div>
