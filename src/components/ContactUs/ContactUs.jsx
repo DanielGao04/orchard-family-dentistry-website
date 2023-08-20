@@ -11,7 +11,7 @@ const Contact = () => {
         className={`flex bg-cover bg-sky-200 transform transition-transform duration-1500 justify-center`}
       >
         <div className={`px-40 p-20 flex flex-col justify-center md:w-3/4`}>
-          <h1 className={`my-5 text-6xl text-sky-900 font-Poppins font-semibold text-center`}>
+          <h1 className={`my-5 text-6xl text-sky-900 font-semibold text-center`}>
           Contact Lake Tahoe Dental
           </h1>
           <p className={`text-3xl text-blue-900 py-8 whitespace-wrap text-center`}>
@@ -29,7 +29,7 @@ const Contact = () => {
   
 >
   <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
-    <h1 className={`my-5 text-6xl text-green-800 font-Poppins font-semibold text-left`}>
+    <h1 className={`my-5 text-6xl text-green-800 font-semibold text-left`}>
       Contact Lake Tahoe Dental
     </h1>
     <p className={`text-3xl py-8 text-black whitespace-wrap text-left`}>
