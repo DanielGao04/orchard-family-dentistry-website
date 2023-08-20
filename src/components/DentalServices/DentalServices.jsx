@@ -14,10 +14,10 @@ const DentalServices = () => {
       {/* First Animated Section */}
       <div className={`flex bg-cover bg-sky-100 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
-          <h1 className={` text-4xl text-blue-900 font-Poppins font-semibold text-left`}>
+          <h1 className={` text-4xl text-blue-900 font-semibold text-left`}>
           TREAT YOURSELF TO
           </h1>
-          <h1 className={`my-3 text-5xl text-blue-900 font-Poppins font-semibold text-left`}>
+          <h1 className={`my-3 text-5xl text-blue-900 font-semibold text-left`}>
           Dental Care Services:
           </h1>
           <p className="text-3xl text-blue-900 py-8 whitespace-wrap text-left">

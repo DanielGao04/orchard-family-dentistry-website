@@ -12,7 +12,7 @@ const EventsList = () => {
     >
       <div className="container py-16">
         <div className="py-8 text-center">
-          <h1 className="text-center text-4xl font-bold font-Roboto">
+          <h1 className="text-center text-4xl font-bold ">
             Upcoming Events
           </h1>
           <p className="text-gray-400 py-2">
@@ -22,11 +22,11 @@ const EventsList = () => {
         </div>
 
         <div className="shadow-2xl mb-8 border-l-2 border-opacity-100 rounded-lg border-primary px-8 py-8 bg-white transform transition duration-200 hover:scale-105">
-          <p className="font-Roboto">
+          <p className="">
             <span>Nov 14, 2021</span> <span> 12:00 am - 2:30 pm </span> New York
           </p>
           <div className="flex  items-center justify-between">
-            <h1 className="text-lg font-Poppins font-bold py-2 hover:text-primary">
+            <h1 className="text-lg font-bold py-2 hover:text-primary">
               <Link to="#">Dental Care For Life </Link>
             </h1>
             <h1 className="text-right hover:text-primary">
@@ -41,11 +41,11 @@ const EventsList = () => {
         </div>
 
         <div className="shadow-2xl mb-8 border-l-2 border-opacity-100 rounded-lg border-primary px-8 py-8 bg-white transform transition duration-200 hover:scale-105">
-          <p className="font-Roboto">
+          <p className="">
             <span>Jan 10, 2022</span> <span> 12:00 am - 2:30 pm </span> New York
           </p>
           <div className="flex  items-center justify-between">
-            <h1 className="text-lg font-Poppins font-bold py-2 hover:text-primary">
+            <h1 className="text-lg font-bold py-2 hover:text-primary">
               <Link to="#">The Future of Care </Link>
             </h1>
             <h1 className="text-right hover:text-primary">
@@ -60,11 +60,11 @@ const EventsList = () => {
         </div>
 
         <div className="shadow-2xl mb-8 border-l-2 border-opacity-100 rounded-lg border-primary px-8 py-8 bg-white transform transition duration-200 hover:scale-105">
-          <p className="font-Roboto">
+          <p className="">
             <span>Jan 25, 2022</span> <span> 12:00 am - 2:30 pm </span> New York
           </p>
           <div className="flex  items-center justify-between">
-            <h1 className="text-lg font-Poppins font-bold py-2 hover:text-primary">
+            <h1 className="text-lg font-bold py-2 hover:text-primary">
               <Link to="#">Your Health, Our Mission </Link>
             </h1>
             <h1 className="text-right hover:text-primary">
@@ -79,11 +79,11 @@ const EventsList = () => {
         </div>
 
         <div className="shadow-2xl mb-8 border-l-2  border-opacity-100  rounded-lg border-primary px-8 py-8 bg-white transform transition duration-200 hover:scale-105">
-          <p className="font-Roboto">
+          <p className="">
             <span>Feb 05, 2022</span> <span> 12:00 am - 2:30 pm </span> New York
           </p>
           <div className="flex  items-center justify-between">
-            <h1 className="text-lg font-Poppins font-bold py-2 hover:text-primary">
+            <h1 className="text-lg font-bold py-2 hover:text-primary">
               <Link to="#">The Culture Of Care </Link>
             </h1>
             <h1 className="text-right hover:text-primary">

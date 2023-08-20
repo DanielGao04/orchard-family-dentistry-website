@@ -9,7 +9,7 @@ const ServicesSidebar = ({ service }) => {
   return (
     <>
       <ul className="">
-        <li className="border border-l-4 border-primary px-4 py-4 text-1xl font-Roboto hover:bg-secondary hover:text-white">
+        <li className="border border-l-4 border-primary px-4 py-4 text-1xl  hover:bg-secondary hover:text-white">
           <Link to={`/service/${service?.id}/${slug}`}>{service?.title}</Link>
         </li>
       </ul>

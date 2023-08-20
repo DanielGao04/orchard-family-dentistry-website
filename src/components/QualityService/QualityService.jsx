@@ -26,7 +26,7 @@ const QualityService = () => {
   return (
     <div className={`flex bg-cover bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
       <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
-        <h1 className={`my-5 text-6xl text-blue-900 font-Poppins font-semibold text-center`}>
+        <h1 className={`my-5 text-6xl text-blue-900  font-semibold text-center`}>
           Trusted, Personalized & Affordable Dental Care for Your Whole Family
         </h1>
         <p className={`text-3xl text-blue-900 py-8 whitespace-wrap text-center`}>

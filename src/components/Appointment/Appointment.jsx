@@ -7,7 +7,7 @@ const Appointment = () => {
 
   return (
     <div className="container py-16">
-      <h1 className="text-4xl text-center font-bold font-Roboto">
+      <h1 className="text-4xl text-center font-bold ">
         Drop your <span className="text-primary">Appointment</span>{" "}
       </h1>
       <p className="text-gray-400 py-2 text-center">

@@ -18,6 +18,7 @@ module.exports = {
             fontFamily: {
                 Poppins: "'poppins', sans-serif",
                 Roboto: "'roboto' sans-serif",
+                custom: ['Goudy Old Style', 'serif'],
             },
             colors: {
                 'primary': '#676cb8',
