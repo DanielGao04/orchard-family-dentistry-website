@@ -5,12 +5,15 @@ import banner from "../../images/Orchard3.png";
 const Banner = () => {
   return (
     <div
-      className="bg-cover bg-no-repeat bg-center bg-fixed py-80"
+      className="bg-cover bg-no-repeat bg-center py-40"
       style={{
         backgroundImage: `url(${banner})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         position: "relative",
+        shrink: 0,
+        grow: 0
+
       }}
     >
       <div className="container text-center text-white mt-40 py-40">

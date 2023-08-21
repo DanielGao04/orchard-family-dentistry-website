@@ -12,7 +12,7 @@ const Offers = () => {
     <div className="bg-cover">
 
       {/* Student Discounts Banner */}
-      <div className="bg-sky-100 py-4 px-72 text-blue-900 text-center p-24">
+      <div className="bg-blue-100 py-4 px-72 text-blue-900 text-center p-24">
         <h1 className="text-6xl mt-24 mb-5">
           Special Offers for All Patients
         </h1>
@@ -22,7 +22,7 @@ const Offers = () => {
       </div>
 
       {/* First Animated Section */}
-      <div className={`flex bg-cover transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+      <div className={`flex bg-cover bg-transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
           <h1 className={`my-5 text-4xl text-blue-900 font-semibold text-center`}>
             Little or No Out-of-Pocket Costs for Insured
