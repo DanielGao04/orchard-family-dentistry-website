@@ -15,7 +15,7 @@ const Scheduling = () => {
           <h1 className="text-6xl font-semibold text-left text-blue-900 ">
             Scheduling
           </h1>
-          <p className="mt-4 mb-10 text-2xl text-left text-blue-900">
+          <p className="mt-4 mb-7 text-2xl text-left text-blue-900">
           We don’t want there to be any obstacles between you & your family & great dental care. We have great hours & we are proud to offer our patients convenient appointments that fit even the busiest schedules.
           </p>
           <Link

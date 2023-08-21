@@ -27,10 +27,10 @@ const QualityService = () => {
     <div className={`flex bg-cover bg-sky-100 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : 'translate-x-full'}`}>
     <img className="md:w-1/8 h-1/8 lg: h-1/3 w-1/3" src={qualityServiceImg} alt=""/>
       <div className="px-40 flex flex-col justify-center md:w-3/4">
-        <h1 className="my-5 text-6xl text-blue-900 font-semibold text-center">
+        <h1 className="my-5 text-6xl text-blue-900 text-center">
         Cleanings Brighten Your Smile & Help Prevent Disease
         </h1>
-        <h2 className="my-5 text-3xl text-blue-900 font-semibold text-center">
+        <h2 className="my-5 text-3xl text-blue-900 text-center">
         Heart Disease • Strokes • Worsening Asthma • Worsening Diabetes • Pregnancy Complications • Alzheimer’s • Dementia
         </h2>
         <p className="text-2xl py-8 whitespace-wrap text-center">

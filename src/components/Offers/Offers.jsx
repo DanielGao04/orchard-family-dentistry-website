@@ -13,10 +13,10 @@ const Offers = () => {
 
       {/* Student Discounts Banner */}
       <div className="bg-sky-100 py-4 px-72 text-blue-900 text-center p-24">
-        <h1 className="text-6xl font-semibold mt-24 mb-5">
+        <h1 className="text-6xl mt-24 mb-5">
           Special Offers for All Patients
         </h1>
-        <p className="text-3xl font-semibold mb-24">
+        <p className="text-3xl mb-24">
           We want to make it as easy as possible for all Burlington residents to get the dental care they need. Whether you are new to our office or a longtime patient, we're here for you & will make sure you pay as little as possible, in some cases nothing at all, for our excellent services.
         </p>
       </div>
@@ -49,7 +49,7 @@ const Offers = () => {
 
       {/* Additional Information Section */}
       <div className="mb-16 justify-center max-w-3xl mx-auto mt-16">
-        <h1 className="text-6xl font-semibold text-center text-blue-900">Financial Options</h1>
+        <h1 className="text-6xl text-center text-blue-900">Financial Options</h1>
         <p className="mt-8 text-2xl text-center text-blue-900">
           Insured & uninsured patients alike have a number of financing options available to them, including:
         </p>

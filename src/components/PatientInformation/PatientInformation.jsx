@@ -25,7 +25,7 @@ const PatientInformation = () => {
         </p>
 
         <div className="w-full max-w-3xl text-2xl py-12">
-          <h2 className="my-5 text-5xl text-blue-900  font-semibold">
+          <h2 className="my-5 text-5xl text-blue-900 font-semibold">
             Additional Information
           </h2>
           

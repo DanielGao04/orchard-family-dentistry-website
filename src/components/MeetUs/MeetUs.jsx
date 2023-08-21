@@ -50,7 +50,7 @@ const QualityService = () => {
           <h1 className="my-5 text-4xl text-blue-900 font-semibold text-center pb-3">
             Orchard Family Dentistry Staff Put Your Comfort & Safety First
           </h1>
-          <p className="my-5 text-2xl text-green-900 font-semibold text-center px-20">
+          <p className="my-5 text-2xl text-green-900 text-center px-20">
             Our exceptional, friendly staff is our greatest asset. All of our dental assistants & hygienists are licensed professionals who pride themselves on their current dental techniques & outstanding patient communication. With unmatched quality & integrity, they are dedicated to achieving the best possible results for you & your family.
           </p>
         </div>
@@ -58,7 +58,7 @@ const QualityService = () => {
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
         <div className="px-40 md:w-3/4">
-          <h1 className="my-9 text-6xl text-blue-900 font-semibold text-center py-10">
+          <h1 className="my-9 text-6xl text-blue-900 text-center py-10">
             Meet Our Doctors
           </h1>
         </div>
@@ -92,7 +92,7 @@ const QualityService = () => {
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
         <div className="px-40 md:w-3/4">
-          <h1 className="my-9 text-6xl text-blue-900 font-semibold text-center py-10">
+          <h1 className="my-9 text-6xl text-blue-900 text-center py-10">
             Meet Our Dental Assistants
           </h1>
         </div>
@@ -126,7 +126,7 @@ const QualityService = () => {
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
         <div className="px-40 md:w-3/4">
-          <h1 className="my-9 text-6xl text-blue-900 font-semibold text-center py-10">
+          <h1 className="my-9 text-6xl text-blue-900 text-center py-10">
             Meet Our Hygenists
           </h1>
         </div>
@@ -160,7 +160,7 @@ const QualityService = () => {
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
         <div className="px-40 md:w-3/4">
-          <h1 className="my-9 text-6xl text-blue-900 font-semibold text-center py-10">
+          <h1 className="my-9 text-6xl text-blue-900 text-center py-10">
             Meet Our Receptionists
           </h1>
         </div>
@@ -209,7 +209,7 @@ const EmployeeCard = ({ imgSrc, content }) => (
 
 const DifferenceCard = ({ title, content }) => (
   <div className="bg-white rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] p-6">
-    <h2 className="text-2xl text-blue-900 font-semibold mb-4">{title}</h2>
+    <h2 className="text-2xl text-blue-900 mb-4">{title}</h2>
     <p className="text-base text-neutral-600">{content}</p>
   </div>
 );
