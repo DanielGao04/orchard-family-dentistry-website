@@ -189,7 +189,7 @@ const Menu = () => {
                         </li>
 
                         <li class="relative">
-                          <a href="/patientinformation/patienteducation">
+                          <a href="/dentalservices/generaldentistry">
                             <button id="doubleDropdownButton2" data-dropdown-toggle="doubleDropdown2" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100">
                               General Dentistry
                               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
