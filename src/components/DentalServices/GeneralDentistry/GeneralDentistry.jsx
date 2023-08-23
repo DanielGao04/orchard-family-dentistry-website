@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import qualityServiceImg from "../../../images/dental.jpg";
 
-const EmergencyDentistry = () => {
+const GeneralDentistry = () => {
     const [animate, setAnimate] = useState(false);
 
     useEffect(() => {
@@ -29,7 +29,7 @@ const EmergencyDentistry = () => {
                 <h1 class=" text-4xl font-semi-bold">
                   <span class="text-danger dark:text-danger-500">General Dental Care</span>
                 </h1>
-                <h2 class="mb-6 text-3xl ">
+                <h2 class="mb-6 text-2xl ">
                   <span class="text-danger dark:text-danger-500">Here at Taunton Village Dental, we are committed to making sure your dental experience is comfortable, personalized & affordable.</span>
                 </h2>
                 <p class="mb-6 pb-2 text-neutral-500 text-2xl">
@@ -47,7 +47,7 @@ const EmergencyDentistry = () => {
       </div>
       <div className={`flex bg-cover bg-sky-100 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
       <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
-      <div class="grid grid-cols-2 grid-rows-2">
+      <div class="grid grid-cols-2 grid-rows-2 text-center">
 
         <div className="my-10 mx-5">
             <h1 className="text-3xl">Low-Radiation Digital X-Rays</h1>
@@ -84,4 +84,4 @@ const EmergencyDentistry = () => {
   );
 };
 
-export default EmergencyDentistry;
+export default GeneralDentistry;

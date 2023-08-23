@@ -214,7 +214,7 @@ const Menu = () => {
                         </li>
 
                         <li class="relative">
-                          <a href="/patientinformation/patienteducation">
+                          <a href="/DentalServices/RestorativeDentistry">
                             <button id="doubleDropdownButton3" data-dropdown-toggle="doubleDropdown3" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100">
                             Restorative Dentistry
                               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
@@ -236,7 +236,7 @@ const Menu = () => {
                         </li>
 
                         <li class="relative">
-                          <a href="/patientinformation/patienteducation">
+                          <a href="/DentalServices/CosmeticDentist">
                             <button id="doubleDropdownButton4" data-dropdown-toggle="doubleDropdown4" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100">
                             Cosmetic Dentist
                               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>

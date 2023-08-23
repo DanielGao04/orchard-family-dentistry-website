@@ -22,7 +22,7 @@ const EmergencyDentistry = () => {
                 <h1 class=" text-4xl font-semi-bold">
                   <span class="text-danger dark:text-danger-500">Need An Emergency Dentist In The Oshawa Area?</span>
                 </h1>
-                <h2 class="mb-6 text-3xl ">
+                <h2 class="mb-6 text-2xl ">
                   <span class="text-danger dark:text-danger-500">The thought of going to an emergency dentist in Oshawa tends to invoke tension and angst for many people.</span>
                 </h2>
                 <p class="mb-6 pb-2 text-neutral-500 text-2xl">
