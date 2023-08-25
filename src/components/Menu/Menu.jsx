@@ -57,7 +57,7 @@ const Menu = () => {
                   </button>
                 </a>
                   
-                  <div id="dropdown2" class="z-10 hidden bg-white rounded-lg shadow w-44 min-w-[22] p-3 m-0">
+                  <div id="dropdown2" class="z-10 hidden bg-white rounded-lg shadow w-44 min-w-[22] px-3 m-0">
                       <ul class="py-2 text-sm text-gray-700" aria-labelledby="multiLevelDropdownButton">
                         
                         <li>
@@ -76,7 +76,7 @@ const Menu = () => {
   </svg>
                             </button>
                           </a>
-                            <div id="doubleDropdown" class="z-10 hidden bg-white rounded-lg shadow w-44 min-w-[88] p-0 m-0">
+                            <div id="doubleDropdown" class="z-10 hidden bg-white rounded-lg shadow w-44 min-w-[88] px-3 m-0">
                               <ul class="py-2 text-sm text-gray-700" aria-labelledby="doubleDropdownButton">
                                 <li>
                                   <a href="/patientinformation/patienteducation/digitalxrays" class="block px-4 py-2 hover:bg-gray-100">Digital X-Ray</a>
@@ -175,7 +175,7 @@ const Menu = () => {
 
                     <div
                       id="dropdownAnother40"
-                      className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 p-3"
+                      className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 px-3"
                     >
                       <ul
                         className="py-2 text-sm text-gray-700"
@@ -200,7 +200,7 @@ const Menu = () => {
   </svg>
                             </button>
                           </a>
-                            <div id="doubleDropdown2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] p-0 m-0">
+                            <div id="doubleDropdown2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] px-3 m-0">
                               <ul class="py-2 text-sm text-gray-700" aria-labelledby="doubleDropdownButton2">
                                 <li>
                                   <a href="/DentalServices/GeneralDentistry/DigitalXRays2" class="block px-4 py-2 hover:bg-gray-100">Digital X-Ray</a>
@@ -228,7 +228,7 @@ const Menu = () => {
   </svg>
                             </button>
                           </a>
-                            <div id="doubleDropdown3" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] p-0 m-0">
+                            <div id="doubleDropdown3" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] px-3 m-0">
                               <ul class="py-2 text-sm text-gray-700" aria-labelledby="doubleDropdownButton3">
                                 <li>
                                   <a href="/DentalServices/RestorativeDentistry/Crowns" class="block px-4 py-2 hover:bg-gray-100">Crowns</a>
@@ -253,7 +253,7 @@ const Menu = () => {
   </svg>
                             </button>
                           </a>
-                            <div id="doubleDropdown4" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] p-0 m-0">
+                            <div id="doubleDropdown4" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] px-3 m-0">
                               <ul class="py-2 text-sm text-gray-700" aria-labelledby="doubleDropdownButton4">
                                 <li>
                                   <a href="/DentalServices/CosmeticDentist/ToothColouredDentistry" class="block px-4 py-2 hover:bg-gray-100">Tooth-Coloured Dentistry</a>
