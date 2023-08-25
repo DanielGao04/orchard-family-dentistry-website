@@ -59,7 +59,7 @@ const DentalServices = () => {
           {/* Crowns */}
           <div className="w-1/3">
             <a href="/DentalServices/RestorativeDentistry/Crowns">
-              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full">
+              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={crown} alt="crown" />
                 </div>
@@ -73,7 +73,7 @@ const DentalServices = () => {
           {/* Dentures */}
           <div className="w-1/3">
             <a href="/DentalServices/RestorativeDentistry/Dentures">
-              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full">
+              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={denture} alt="denture" />
                 </div>
@@ -87,7 +87,7 @@ const DentalServices = () => {
           {/* Dental Implants */}
           <div className="w-1/3 flex flex-col items-center text-center">
             <a href="/DentalServices/RestorativeDentistry/DentalImplants">
-              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full">
+              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={dentalimplant} alt="implant" />
                 </div>
@@ -112,7 +112,7 @@ const DentalServices = () => {
           {/* Tooth-Coloured Dentistry */}
           <div className="w-1/4">
             <a href="/DentalServices/CosmeticDentist/ToothColouredDentistry">
-              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full">
+              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={toothcolour} alt="tooth" />
                 </div>
@@ -126,7 +126,7 @@ const DentalServices = () => {
           {/* Porcelain Veneers */}
           <div className="w-1/4">
             <a href="/DentalServices/CosmeticDentist/PorcelainVeneers">
-              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full">
+              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={veneers} alt="teeth" />
                 </div>
@@ -140,7 +140,7 @@ const DentalServices = () => {
           {/* Mercury-Free Dentistry */}
           <div className="w-1/4">
             <a href="/DentalServices/CosmeticDentist/MercuryFreeDentistry">
-              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full">
+              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={mercury} alt="tooth" />
                 </div>
@@ -154,7 +154,7 @@ const DentalServices = () => {
           {/* Teeth Whitening */}
           <div className="w-1/4">
             <a href="/DentalServices/CosmeticDentist/TeethWhitening">
-              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full">
+              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={whitening} alt="tooth" />
                 </div>
@@ -178,7 +178,7 @@ const DentalServices = () => {
           {/* Digital X-Rays */}
           <div className="w-1/3">
             <a href="/DentalServices/GeneralDentistry/DigitalXRays2">
-              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full">
+              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={xray} alt="xray" />
                 </div>
@@ -192,7 +192,7 @@ const DentalServices = () => {
           {/* Sedation Dentistry */}
           <div className="w-1/3">
             <a href="/DentalServices/GeneralDentistry/SedationDentistry">
-              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full">
+              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={sedation} alt="tooth" />
                 </div>
@@ -206,7 +206,7 @@ const DentalServices = () => {
           {/* TMD (Jaw Pain) Therapy */}
           <div className="w-1/3">
             <a href="/">
-              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full">
+              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={jaw} alt="chair" />
                 </div>

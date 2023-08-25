@@ -6,6 +6,11 @@ const EmergencyDentistry = () => {
 
   return (
     <div class="">
+      <div className="bg-sky-300 py-4 text-white text-center">
+        <p className="text-2xl font-semibold">
+          Book Your Dental Appointment Today! Call: (123) 456-7890
+        </p>
+      </div>
     <div class=" container my-24 ">
       <section class="mb-32 text-center md:text-left">
         <div class="block bg-white">
@@ -27,10 +32,11 @@ const EmergencyDentistry = () => {
                 </h2>
                 <p class="mb-6 pb-2 text-neutral-500 text-2xl">
                 The anticipation of pain and feeling embarrassed for not having dental care regularly are some of the factors influencing the anxiety people feel. When a painful dental problem occurs, many people are unsure if they should go to an emergency dentist in Oshawa. It’s important to know when a problem can wait for an appointment with a dentist or needs to be taken care of immediately.                </p>
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                    Button
+                <a href="tel:99999999">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">
+                    Call Us 99999999
                 </button>
-                
+                </a>
               </div>
             </div>
           </div>
@@ -39,16 +45,16 @@ const EmergencyDentistry = () => {
       </div>
       <div className="flex bg-cover bg-sky-100 transform transition-transform duration-1500 justify-center py-10">
         <div className="px-40 md:w-3/4">
-          <h1 className="my-5 text-4xl text-blue-900 font-semibold text-center pb-1">
+          <h1 className="my-5 text-5xl text-blue-900 font-semibold text-center pb-1">
             How to Determine If a Dental Problem Is an Emergency
           </h1>
-          <h2 className=" py-2 text-2xl text-green-900 text-left ">
+          <h2 className=" py-2 text-3xl text-green-900 text-left ">
           Situations when a dental checkup is needed but not urgent include a mild toothache, a small chip on a tooth, a molar filling that fell out but isn’t painful, or a loose tooth. These dental issues can be taken care of by making an appointment to see a dentist during regular business hours.          
           </h2>
-          <p className="my-1 text-1xl text-green-900 text-left font-semibold">
-          The following dental problems may indicate a trip to an emergency dentist in Oshawa.          
+          <p className="my-1 text-2xl text-green-900 text-left font-semibold">
+          The following dental problems may indicate a trip to an emergency dentist in Oshawa:          
           </p>
-          <div class="p-5 text-green-900 text-left">
+          <div class="p-5 text-green-900 text-left text-2xl">
             <ul class="list-disc list-inside">
                 <li class="mb-3">
                 A toothache that causes debilitating pain and prevents someone from going about their daily life or causes severe pain during the night is considered a dental emergency. The toothache could be a sign of a dangerous abscess or a related medical problem.
@@ -67,13 +73,13 @@ const EmergencyDentistry = () => {
                 </li>
             </ul>
         </div>
-        <p className="my-5 text-1xl text-green-900 text-left ">
+        <p className="my-5 text-2xl text-green-900 text-left ">
         These serious dental problems may become much worse if not cared for quickly. If in doubt, and the pain from a dental issue is intolerable, go see an Oshawa emergency dentist.   
           </p>
-          <h1 className=" text-3xl text-blue-900 font-semibold text-left pb-1">
+          <h1 className=" text-5xl text-blue-900 font-semibold text-left pt-7 pb-1">
           Taunton Village Dental Services
           </h1>
-          <p className="my-2 text-1xl text-green-900 text-left ">
+          <p className="my-2 text-2xl text-green-900 text-left ">
           Taunton Village Dental in Oshawa offers full-service oral care including preventive dental care, restorative dental solutions, cosmetic dental services, and emergency dental care. Dental emergencies caused by playing sports, a car accident, a fall, or any other accident can’t be prevented. But practicing good dental hygiene and seeing a dentist regularly for cleanings and x-rays will do much to prevent dental emergencies. Besides regular dental appointments, remember to brush teeth every day, floss, avoid sugary foods, chew carefully when eating hard candy, and crunchy food items.          </p>
         </div>
       </div>

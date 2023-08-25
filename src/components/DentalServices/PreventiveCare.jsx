@@ -6,6 +6,11 @@ const PreventiveDentistry = () => {
 
   return (
     <div class="">
+      <div className="bg-sky-300 py-4 text-white text-center">
+        <p className="text-2xl font-semibold">
+          Book Your Dental Appointment Today! Call: (123) 456-7890
+        </p>
+      </div>
     <div class=" container my-24 ">
       <section class="mb-32 text-center md:text-left">
         <div class="block bg-white">
@@ -27,9 +32,11 @@ const PreventiveDentistry = () => {
                 </h2>
                 <p class="mb-6 pb-2 text-neutral-500 text-2xl">
                 A large part of preventive care is patient education. This includes learning the proper at-home dental care, nutrition, etc. Another aspect of preventive care is oral hygiene through regular dental cleanings, fluoride treatments, mouth guards & more.</p>
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                    Button
+                <a href="tel:99999999">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">
+                    Call Us 99999999
                 </button>
+                </a>
                 
               </div>
             </div>

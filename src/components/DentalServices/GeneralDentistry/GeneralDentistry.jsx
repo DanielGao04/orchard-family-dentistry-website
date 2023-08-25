@@ -18,6 +18,11 @@ const GeneralDentistry = () => {
 
   return (
     <div class="">
+      <div className="bg-sky-300 py-4 text-white text-center">
+        <p className="text-2xl font-semibold">
+          Book Your Dental Appointment Today! Call: (123) 456-7890
+        </p>
+      </div>
     <div class=" container my-24 ">
       <section class="mb-32 text-center md:text-left">
         <div class="block bg-white">
@@ -40,9 +45,11 @@ const GeneralDentistry = () => {
                 <p class="mb-6 pb-2 text-neutral-500 text-2xl">
                 We are part of a Oshawa tradition of dental excellence, offering state-of-the-art general dentistry services. We are conveniently located in Oshawa & are here for all your general dentistry needs. With a focus on family & cosmetic dentistry, we are happy to help you achieve a beautiful smile in our comfortable, safe & friendly environment. Our team offers a wide array of procedures, including crowns, dental implants, tooth-coloured dentistry, sedation dentistry, teeth whitening & more.           
                 </p>
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                    Button
+                <a href="tel:99999999">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">
+                    Call Us 99999999
                 </button>
+                </a>
                 
               </div>
             </div>
@@ -54,7 +61,7 @@ const GeneralDentistry = () => {
       <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
       <div class="grid grid-cols-2 grid-rows-2 text-center">
 
-      <a href="/DentalServices/GeneralDentistry/DigitalXRays2">
+            <a href="/DentalServices/GeneralDentistry/DigitalXRays2">
               <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 h-full mx-1.5 mb-3 hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={xray} alt="crown" />

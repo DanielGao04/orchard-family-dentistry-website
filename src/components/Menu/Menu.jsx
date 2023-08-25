@@ -234,10 +234,10 @@ const Menu = () => {
                                   <a href="/DentalServices/RestorativeDentistry/Crowns" class="block px-4 py-2 hover:bg-gray-100">Crowns</a>
                                 </li>
                                 <li>
-                                  <a href="/DentalServices/RestorativeDentistry/DentalImplants" class="block px-4 py-2 hover:bg-gray-100">Dentures</a>
+                                  <a href="/DentalServices/RestorativeDentistry/Dentures" class="block px-4 py-2 hover:bg-gray-100">Dentures</a>
                                 </li>
                                 <li>
-                                  <a href="/DentalServices/RestorativeDentistry/Dentures" class="block px-4 py-2 hover:bg-gray-100">Dental Implants</a>
+                                  <a href="/DentalServices/RestorativeDentistry/DentalImplants" class="block px-4 py-2 hover:bg-gray-100">Dental Implants</a>
                                 </li>
                               </ul>
                             </div>
