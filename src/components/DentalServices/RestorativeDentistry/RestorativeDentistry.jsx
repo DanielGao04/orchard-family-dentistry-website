@@ -1,5 +1,17 @@
 import React, { useState, useEffect } from "react";
 import qualityServiceImg from "../../../images/dental.jpg";
+import Orchard2 from "../../../images/Orchard2.jpg";
+import crown from "../../../images/crown.png";
+import denture from "../../../images/denture.png";
+import dentalimplant from "../../../images/dental-implant.png";
+import toothcolour from "../../../images/teethcolour.png";
+import veneers from "../../../images/dental-veneer.png";
+import mercury from "../../../images/mercury free.png";
+import whitening from "../../../images/tooth-whitening.png";
+import xray from "../../../images/x-ray.png";
+import sedation from "../../../images/sedation.png";
+import jaw from "../../../images/jaw.png";
+import emergency from "../../../images/emergency.png";
 
 const RestorativeDentistry = () => {
     const [animate, setAnimate] = useState(false);
@@ -48,25 +60,52 @@ const RestorativeDentistry = () => {
       <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
       <div class="grid grid-cols-2 grid-rows-2 text-center">
 
-        <div className="my-10 mx-5">
-            <h1 className="text-3xl">Crowns</h1>
-            <p>Crowns cover & support a tooth with a large filling when there isn’t enough tooth left.</p>
-        </div>
+      <a href="/DentalServices/RestorativeDentistry/Crowns">
+              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 h-full mx-1.5 mb-3 hover:bg-blue-300 hover:text-white transition">
+                <div className="flex justify-center items-center mb-4">
+                  <img className="w-1/3 h-auto" src={crown} alt="crown" />
+                </div>
+                <h1 className="text-2xl">Crowns</h1>
+                <p className="text-1xl">
+                These images require up to 90% less radiation than with conventional film-type x-rays.
+                </p>
+              </div>
+            </a>
 
-        <div className="my-10 mx-5">
-            <h1 className="text-3xl">Dentures</h1>
-            <p>If you’ve lost teeth from decay, injury or periodontal (gum) disease, dentures are the solution.</p>
-        </div>
+            <a href="/DentalServices/RestorativeDentistry/Dentures">
+              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 mb-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
+                <div className="flex justify-center items-center mb-4">
+                  <img className="w-1/3 h-auto" src={denture} alt="denture" />
+                </div>
+                <h1 className="text-2xl">Denture</h1>
+                <p className="text-1xl">
+                If you’ve lost teeth from decay, injury or periodontal (gum) disease, dentures are the solution.
+                </p>
+              </div>
+            </a>
 
-        <div className="my-10 mx-5">
-           <h1 className="text-3xl"> Dental Implants</h1>
-           <p>Dental implants are man-made replacements for natural teeth & are essentially permanent, attached teeth that replace partials, bridges or dentures.</p>
-        </div>
-
-        <div className="my-10 mx-5">
-            <h1 className="text-3xl">Emergency Care</h1>
-            <p>Do not hesitate to seek help. Urgent dental care is provided usually the same day.</p>
-        </div>
+            <a href="/DentalServices/RestorativeDentistry/DentalImplants">
+              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 h-full mx-1.5 mt-3 hover:bg-blue-300 hover:text-white transition">
+                <div className="flex justify-center items-center mb-4">
+                  <img className="w-1/3 h-auto" src={dentalimplant} alt="dentalimplant" />
+                </div>
+                <h1 className="text-2xl">Dental Implants</h1>
+                <p className="text-1xl">
+                Dental implants are man-made replacements for natural teeth & are essentially permanent, attached teeth that replace partials, bridges or dentures.
+                </p>
+              </div>
+            </a>
+            <a href="/dentalservices/emergencydentistry">
+              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 h-full mx-1.5 mt-3 hover:bg-blue-300 hover:text-white transition">
+                <div className="flex justify-center items-center mb-4">
+                  <img className="w-1/3 h-auto" src={emergency} alt="emergency" />
+                </div>
+                <h1 className="text-2xl">Emergency Care</h1>
+                <p className="text-1xl">
+                Do not hesitate to seek help. Urgent dental care is provided usually the same day.
+                </p>
+              </div>
+            </a>
 
     </div>
 

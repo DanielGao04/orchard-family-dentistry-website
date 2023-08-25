@@ -57,7 +57,7 @@ const Menu = () => {
                   </button>
                 </a>
                   
-                  <div id="dropdown2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+                  <div id="dropdown2" class="z-10 hidden bg-white rounded-lg shadow w-44 min-w-[22] p-3 m-0">
                       <ul class="py-2 text-sm text-gray-700" aria-labelledby="multiLevelDropdownButton">
                         
                         <li>
@@ -71,10 +71,12 @@ const Menu = () => {
                           <a href="/patientinformation/patienteducation">
                             <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100">
                               Patient Education
-                              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/><svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+  </svg>
                             </button>
                           </a>
-                            <div id="doubleDropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] p-0 m-0">
+                            <div id="doubleDropdown" class="z-10 hidden bg-white rounded-lg shadow w-44 min-w-[88] p-0 m-0">
                               <ul class="py-2 text-sm text-gray-700" aria-labelledby="doubleDropdownButton">
                                 <li>
                                   <a href="/patientinformation/patienteducation/digitalxrays" class="block px-4 py-2 hover:bg-gray-100">Digital X-Ray</a>
@@ -173,7 +175,7 @@ const Menu = () => {
 
                     <div
                       id="dropdownAnother40"
-                      className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44"
+                      className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 p-3"
                     >
                       <ul
                         className="py-2 text-sm text-gray-700"
@@ -193,6 +195,9 @@ const Menu = () => {
                             <button id="doubleDropdownButton2" data-dropdown-toggle="doubleDropdown2" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100">
                               General Dentistry
                               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                              <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+  </svg>
                             </button>
                           </a>
                             <div id="doubleDropdown2" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] p-0 m-0">
@@ -218,6 +223,9 @@ const Menu = () => {
                             <button id="doubleDropdownButton3" data-dropdown-toggle="doubleDropdown3" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100">
                             Restorative Dentistry
                               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                              <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+  </svg>
                             </button>
                           </a>
                             <div id="doubleDropdown3" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] p-0 m-0">
@@ -240,6 +248,9 @@ const Menu = () => {
                             <button id="doubleDropdownButton4" data-dropdown-toggle="doubleDropdown4" data-dropdown-delay="100" data-dropdown-trigger="hover" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100">
                             Cosmetic Dentist
                               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                              <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+  </svg>
                             </button>
                           </a>
                             <div id="doubleDropdown4" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 left-0 top-0 min-w-[0] p-0 m-0">

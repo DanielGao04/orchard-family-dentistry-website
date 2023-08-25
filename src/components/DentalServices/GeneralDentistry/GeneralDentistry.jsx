@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from "react";
 import qualityServiceImg from "../../../images/dental.jpg";
+import crown from "../../../images/crown.png";
+import xray from "../../../images/x-ray.png";
+import sedation from "../../../images/sedation.png";
+import jaw from "../../../images/jaw.png";
+import emergency from "../../../images/emergency.png";
 
 const GeneralDentistry = () => {
     const [animate, setAnimate] = useState(false);
@@ -49,25 +54,52 @@ const GeneralDentistry = () => {
       <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
       <div class="grid grid-cols-2 grid-rows-2 text-center">
 
-        <div className="my-10 mx-5">
-            <h1 className="text-3xl">Low-Radiation Digital X-Rays</h1>
-            <p>These images require up to 90% less radiation than with conventional film-type x-rays.</p>
-        </div>
+      <a href="/DentalServices/GeneralDentistry/DigitalXRays2">
+              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 h-full mx-1.5 mb-3 hover:bg-blue-300 hover:text-white transition">
+                <div className="flex justify-center items-center mb-4">
+                  <img className="w-1/3 h-auto" src={xray} alt="crown" />
+                </div>
+                <h1 className="text-2xl">Low-Radiation Digital X-Ray</h1>
+                <p className="text-1xl">
+                These images require up to 90% less radiation than with conventional film-type x-rays.
+                </p>
+              </div>
+            </a>
 
-        <div className="my-10 mx-5">
-            <h1 className="text-3xl">TMD (Jaw Pain) Therapy</h1>
-            <p>A subtle misalignment in the temporomandibular joint can be a common & significant source of head & neck pain.</p>
-        </div>
+            <a href="/DentalServices/RestorativeDentistry/Crowns">
+              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 mb-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
+                <div className="flex justify-center items-center mb-4">
+                  <img className="w-1/3 h-auto" src={jaw} alt="crown" />
+                </div>
+                <h1 className="text-2xl">TMD (Jaw Pain) Therapy</h1>
+                <p className="text-1xl">
+                A subtle misalignment in the temporomandibular joint can be a common & significant source of head & neck pain.
+                </p>
+              </div>
+            </a>
 
-        <div className="my-10 mx-5">
-           <h1 className="text-3xl"> Sedation Dentistry</h1>
-           <p>Wake up to a more healthy & beautiful smile with amazingly comfortable sedation dentistry.</p>
-        </div>
-
-        <div className="my-10 mx-5">
-            <h1 className="text-3xl">Emergency Care</h1>
-            <p>Do not hesitate to seek help. Urgent dental care is provided usually the same day.</p>
-        </div>
+            <a href="/DentalServices/GeneralDentistry/SedationDentistry">
+              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 h-full mx-1.5 mt-3 hover:bg-blue-300 hover:text-white transition">
+                <div className="flex justify-center items-center mb-4">
+                  <img className="w-1/3 h-auto" src={sedation} alt="crown" />
+                </div>
+                <h1 className="text-2xl">Sedation Dentistry</h1>
+                <p className="text-1xl">
+                Wake up to a more healthy & beautiful smile with amazingly comfortable sedation dentistry.
+                </p>
+              </div>
+            </a>
+            <a href="/dentalservices/emergencydentistry">
+              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 h-full mx-1.5 mt-3 hover:bg-blue-300 hover:text-white transition">
+                <div className="flex justify-center items-center mb-4">
+                  <img className="w-1/3 h-auto" src={emergency} alt="crown" />
+                </div>
+                <h1 className="text-2xl">Emergency Care</h1>
+                <p className="text-1xl">
+                Do not hesitate to seek help. Urgent dental care is provided usually the same day.
+                </p>
+              </div>
+            </a>
 
     </div>
 
