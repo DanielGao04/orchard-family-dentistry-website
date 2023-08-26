@@ -3,6 +3,7 @@ import qualityServiceImg from "../../images/dental.jpg";
 
 const QualityService = () => {
   const [animate, setAnimate] = useState(false);
+  const isDesktop = window.innerWidth >= 768; // Define the breakpoint for desktop
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,7 +25,28 @@ const QualityService = () => {
   }, []);
 
   return (
-    <div className={`flex bg-cover bg-sky-100 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : 'translate-x-full'}`}>
+    // Mobile 
+    <section>
+    {isDesktop ? (
+    <div className={`relative overflow-hidden bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+    <img className={`sm: w-full md:hidden lg:hidden`} src={qualityServiceImg} alt="Quality Service" />
+    <div className={`absolute inset-0 flex flex-col justify-center px-6 md:px-16 lg:px-24 py-12 md:w-1/2 text-center md:text-left bg-opacity-75 bg-white`}>
+      <h1 className={`text-3xl md:text-4xl lg:text-5xl text-blue-900 mb-4`}>
+      Cleanings Brighten Your Smile & Help Prevent Disease
+      </h1>
+      <h2 className="my-5 text-3xl text-blue-900 text-center">
+        Heart Disease • Strokes • Worsening Asthma • Worsening Diabetes • Pregnancy Complications • Alzheimer’s • Dementia
+        </h2>
+      <p className={`text-base md:text-lg lg:text-xl text-blue-900 leading-relaxed`}>
+      Sources: National Institute of Health, NYU, University of Pennsylvania Dental School, Journal of Alzheimer’s Disease, Penn Medicine, British Dental Journal & Many More.{" "}
+      </p>
+    </div>
+  </div>
+
+    ) : (
+    
+    // Desktop 
+    <div className={`sm:hidden md:flex bg-cover bg-sky-100 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : 'translate-x-full'}`}>
     <img className="md:w-1/8 h-1/8 lg: h-1/3 w-1/3" src={qualityServiceImg} alt=""/>
       <div className="px-40 flex flex-col justify-center md:w-3/4">
         <h1 className="my-5 text-6xl text-blue-900 text-center">
@@ -39,6 +61,8 @@ const QualityService = () => {
       </div>
       
     </div>
+    )}
+    </section>
   );
 };
 

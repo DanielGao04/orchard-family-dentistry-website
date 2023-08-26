@@ -3,6 +3,7 @@ import qualityServiceImg from "../../images/dental.jpg";
 
 const QualityService = () => {
   const [animate, setAnimate] = useState(false);
+  const isDesktop = window.innerWidth >= 768; // Define the breakpoint for desktop
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,21 +25,42 @@ const QualityService = () => {
   }, []);
 
   return (
-    <div className={`flex bg-cover bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
-      <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
-        <h1 className={`my-5 text-6xl text-blue-900 text-center`}>
-          Trusted, Personalized & Affordable Dental Care for Your Whole Family
-        </h1>
-        <p className={`text-3xl text-blue-900 py-8 whitespace-wrap text-center`}>
-          At Lake Tahoe Dental, it’s the mission of our caring team to provide
-          the highest level of convenience & personalized care for your entire
-          family. We are your one-stop location for all aspects of safe &
-          modern dentistry & we want to do our part to keep you healthy through
-          your entire life!
-        </p>
+
+    // Mobile Screen
+    <section>
+      {isDesktop ? (
+      <div className={`relative overflow-hidden bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+        <img className={`w-full`} src={qualityServiceImg} alt="Quality Service" />
+        <div className={`absolute inset-0 flex flex-col justify-center px-6 md:px-16 lg:px-24 py-12 md:w-1/2 text-center md:text-left bg-opacity-75 bg-white`}>
+          <h1 className={`text-3xl md:text-4xl lg:text-5xl text-blue-900 mb-4`}>
+            Trusted, Personalized & Affordable Dental Care
+          </h1>
+          <p className={`text-base md:text-lg lg:text-xl text-blue-900 leading-relaxed`}>
+            At Lake Tahoe Dental, our caring team is dedicated to providing the highest level of convenience and personalized care for your entire family. We offer a range of modern dentistry services and aim to keep you healthy throughout your life.
+          </p>
+        </div>
       </div>
-      <img className={`md:w-1/8 h-1/8 lg:h-1/3 w-1/3`} src={qualityServiceImg} alt="" />
-    </div>
+      ) : ( 
+
+      // Desktop Screen
+      <div className={`sm:hidden  md:flex bg-cover bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+        <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
+          <h1 className={`my-5 text-6xl text-blue-900 text-center`}>
+            Trusted, Personalized & Affordable Dental Care for Your Whole Family
+          </h1>
+          <p className={`text-3xl text-blue-900 py-8 whitespace-wrap text-center`}>
+            At Lake Tahoe Dental, it’s the mission of our caring team to provide
+            the highest level of convenience & personalized care for your entire
+            family. We are your one-stop location for all aspects of safe &
+            modern dentistry & we want to do our part to keep you healthy through
+            your entire life!
+          </p>
+        </div>
+        <img className={`md:w-1/8 h-1/8 lg:h-1/3 w-1/3`} src={qualityServiceImg} alt="" />
+      </div>
+      )}
+      </section>
+
   );
 };
 

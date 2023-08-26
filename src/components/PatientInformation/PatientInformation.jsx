@@ -3,10 +3,11 @@ import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import dentist from "../../images/dentist.jpg";
 
 const PatientInformation = () => {
+  
   return (
     <div className="flex flex-col bg-cover min-h-screen transform transition-transform duration-1500">
       <div className="flex bg-cover bg-sky-300 transform transition-transform duration-1500 justify-center py-16 relative" style={{ backgroundImage: `url(${dentist})`, height: "500px" }}>
-        <h1 className="my-5 text-8xl text-white  font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <h1 className="my-5 text-6xl md:text-8xl text-white font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           Patient Information
         </h1>
       </div>
