@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="flex justify-center lg:justify-start mb-4">
             <span className="text-2xl font-Poppins">Orchard Family Dentistry</span>
           </div>
-          <p className="text-justify py-4 px-2">
+          <p className="mb-5 md:text-justify md:py-4 md:px-2">
             5220 Dundas St #6 <br />
             Burlington, ON L7L 0J4 <br />
             Call Today <br />
@@ -32,12 +32,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-1/3 lg:w-1/5 text-center mb-6 lg:mb-0">
+        <div className="mb-5 w-1/2 mx-auto md:w-1/3 md:w-1/5 md:mb-6">
           {/* Image Section */}
           <img src={footerImage} alt="Footer Image" className="mx-7" />
         </div>
         
-        <div className="w-1/3 text-center lg:text-right">
+        <div className="text-center md:w-1/3 md:text-right">
           <h1 className="text-2xl font-Poppins">Quick Links</h1>
           <ul className="py-3.5">
             <li className="py-0.5 hover:text-primary">
