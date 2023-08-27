@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3bc5d7e6.css",
-    "main.js": "/static/js/main.ebd33fb6.js",
-    "static/js/787.983599a5.chunk.js": "/static/js/787.983599a5.chunk.js",
+    "main.css": "/static/css/main.9f977dc4.css",
+    "main.js": "/static/js/main.eb5ce010.js",
+    "static/js/988.708d58e1.chunk.js": "/static/js/988.708d58e1.chunk.js",
     "static/media/Orchard3.png": "/static/media/Orchard3.717fdc08e71899f9e5eb.png",
     "static/media/dentist.jpg": "/static/media/dentist.c1d66766f40884b99d94.jpg",
     "static/media/OrchardFarm.jpg": "/static/media/OrchardFarm.6771bdad2cf02a3689f3.jpg",
@@ -23,12 +23,12 @@
     "static/media/crown.png": "/static/media/crown.bf5d42cab5512742bbad.png",
     "static/media/dental-implant.png": "/static/media/dental-implant.9d58784742b1ad6485d8.png",
     "index.html": "/index.html",
-    "main.3bc5d7e6.css.map": "/static/css/main.3bc5d7e6.css.map",
-    "main.ebd33fb6.js.map": "/static/js/main.ebd33fb6.js.map",
-    "787.983599a5.chunk.js.map": "/static/js/787.983599a5.chunk.js.map"
+    "main.9f977dc4.css.map": "/static/css/main.9f977dc4.css.map",
+    "main.eb5ce010.js.map": "/static/js/main.eb5ce010.js.map",
+    "988.708d58e1.chunk.js.map": "/static/js/988.708d58e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bc5d7e6.css",
-    "static/js/main.ebd33fb6.js"
+    "static/css/main.9f977dc4.css",
+    "static/js/main.eb5ce010.js"
   ]
 }
