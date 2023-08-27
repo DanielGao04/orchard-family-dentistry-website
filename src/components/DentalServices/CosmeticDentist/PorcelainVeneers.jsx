@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import Orchard2 from "../../../images/OrchardFarm.jpg";
 
 const PorcelainVeneers = () => {
-  const [ setAnimate] = useState(false);
+  const [,setAnimate] = useState(false);
 
   useEffect(() => {
     setAnimate(true);
-  },);
+  },[]);
 
   return (
     <section class="bg-white">
@@ -21,11 +21,11 @@ const PorcelainVeneers = () => {
                     EXCELLENT ALTERNATIVE TO CROWNS
                     </p>
     
-                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-5xl font-semibold text-gray-800">
                     Porcelain Veneers
                     </h2>
     
-                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 md:text-5xl">
+                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800">
                     Porcelain veneers are an excellent alternative to crowns & can perfect your smile by masking stains, hiding chips, correcting misalignment & creating uniformity.                    
                     </h2>
 

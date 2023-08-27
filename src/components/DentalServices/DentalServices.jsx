@@ -12,11 +12,11 @@ import sedation from "../../images/sedation.png";
 import jaw from "../../images/jaw.png";
 
 const DentalServices = () => {
-  const [ setAnimate] = useState(false);
+  const [, setAnimate] = useState(false);
 
   useEffect(() => {
     setAnimate(true);
-  });
+  }, []);
 
   return (
     <div className="bg-cover">

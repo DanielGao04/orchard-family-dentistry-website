@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import Orchard2 from "../../../images/OrchardFarm.jpg";
 
 const Crowns = () => {
-  const [ setAnimate] = useState(false);
+  const [ ,setAnimate] = useState(false);
 
   useEffect(() => {
     setAnimate(true);
-  });
+  },[]);
 
   return (
   
@@ -18,7 +18,7 @@ const Crowns = () => {
                 <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">
                     <p class="text-lg text-blue-300">FILL GAPS & RESTORE YOUR SMILE</p>
     
-                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-5xl font-semibold text-gray-800">
                     Oshawa Dental Crowns
                     </h2>
                         

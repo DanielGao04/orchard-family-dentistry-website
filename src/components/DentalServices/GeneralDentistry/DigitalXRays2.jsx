@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import Orchard2 from "../../../images/OrchardFarm.jpg";
 
 const Xray2 = () => {
-  const [setAnimate] = useState(false);
+  const [,setAnimate] = useState(false);
 
   useEffect(() => {
     setAnimate(true);
-  });
+  },[]);
 
   return (
   
@@ -18,11 +18,11 @@ const Xray2 = () => {
                 <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">
                     <p class="text-lg text-blue-300">We offer in-office digital x-rays for your convenience</p>
     
-                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-5xl font-semibold text-gray-800">
                     Digital X-Rays
                     </h2>
                         
-                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 md:text-5xl">
+                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800">
                     Digital x-rays are computer-generated images.
                     </h2>
                     <p class="mt-3 text-gray-500 md:text-lg">

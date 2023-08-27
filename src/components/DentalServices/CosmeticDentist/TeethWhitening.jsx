@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import Orchard2 from "../../../images/OrchardFarm.jpg";
 
 const TeethWhitening = () => {
-  const [setAnimate] = useState(false);
+  const [,setAnimate] = useState(false);
 
   useEffect(() => {
     setAnimate(true);
-  });
+  },[]);
 
   return (
     <section class="bg-white">
@@ -21,11 +21,11 @@ const TeethWhitening = () => {
                     WHITER & BRIGHTER SMILE
                     </p>
     
-                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-5xl font-semibold text-gray-800">
                     Teeth Whitening
                     </h2>
     
-                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 md:text-5xl">
+                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800">
                     Now you can have significantly whiter teeth in a matter of a few days using advanced teeth whitening techniques.
                     </h2>
 

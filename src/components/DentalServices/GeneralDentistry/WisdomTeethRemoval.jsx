@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 
 const WisdomTeethRemoval = () => {
-  const [setAnimate] = useState(false);
+  const [,setAnimate] = useState(false);
 
   useEffect(() => {
     setAnimate(true);
-  });
+  },[]);
 
   return (
   

@@ -9,9 +9,7 @@ const CosmeticDentistry = () => {
     const [animate, setAnimate] = useState(false);
 
     useEffect(() => {
-
           setAnimate(true);
-
     }, []);
   
 

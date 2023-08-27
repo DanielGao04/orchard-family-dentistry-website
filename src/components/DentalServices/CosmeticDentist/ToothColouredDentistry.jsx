@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import Orchard2 from "../../../images/OrchardFarm.jpg";
 
 const ToothColouredDentistry = () => {
-  const [ setAnimate] = useState(false);
+  const [,setAnimate] = useState(false);
 
   useEffect(() => {
     setAnimate(true);
-  });
+  },[]);
 
   return (
   
@@ -19,11 +19,11 @@ const ToothColouredDentistry = () => {
                     <p class="text-lg text-blue-300">MODERN TOOTH-COLOURED FILLINGS
 </p>
     
-                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-5xl font-semibold text-gray-800">
                     Tooth-Coloured Dentistry
                     </h2>
                         
-                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 md:text-5xl">
+                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800">
                     Did you know that the days when tooth ailments & cavities could only be treated with unsightly metal fillings are gone?
                     </h2>
                     <p class="mt-3 text-gray-500 md:text-lg">

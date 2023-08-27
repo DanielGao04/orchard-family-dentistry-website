@@ -3,11 +3,11 @@ import Orchard2 from "../../../images/OrchardFarm.jpg";
 
 
 const MercuryFreeDentistry = () => {
-  const [setAnimate] = useState(false);
+  const [,setAnimate] = useState(false);
 
   useEffect(() => {
     setAnimate(true);
-  }, );
+  },[]);
 
   return (
     <section class="bg-white">
@@ -22,11 +22,11 @@ const MercuryFreeDentistry = () => {
                     YOUR OVERALL HEALTH COMES FIRST                    
                     </p>
     
-                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-5xl font-semibold text-gray-800">
                     Mercury-Free Dentistry
                     </h2>
     
-                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 md:text-5xl">
+                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800">
                     Mercury amalgam (silver) fillings may be hazardous to your health.                    
                     </h2>
 
