@@ -18,7 +18,7 @@ const Menu = () => {
                 className="flex items-center text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-black"
               >
                 <span className="text-2xl font-Poppins">
-                  Orchard Family Dentistry
+                  Orchard FD
                 </span>
               </a>
               <button
