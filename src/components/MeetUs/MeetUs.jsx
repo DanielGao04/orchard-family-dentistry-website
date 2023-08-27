@@ -5,12 +5,12 @@ const QualityService = () => {
   return (
     <div>
       {/* Top Words Section */}
-      <div className="flex bg-cover bg-sky-300 transform transition-transform duration-1500 justify-center py-20" style={{ backgroundImage: `url(${Orchard2})` }}>
+      <div className="flex bg-cover bg-sky-300 transform transition-transform duration-1500 justify-center md:py-20" style={{ backgroundImage: `url(${Orchard2})` }}>
         <div className="md: w-4/5 py-20">
-          <h1 className="my-5 text-7xl text-white font-semibold text-center pb-10">
+          <h1 className="md:my-5 text-3xl md:text-7xl text-white font-semibold text-center pb-10">
             We Are Orchard Family Dentistry Most Trusted & Comprehensive Dental Care Provider
           </h1>
-          <h2 className="my-5 text-2xl text-blue-200 font-semibold text-center px-60">
+          <h2 className="md:my-5 text-xl md:text-2xl text-blue-200 font-semibold text-center md:px-60">
             At our community-focused practice, your comfort & satisfaction come first. We look forward 
             to meeting you soon & developing a relationship with you to build the bridge toward long-term 
             trust & successful dental care. Orchard Family Dentistry invites you to see why our patients can’t stop 
@@ -21,7 +21,7 @@ const QualityService = () => {
 
       {/* Why We're Different Section */}
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center py-7">
-        <div className="px-40 md:w-3/4">
+        <div className="md:px-40 md:w-3/4">
           <h1 className="my-5 text-4xl text-blue-900 font-semibold text-center">
             Why We're Different
           </h1>
@@ -46,18 +46,18 @@ const QualityService = () => {
 
       {/* Secondary Words Section */}
       <div className="flex bg-cover bg-sky-200 transform transition-transform duration-1500 justify-center py-10">
-        <div className="px-40 md:w-3/4">
-          <h1 className="my-5 text-4xl text-blue-900 font-semibold text-center pb-3">
+        <div className="md:px-40 md:w-3/4">
+          <h1 className="px-5 md:px-0 my-5 text-4xl text-blue-900 font-semibold text-center pb-3">
             Orchard Family Dentistry Staff Put Your Comfort & Safety First
           </h1>
-          <p className="my-5 text-2xl text-green-900 text-center px-20">
+          <p className="my-5 text-2xl text-green-900 text-center px-7 md:px-20">
             Our exceptional, friendly staff is our greatest asset. All of our dental assistants & hygienists are licensed professionals who pride themselves on their current dental techniques & outstanding patient communication. With unmatched quality & integrity, they are dedicated to achieving the best possible results for you & your family.
           </p>
         </div>
       </div>
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
-        <div className="px-40 md:w-3/4">
+        <div className="md:px-40 md:w-3/4">
           <h1 className="my-9 text-6xl text-blue-900 text-center py-10">
             Meet Our Doctors
           </h1>
@@ -91,7 +91,7 @@ const QualityService = () => {
       </div>
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
-        <div className="px-40 md:w-3/4">
+        <div className="md:px-40 md:w-3/4">
           <h1 className="my-9 text-6xl text-blue-900 text-center py-10">
             Meet Our Dental Assistants
           </h1>
@@ -125,7 +125,7 @@ const QualityService = () => {
       </div>
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
-        <div className="px-40 md:w-3/4">
+        <div className="md:px-40 md:w-3/4">
           <h1 className="my-9 text-6xl text-blue-900 text-center py-10">
             Meet Our Hygenists
           </h1>
@@ -159,7 +159,7 @@ const QualityService = () => {
       </div>
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
-        <div className="px-40 md:w-3/4">
+        <div className=" md:px-40 md:w-3/4">
           <h1 className="my-9 text-6xl text-blue-900 text-center py-10">
             Meet Our Receptionists
           </h1>

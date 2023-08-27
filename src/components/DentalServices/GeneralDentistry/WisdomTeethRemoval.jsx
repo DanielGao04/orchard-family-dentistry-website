@@ -21,7 +21,7 @@ const WisdomTeethRemoval = () => {
 
   return (
   
-    <section class="py-20 bg-white">
+    <section class="py-10 md:py-20 bg-white">
     <div class="flex flex-col px-8 mx-auto space-y-12 max-w-7xl xl:px-12">
         <div class="bg-sky-200 bg-cover p-[7%] ">
             <h2 class="w-full text-3xl font-bold text-left sm:text-4xl md:text-5xl"> Why Do Wisdom Teeth Have to Be Removed so Often?</h2>
@@ -35,7 +35,7 @@ const WisdomTeethRemoval = () => {
         </div>
 
 
-        <div className="border-solid p-24 border-2 border-gray-100 rounded-lg">
+        <div className="border-solid p-5 md:p-24 border-2 border-gray-100 rounded-lg">
         <div class="flex flex-col mb-8 animated fadeIn sm:flex-row">
             <div class="flex items-center mb-8 sm:w-1/2 md:w-5/12">
                 <img class="rounded-lg shadow-xl" src="https://cdn.devdojo.com/images/december2020/dashboard-04.png" alt=""/>

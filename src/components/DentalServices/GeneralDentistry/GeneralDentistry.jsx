@@ -23,8 +23,8 @@ const GeneralDentistry = () => {
           Book Your Dental Appointment Today! Call: (123) 456-7890
         </p>
       </div>
-    <div class=" container my-24 ">
-      <section class="mb-32 text-center md:text-left">
+    <div class=" container my-12 md:my-24 ">
+      <section class=" md:mb-32 text-center md:text-left">
         <div class="block bg-white">
           <div class="flex flex-wrap items-center">
             <div
@@ -35,7 +35,7 @@ const GeneralDentistry = () => {
                 class="w-full" />
             </div>
             <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
-              <div class="px-6 py-12 md:px-12">
+              <div class="px-4 py-12 md:px-12">
                 <h1 class=" text-4xl font-semi-bold">
                   <span class="text-danger dark:text-danger-500">General Dental Care</span>
                 </h1>
@@ -58,11 +58,13 @@ const GeneralDentistry = () => {
       </section>
       </div>
       <div className={`flex bg-cover bg-sky-100 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
-      <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
-      <div class="grid grid-cols-2 grid-rows-2 text-center">
+      <div className={`md:px-40 flex flex-col justify-center md:w-3/4`}>
+      <div class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 text-center">
 
-            <a href="/DentalServices/GeneralDentistry/DigitalXRays2">
-              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 h-full mx-1.5 mb-3 hover:bg-blue-300 hover:text-white transition">
+            <img className={`md:hidden w-full`} src={qualityServiceImg} alt="" />
+          
+            <a href="/DentalServices/GeneralDentistry/DigitalXRays2" className="mb-5 md:mb-0 mt-5 md:mt-0">
+            <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 md:mb-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={xray} alt="crown" />
                 </div>
@@ -74,7 +76,7 @@ const GeneralDentistry = () => {
             </a>
 
             <a href="/DentalServices/RestorativeDentistry/Crowns">
-              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 mb-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
+            <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 md:mb-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={jaw} alt="crown" />
                 </div>
@@ -85,10 +87,10 @@ const GeneralDentistry = () => {
               </div>
             </a>
 
-            <a href="/DentalServices/GeneralDentistry/SedationDentistry">
-              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 h-full mx-1.5 mt-3 hover:bg-blue-300 hover:text-white transition">
+            <a href="/DentalServices/GeneralDentistry/SedationDentistry" className="mb-5 mt-5 md:mt-0 md:mb-0">
+            <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 md:mb-3 md:mt-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
-                  <img className="w-1/3 h-auto" src={sedation} alt="crown" />
+                  <img className="w-1/3 h-auto" src={sedation} alt="crown"/>
                 </div>
                 <h1 className="text-2xl">Sedation Dentistry</h1>
                 <p className="text-1xl">
@@ -96,8 +98,8 @@ const GeneralDentistry = () => {
                 </p>
               </div>
             </a>
-            <a href="/dentalservices/emergencydentistry">
-              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 h-full mx-1.5 mt-3 hover:bg-blue-300 hover:text-white transition">
+            <a href="/dentalservices/emergencydentistry" className="mb-12 md:mb-0">
+            <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 md:mb-0 md:mt-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={emergency} alt="crown" />
                 </div>
@@ -108,10 +110,12 @@ const GeneralDentistry = () => {
               </div>
             </a>
 
+            
+
     </div>
 
       </div>
-      <img className={`md:w-1/8 h-1/8 lg:h-1/3 w-1/3`} src={qualityServiceImg} alt="" />
+      <img className={`md:w-1/3 h-1/8 lg:h-1/3 w-0`} src={qualityServiceImg} alt="" />
     </div>
 
 

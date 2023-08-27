@@ -29,11 +29,11 @@ const SedationDentistry = () => {
                 <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">
                     <p class="text-lg text-blue-300">Amazingly Comfortable Sedation</p>
     
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 dark:text-white">
                     Sedation Dentistry
                     </h2>
                         
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-2xl">
+                    <h2 class="block mt-4 text-2xl md:text-3xl font-semibold text-gray-800 dark:text-white">
                     Wake up to a more healthy & beautiful smile with amazingly comfortable sedation dentistry. We care for patients who:
                     </h2>
                     <ul class="list-disc list-inside">
@@ -52,9 +52,10 @@ const SedationDentistry = () => {
                 <li class="mb-2">
                 Just can’t seem to get numb.
                 </li >
-                <li class="mb-2">
-                Feel their teeth are too far gone for traditional treatment.
+                <li class="">
+                  Feel their teeth are too far gone for traditional
                 </li>
+                <p className="text-md ml-5">treatment</p>
             </ul>
     
                    

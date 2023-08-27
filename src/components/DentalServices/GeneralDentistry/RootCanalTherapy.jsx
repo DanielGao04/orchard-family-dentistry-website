@@ -29,7 +29,7 @@ const RootCanalTherapy = () => {
                 <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">
                     <p class="text-lg text-blue-300">Why Root Canals Are the Right Dental Option</p>
     
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 dark:text-white md:text-5xl">
                     Root Canal Treatment in Oshawa
                     </h2>
                         
@@ -43,12 +43,12 @@ const RootCanalTherapy = () => {
 
 
         <div className="flex bg-cover bg-sky-100 transform transition-transform duration-1500 justify-center py-10">
-        <div className="px-40 md:w-3/4">
+        <div className="px-10 md:px-40 md:w-3/4">
           <h1 className="my-5 text-5xl text-blue-900 font-semibold text-center pb-1">
             What Happens During a Root Canal
           </h1>
                    
-          <div class="p-2 text-green-900 text-left text-2xl mb-5">
+          <div class="md:p-2 text-green-900 text-left text-2xl mb-5">
             <ul class="">
                 <li class="mb-3">
                 Those who are suffering from swollen or tender gums, tooth sensitivity, a cracked or chipped tooth, and pain while chewing or biting could be suffering from infected pulp at the base of the tooth. A dentist or endodontist will likely need to perform a root canal.

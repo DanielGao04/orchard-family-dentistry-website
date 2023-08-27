@@ -13,7 +13,7 @@ const Contact = () => {
           Blog
         </h1>
       </div>
-    <div className="text-center my-10">
+    <div className="text-center my-10 px-7 md:px-0">
         <h2 className="text-3xl">Dental health blog exploring the latest news and issues of the heart of dentistry and oral health.</h2>
     </div>
 

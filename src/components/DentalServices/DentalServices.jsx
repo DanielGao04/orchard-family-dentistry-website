@@ -22,42 +22,42 @@ const DentalServices = () => {
   return (
     <div className="bg-cover">
       {/* First Animated Section */}
-      <div className="flex bg-cover bg-sky-300 transform transition-transform duration-1500 justify-center py-20" style={{ backgroundImage: `url(${Orchard2})` }}>
-        <div className="md:w-4/5 py-20">
-          <h1 className="my-5 text-7xl text-white text-left pb-10">
+      <div className="flex bg-cover bg-sky-300 transform transition-transform duration-1500 justify-center py-20 md:py-20 md:w-full md:py-10 md:mx-auto" style={{ backgroundImage: `url(${Orchard2})` }}>
+        <div className="md:w-4/5 md:py-20">
+          <h1 className="my-5 pb-4 text-left mx-8 text-5xl text-white text-left md:pb-10 md:text-7xl">
             Dental Care Services
           </h1>
-          <h2 className="my-5 text-2xl text-blue-200 text-left max-w-[80%]">
+          <h2 className="my-5 mx-8 text-2xl md:text-2xl text-left text-blue-200 md:text-left md:max-w-[80%]">
           At Taunton Village Dental, we offer an array of different dental care services that we can provide for your family right here in Oshawa, ON. From preventive cleanings to dental implants & dentures, Taunton Village Dental is the place to go for all of your dental needs & in one convenient location. Please take your time to view & read more about all the dental services below that our patients can receive.
           </h2>
         </div>
       </div>
 
       {/* Student Discounts Banner */}
-      <div className="py-4 text-blue-900 text-center px-80">
-        <h1 className="text-6xl font- mt-20 mb-5">The professionals on our dental care team have dedicated their careers to providing the best care possible to our patients.</h1>
-        <p className="text-blue-400 text-2xl">
+      <div className="py-4 text-blue-900 text-center md:px-80">
+        <h1 className="text-4xl mx-7 md:text-6xl mt-10 md:mt-20 mb-5">The professionals on our dental care team have dedicated their careers to providing the best care possible to our patients.</h1>
+        <p className="text-blue-400 text-xl mx-8 md:text-2xl">
         While this page lists most of the dental care services we provide, please know that we are continuously educating ourselves on the latest dental care techniques, technologies & materials to provide you with the most advanced dental care available. All treatment decisions at our practice come from conversations between you & your dentist, & we are happy to offer dental care beyond the treatments listed here to fit your individual needs. If you have questions about any of our dental care services, please do not hesitate to ask.
         </p>
       </div>
 
       {/* Divider */}
-      <div className="py-4 text-blue-900 text-center px-80">
-        <h1 className="text-6xl mt-20 mb-5">Preventive Dental Care for the Entire Family</h1>
-        <p className="text-blue-400 text-2xl">
+      <div className="py-4 mx-7 text-blue-900 text-center md:px-80">
+        <h1 className="text-4xl md:text-6xl md:mt-20 mb-5">Preventive Dental Care for the Entire Family</h1>
+        <p className="text-blue-400 text-xl mx-8 md:text-2xl">
         At Taunton Village Dental, we practice dentistry for the whole family. From preventive education & regular hygiene to identifying & caring for dental issues that may arise, your continued oral health is our top priority.
         </p>
       </div>
 
       {/* Restorative Dental Care */}
-      <div className="py-4 text-blue-900 text-center px-80">
-        <h1 className="text-6xl mt-20 mb-5">Restorative Dental Care</h1>
-        <p className="text-blue-400 text-2xl mb-16">
+      <div className="py-4 text-blue-900 text-center md:px-80">
+      <h1 className="text-4xl mx-7 md:text-6xl md:mt-20 mb-5">Restorative Dental Care</h1>
+      <p className="text-blue-400 text-xl mx-8 md:text-2xl">
         We offer restorative dental care. We know that even when you do everything right, something can go wrong. If you are suffering from a dental problem, we are here to help. Modern technology, combined with the in-depth experience of our clinical team, can assure you of a successful & long-lasting result. Whether the cause is accident or disease, we can restore your smile.
         </p>
-        <div className="mt-8 flex justify-center space-x-4">
+        <div className="mt-8 p-7 md:flex justify-center md:space-x-4">
           {/* Crowns */}
-          <div className="w-1/3">
+          <div className="w-full my-5 md:w-1/3 items-center text-center">
             <a href="/DentalServices/RestorativeDentistry/Crowns">
               <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
@@ -71,7 +71,7 @@ const DentalServices = () => {
             </a>
           </div>
           {/* Dentures */}
-          <div className="w-1/3">
+          <div className="w-full my-5 md:w-1/3 items-center text-center">
             <a href="/DentalServices/RestorativeDentistry/Dentures">
               <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
@@ -85,7 +85,7 @@ const DentalServices = () => {
             </a>
           </div>
           {/* Dental Implants */}
-          <div className="w-1/3 flex flex-col items-center text-center">
+          <div className="w-full my-5 md:w-1/3 items-center text-center">
             <a href="/DentalServices/RestorativeDentistry/DentalImplants">
               <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
@@ -103,14 +103,14 @@ const DentalServices = () => {
 
       
       {/* Cosmetic Dental Care */}
-      <div className="py-4 text-blue-900 text-center px-80">
-        <h1 className="text-6xl mt-20 mb-5">Cosmetic Dental Care</h1>
-        <p className="text-blue-400 text-2xl mb-16">
+      <div className="py-4 text-blue-900 text-center md:px-80">
+      <h1 className="text-4xl md:text-6xl mt-20 mb-5">Cosmetic Dental Care</h1>
+      <p className="text-blue-400 text-xl mx-8 md:text-2xl">
         Having a great smile can make a huge difference in the way you look & feel. Taunton Village Dental offers a complete range of cosmetic dental care treatments to create the confident smile you’ve always wanted. We begin with a detailed smile assessment, discussing with you which aspects you like & dislike about your smile. Once our assessment is complete, we will discuss with you treatment options to help your smile look more natural, youthful & healthy.
         </p>
-        <div className="mt-8 flex justify-center space-x-4">
+        <div className="mt-8 p-7 md:flex justify-center md:space-x-4">
           {/* Tooth-Coloured Dentistry */}
-          <div className="w-1/4">
+          <div className="my-5 w-full md:w-1/4">
             <a href="/DentalServices/CosmeticDentist/ToothColouredDentistry">
               <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
@@ -124,7 +124,7 @@ const DentalServices = () => {
             </a>
           </div>
           {/* Porcelain Veneers */}
-          <div className="w-1/4">
+          <div className="my-5 w-full md:w-1/4">
             <a href="/DentalServices/CosmeticDentist/PorcelainVeneers">
               <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
@@ -138,7 +138,7 @@ const DentalServices = () => {
             </a>
           </div>
           {/* Mercury-Free Dentistry */}
-          <div className="w-1/4">
+          <div className="my-5 w-full md:w-1/4">
             <a href="/DentalServices/CosmeticDentist/MercuryFreeDentistry">
               <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
@@ -152,7 +152,7 @@ const DentalServices = () => {
             </a>
           </div>
           {/* Teeth Whitening */}
-          <div className="w-1/4">
+          <div className="my-5 w-full md:w-1/4">
             <a href="/DentalServices/CosmeticDentist/TeethWhitening">
               <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
@@ -169,14 +169,14 @@ const DentalServices = () => {
       </div>
 
 
-      <div className="py-4 text-blue-900 text-center px-80 mb-24">
-        <h1 className="text-6xl mt-20 mb-5">General Dental Care</h1>
-        <p className="text-blue-400 text-2xl mb-16">
+      <div className="py-4 text-blue-900 text-center md:px-80 md:mb-24">
+      <h1 className="text-4xl mx-7 md:text-6xl md:mt-20 mb-5">General Dental Care</h1>
+      <p className="text-blue-400 text-xl mx-8 md:text-2xl">
         The dentists of Taunton Village Dental have extensive experience in the diagnosis, treatment, management & coordination of dental care services to care for their patients & their families. General dental care includes everything from preventive education & regular visits to fillings, crowns, bridges & more. Moreover, the dentists provide care for both kids & adults, & know how best to care for both. At Taunton Village Dental, your continued oral health is our top priority.
         </p>
-        <div className="mt-8 flex justify-center space-x-4">
+        <div className="mt-8 p-7 md:flex justify-center md:space-x-4">
           {/* Digital X-Rays */}
-          <div className="w-1/3">
+          <div className="my-5 w-full md:w-1/3">
             <a href="/DentalServices/GeneralDentistry/DigitalXRays2">
               <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
@@ -190,7 +190,7 @@ const DentalServices = () => {
             </a>
           </div>
           {/* Sedation Dentistry */}
-          <div className="w-1/3">
+          <div className="my-5 w-full md:w-1/3">
             <a href="/DentalServices/GeneralDentistry/SedationDentistry">
               <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
@@ -204,7 +204,7 @@ const DentalServices = () => {
             </a>
           </div>
           {/* TMD (Jaw Pain) Therapy */}
-          <div className="w-1/3">
+          <div className="mt-5 w-full md:w-1/3">
             <a href="/">
               <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">

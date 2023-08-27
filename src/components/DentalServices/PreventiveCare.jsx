@@ -11,7 +11,7 @@ const PreventiveDentistry = () => {
           Book Your Dental Appointment Today! Call: (123) 456-7890
         </p>
       </div>
-    <div class=" container my-24 ">
+    <div class=" container my-12 md:my-24 ">
       <section class="mb-32 text-center md:text-left">
         <div class="block bg-white">
           <div class="flex flex-wrap items-center">
@@ -45,11 +45,11 @@ const PreventiveDentistry = () => {
       </section>
       </div>
       
-      <div className="bg-blue-100 py-4 px-72 text-blue-900 text-center p-24">
-        <h1 className="text-6xl mt-24 mb-5">
+      <div className="px-5 bg-blue-100 py-1 md:py-4 md:px-72 text-blue-900 text-center md:p-24">
+        <h1 className="text-4xl md:text-6xl mt-24 mb-5">
         Additionally, we are a family practice.
         </h1>
-        <p className="text-3xl mb-24">
+        <p className="text-2xl md:text-3xl mb-24">
         Our dentists have extensive experience with children & teens, so we can provide preventive care to everyone & make the dental experience better for the entire family.
         </p>
       </div>

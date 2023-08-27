@@ -29,11 +29,11 @@ const Crowns = () => {
                 <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">
                     <p class="text-lg text-blue-300">FILL GAPS & RESTORE YOUR SMILE</p>
     
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 dark:text-white md:text-5xl">
                     Oshawa Dental Crowns
                     </h2>
                         
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-2xl">
+                    <h2 class="block mt-4 md:text-3xl font-semibold text-gray-800 dark:text-white md:text-2xl">
                     Crowns cover & support a tooth with a large filling when there isn’t enough tooth left.
                     </h2>
                     <p class="mt-3 text-gray-500 dark:text-gray-300 md:text-lg">

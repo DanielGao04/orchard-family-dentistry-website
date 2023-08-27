@@ -31,12 +31,11 @@ const DentalFillings = () => {
 
 </p>
     
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 dark:text-white">
                     Tooth Fillings Oshawa, Ontario
-
                     </h2>
                         
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-2xl">
+                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 dark:text-white md:text-5xl">
                     Did you know that the days when tooth ailments & cavities could only be treated with unsightly metal fillings are gone?
                     </h2>
                     <p class="mt-3 text-gray-500 dark:text-gray-300 md:text-lg">
@@ -56,8 +55,8 @@ const DentalFillings = () => {
             </div>
         </div>
         <div className="flex bg-cover bg-sky-100 transform transition-transform duration-1500 justify-center py-10">
-        <div className="px-40 md:w-3/4">
-          <h1 className="my-5 text-5xl text-blue-900 font-semibold text-center pb-1">
+        <div className="px-10 md:px-40 md:w-3/4">
+          <h1 className="my-5 text-5xl text-blue-900 font-semibold text-left pb-1">
           Choosing the Type of Dental Filling
         </h1>
         <p className="mb-3 text-lg text-gray-700">There are many types of dental fillings, and not all of them are the best choice for everyone. That is why careful evaluation of each filling type is necessary. Each type is categorized based on the material used, such as gold or porcelain fillings. Here is a breakdown of the most common types and their benefits.</p>

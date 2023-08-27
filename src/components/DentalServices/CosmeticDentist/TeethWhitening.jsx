@@ -32,11 +32,11 @@ const TeethWhitening = () => {
                     WHITER & BRIGHTER SMILE
                     </p>
     
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 dark:text-white md:text-5xl">
                     Teeth Whitening
                     </h2>
     
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-2xl">
+                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 dark:text-white md:text-5xl">
                     Now you can have significantly whiter teeth in a matter of a few days using advanced teeth whitening techniques.
                     </h2>
 

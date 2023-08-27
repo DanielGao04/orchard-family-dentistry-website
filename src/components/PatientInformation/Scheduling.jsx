@@ -9,8 +9,8 @@ const Scheduling = () => {
           Book Your Dental Appointment Today! Call: (123) 456-7890
         </p>
       </div>
-      <div className="px-16 md:px-48 py-16 mx-24">
-        <div className="mx-24">
+      <div className="px-10 md:px-64 py-16 md:mx-24">
+        <div className="md:mx-24">
         <section className="mb-16">
           <h1 className="text-6xl font-semibold text-left text-blue-900 ">
             Scheduling

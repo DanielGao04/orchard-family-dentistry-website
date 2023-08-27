@@ -30,11 +30,11 @@ const ToothColouredDentistry = () => {
                     <p class="text-lg text-blue-300">MODERN TOOTH-COLOURED FILLINGS
 </p>
     
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 dark:text-white md:text-5xl">
                     Tooth-Coloured Dentistry
                     </h2>
                         
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-2xl">
+                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 dark:text-white md:text-5xl">
                     Did you know that the days when tooth ailments & cavities could only be treated with unsightly metal fillings are gone?
                     </h2>
                     <p class="mt-3 text-gray-500 dark:text-gray-300 md:text-lg">

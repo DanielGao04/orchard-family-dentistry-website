@@ -29,11 +29,11 @@ const Xray2 = () => {
                 <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">
                     <p class="text-lg text-blue-300">We offer in-office digital x-rays for your convenience</p>
     
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 dark:text-white md:text-5xl">
                     Digital X-Rays
                     </h2>
                         
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-2xl">
+                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 dark:text-white md:text-5xl">
                     Digital x-rays are computer-generated images.
                     </h2>
                     <p class="mt-3 text-gray-500 dark:text-gray-300 md:text-lg">

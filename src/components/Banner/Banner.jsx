@@ -5,7 +5,7 @@ import banner from "../../images/Orchard3.png";
 const Banner = () => {
   return (
     <div
-      className="w-90 bg-center md:bg-cover md:bg-no-repeat md:bg-center md:py-40 lg:py-40 xl:py-80"
+      className="w-90 bg-center md:bg-cover md:bg-no-repeat md:bg-center md:py-40 lg:py-40 xl:py-80 md:shadow-xl md:z-20"
       style={{
         backgroundImage: `url(${banner})`,
         backgroundPosition: "center",
@@ -16,7 +16,7 @@ const Banner = () => {
 
       }}
     >
-      <div className="container text-center text-white py-40 md:mt-40 md:py-40">
+      <div className="container text-center text-white py-40 md:mt-40 md:py-40 ">
         <h1 className="text-5xl capitalize mb-0 mt-52 font-semibold md:mb-5 md: text-white md:text-8xl">
           Eat Wisely, Smile Nicely
         </h1>

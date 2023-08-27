@@ -11,7 +11,7 @@ const EmergencyDentistry = () => {
           Book Your Dental Appointment Today! Call: (123) 456-7890
         </p>
       </div>
-    <div class=" container my-24 ">
+    <div class=" container my-12 md:my-24 ">
       <section class="mb-32 text-center md:text-left">
         <div class="block bg-white">
           <div class="flex flex-wrap items-center">
@@ -23,7 +23,7 @@ const EmergencyDentistry = () => {
                 class="w-full" />
             </div>
             <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
-              <div class="px-6 py-12 md:px-12">
+              <div class="px-4 py-8 md:px-6 md:py-12">
                 <h1 class=" text-4xl font-semi-bold">
                   <span class="text-danger dark:text-danger-500">Need An Emergency Dentist In The Oshawa Area?</span>
                 </h1>
@@ -44,7 +44,7 @@ const EmergencyDentistry = () => {
       </section>
       </div>
       <div className="flex bg-cover bg-sky-100 transform transition-transform duration-1500 justify-center py-10">
-        <div className="px-40 md:w-3/4">
+        <div className="px-10 md:px-40 md:w-3/4">
           <h1 className="my-5 text-5xl text-blue-900 font-semibold text-center pb-1">
             How to Determine If a Dental Problem Is an Emergency
           </h1>

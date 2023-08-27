@@ -12,8 +12,8 @@ const Offers = () => {
     <div className="bg-cover">
 
       {/* Student Discounts Banner */}
-      <div className="bg-blue-100 py-4 px-72 text-blue-900 text-center p-24">
-        <h1 className="text-6xl mt-24 mb-5">
+      <div className="bg-blue-100 py-4 px-7 md:px-72 text-blue-900 text-center md:p-24">
+        <h1 className="text-5xl md:text-6xl mt-24 mb-5">
           Special Offers for All Patients
         </h1>
         <p className="text-3xl mb-24">
@@ -22,9 +22,12 @@ const Offers = () => {
       </div>
 
       {/* First Animated Section */}
-      <div className={`flex bg-cover bg-transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
-        <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
-          <h1 className={`my-5 text-4xl text-blue-900 font-semibold text-center`}>
+      <div className={`md:shadow-lg	flex bg-cover bg-transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+        <div className={`md:px-40 flex flex-col justify-center md:w-3/4`}>
+
+          <img className={`md:w-0 h-1/8 lg:h-1/3 w-full`} src={qualityServiceImg} alt="" />
+          <div className="px-7 md:px-7">
+          <h1 className={`mb-0 my-5 md:mb-5 md:my-0 text-4xl text-blue-900 font-semibold text-center`}>
             Little or No Out-of-Pocket Costs for Insured
             Patients on the Services Below*
           </h1>
@@ -38,22 +41,23 @@ const Offers = () => {
           <p className="text-1xl text-blue-900 whitespace-wrap text-center mx-auto">
             *Patient responsible for deductible & co-payment fees.
           </p>
-          <h1 className={`my-5 text-4xl text-blue-900 font-semibold text-center`}>
+          <h1 className={`my-5 mt-0 mb-0 md:my-0 md:mt-5 md:mb-40 text-3xl md:text-4xl text-blue-900 font-semibold text-center`}>
             At Orchard Family Dentistry, we have convenient hours that won’t make you miss work or school. In fact, we can see you this week & you’ll be in & out within an hour.
           </h1>
+          </div>
         </div>
-        <img className={`md:w-1/8 h-1/8 lg:h-1/3 w-1/3`} src={qualityServiceImg} alt="" />
+        <img className={`md:w-1/3 h-1/8 lg:h-1/3 w-0`} src={qualityServiceImg} alt="" />
       </div>
 
       {/* Second Animated Section */}
 
       {/* Additional Information Section */}
-      <div className="mb-16 justify-center max-w-3xl mx-auto mt-16">
-        <h1 className="text-6xl text-center text-blue-900">Financial Options</h1>
-        <p className="mt-8 text-2xl text-center text-blue-900">
+      <div className="mb-16 justify-center max-w-3xl mx-5 md:mx-auto mt-16">
+        <h1 className="text-5xl md:text-6xl text-center text-blue-900">Financial Options</h1>
+        <p className="md:mt-8 text-2xl text-center text-blue-900">
           Insured & uninsured patients alike have a number of financing options available to them, including:
         </p>
-        <p className="text-3xl text-blue-900 py-8 whitespace-wrap text-left p-48">
+        <p className="text-3xl text-blue-900 py-8 md:py-8 whitespace-wrap text-left md:px-48">
           • Convenient Payment Plans<br />
           • 0% Financing
         </p>

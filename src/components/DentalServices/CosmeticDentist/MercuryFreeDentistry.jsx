@@ -32,11 +32,11 @@ const MercuryFreeDentistry = () => {
                     YOUR OVERALL HEALTH COMES FIRST                    
                     </p>
     
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 dark:text-white md:text-5xl">
                     Mercury-Free Dentistry
                     </h2>
     
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-2xl">
+                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 dark:text-white md:text-5xl">
                     Mercury amalgam (silver) fillings may be hazardous to your health.                    
                     </h2>
 
