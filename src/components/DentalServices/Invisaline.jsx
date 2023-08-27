@@ -4,11 +4,11 @@ import Orchard2 from "../../images/OrchardFarm.jpg";
 
 
 const Invisaline = () => {
-  const [animate, setAnimate] = useState(false);
+  const [setAnimate] = useState(false);
 
   useEffect(() => {
     setAnimate(true);
-  }, []);
+  });
 
   return (
     <section class="bg-white">

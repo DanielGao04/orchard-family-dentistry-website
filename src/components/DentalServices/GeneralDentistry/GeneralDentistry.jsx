@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import qualityServiceImg from "../../../images/dental.jpg";
-import crown from "../../../images/crown.png";
 import xray from "../../../images/x-ray.png";
 import sedation from "../../../images/sedation.png";
 import jaw from "../../../images/jaw.png";

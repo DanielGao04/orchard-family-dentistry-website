@@ -1,5 +1,3 @@
-import qualityServiceImg from "../../images/OrchardFarm.jpg";
-import map from "../../images/location.png";
 import dentist from "../../images/dentist.jpg";
 
 const Contact = () => {

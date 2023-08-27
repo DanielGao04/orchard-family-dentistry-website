@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import useServices from "../../useHook/useServices";
+import React from "react";
+
 
 const Appointment = () => {
   return (

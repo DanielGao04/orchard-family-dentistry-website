@@ -1,16 +1,8 @@
 import React, { useState, useEffect } from "react";
 import qualityServiceImg from "../../../images/dental.jpg";
-import Orchard2 from "../../../images/Orchard2.jpg";
 import crown from "../../../images/crown.png";
 import denture from "../../../images/denture.png";
 import dentalimplant from "../../../images/dental-implant.png";
-import toothcolour from "../../../images/teethcolour.png";
-import veneers from "../../../images/dental-veneer.png";
-import mercury from "../../../images/mercury free.png";
-import whitening from "../../../images/tooth-whitening.png";
-import xray from "../../../images/x-ray.png";
-import sedation from "../../../images/sedation.png";
-import jaw from "../../../images/jaw.png";
 import emergency from "../../../images/emergency.png";
 
 const RestorativeDentistry = () => {

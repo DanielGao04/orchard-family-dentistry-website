@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import qualityServiceImg from "../../images/dental.jpg";
 import Orchard2 from "../../images/Orchard2.jpg";
 import crown from "../../images/crown.png";
 import denture from "../../images/denture.png";
@@ -13,11 +12,11 @@ import sedation from "../../images/sedation.png";
 import jaw from "../../images/jaw.png";
 
 const DentalServices = () => {
-  const [animate, setAnimate] = useState(false);
+  const [ setAnimate] = useState(false);
 
   useEffect(() => {
     setAnimate(true);
-  }, []);
+  });
 
   return (
     <div className="bg-cover">
