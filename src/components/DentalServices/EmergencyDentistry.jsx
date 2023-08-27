@@ -25,10 +25,10 @@ const EmergencyDentistry = () => {
             <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
               <div class="px-4 py-8 md:px-6 md:py-12">
                 <h1 class=" text-4xl font-semi-bold">
-                  <span class="text-danger dark:text-danger-500">Need An Emergency Dentist In The Oshawa Area?</span>
+                  <span class="text-danger">Need An Emergency Dentist In The Oshawa Area?</span>
                 </h1>
                 <h2 class="mb-6 text-2xl ">
-                  <span class="text-danger dark:text-danger-500">The thought of going to an emergency dentist in Oshawa tends to invoke tension and angst for many people.</span>
+                  <span class="text-danger">The thought of going to an emergency dentist in Oshawa tends to invoke tension and angst for many people.</span>
                 </h2>
                 <p class="mb-6 pb-2 text-neutral-500 text-2xl">
                 The anticipation of pain and feeling embarrassed for not having dental care regularly are some of the factors influencing the anxiety people feel. When a painful dental problem occurs, many people are unsure if they should go to an emergency dentist in Oshawa. It’s important to know when a problem can wait for an appointment with a dentist or needs to be taken care of immediately.                </p>

@@ -21,7 +21,7 @@ const SedationDentistry = () => {
 
   return (
   
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white">
         <div class="container px-6 py-5 mx-auto mb-12">
             <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
                 <img class="object-cover w-full lg:mx-6 lg:w-2/4 rounded-xl h-78 lg:h-200" src={Orchard2}alt=""/>
@@ -29,11 +29,11 @@ const SedationDentistry = () => {
                 <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">
                     <p class="text-lg text-blue-300">Amazingly Comfortable Sedation</p>
     
-                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 dark:text-white">
+                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800">
                     Sedation Dentistry
                     </h2>
                         
-                    <h2 class="block mt-4 text-2xl md:text-3xl font-semibold text-gray-800 dark:text-white">
+                    <h2 class="block mt-4 text-2xl md:text-3xl font-semibold text-gray-800">
                     Wake up to a more healthy & beautiful smile with amazingly comfortable sedation dentistry. We care for patients who:
                     </h2>
                     <ul class="list-disc list-inside">

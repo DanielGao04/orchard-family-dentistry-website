@@ -20,7 +20,7 @@ const PorcelainVeneers = () => {
   }, []);
 
   return (
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white">
         <div class="container px-6 py-5 mx-auto mb-12">
             <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
                 
@@ -32,15 +32,15 @@ const PorcelainVeneers = () => {
                     EXCELLENT ALTERNATIVE TO CROWNS
                     </p>
     
-                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 md:text-5xl">
                     Porcelain Veneers
                     </h2>
     
-                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 md:text-5xl">
                     Porcelain veneers are an excellent alternative to crowns & can perfect your smile by masking stains, hiding chips, correcting misalignment & creating uniformity.                    
                     </h2>
 
-                    <p class="mt-3 text-gray-500 dark:text-gray-300 md:text-lg">
+                    <p class="mt-3 text-gray-500 md:text-lg">
                     Veneers can be placed over existing teeth without the removal of any form of tooth structure. Therefore, anesthesia & temporaries are not required. This no-prep technique is perfect for stained, chipped, misaligned or spaced teeth. Bonding porcelain to enamel creates a solid, secure bond, meaning that you’ll have a safe, relatively easy, attractive & long-term solution with porcelain veneers.                    
                     </p>    
 

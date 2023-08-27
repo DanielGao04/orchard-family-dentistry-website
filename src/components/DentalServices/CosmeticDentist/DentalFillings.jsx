@@ -21,7 +21,7 @@ const DentalFillings = () => {
 
   return (
   
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white">
         <div class="container px-6 py-5 mx-auto mb-12">
             <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
                 <img class="object-cover w-full lg:mx-6 lg:w-2/4 rounded-xl h-78 lg:h-200" src={Orchard2}alt=""/>
@@ -31,23 +31,23 @@ const DentalFillings = () => {
 
 </p>
     
-                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 dark:text-white">
+                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800">
                     Tooth Fillings Oshawa, Ontario
                     </h2>
                         
-                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800">
                     Did you know that the days when tooth ailments & cavities could only be treated with unsightly metal fillings are gone?
                     </h2>
-                    <p class="mt-3 text-gray-500 dark:text-gray-300 md:text-lg">
+                    <p class="mt-3 text-gray-500">
                     It helps even out the surface of your tooth, so you can bite and chew food correctly and speak properly. If you are suffering from tooth sensitivity due to loss of enamel, it can be significantly improved with a dental filling. The procedure can also help prevent further decay by closing off any space where bacteria can enter.
                     </p>
 
-                    <p class="mt-3 text-gray-500 dark:text-gray-300 md:text-1xl">
+                    <p class="mt-3 text-gray-500">
                     Our licensed dentists at Taunton Village Dental have the expertise, experience, and tools to perform the dental filling procedure. We offer comprehensive dental care in Oshawa, so you can achieve a healthy and beautiful smile.
 
 </p>
 
-                    <p class="mt-3 text-gray-500 dark:text-gray-300 md:text-1xl">
+                    <p class="mt-3 text-gray-500">
                     From preventive care and routine hygiene to dental crown and root canal treatment, we are capable of helping you with your overall oral health needs. Visit us today to enjoy a comfortable and patient-focused environment.
                     </p>
 

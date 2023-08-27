@@ -44,10 +44,10 @@ const RestorativeDentistry = () => {
             <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
               <div class="px-6 py-12 md:px-12">
                 <h1 class=" text-4xl font-semi-bold">
-                  <span class="text-danger dark:text-danger-500">Restorative Dentistry In Oshawa</span>
+                  <span class="text-danger">Restorative Dentistry In Oshawa</span>
                 </h1>
                 <h2 class="mb-6 text-2xl">
-                  <span class="text-danger dark:text-danger-500">We offer restorative dentistry. We know that even when you do everything right, something can go wrong. If you are suffering from a dental problem, we are here to help.</span>
+                  <span class="text-danger">We offer restorative dentistry. We know that even when you do everything right, something can go wrong. If you are suffering from a dental problem, we are here to help.</span>
                 </h2>
                 <p class="mb-6 pb-2 text-neutral-500 text-2xl">
                 Modern technology, combined with the in-depth experience of our clinical team, can assure you of a successful & long-lasting result. Whether the cause is accident or disease, we can restore your smile with Taunton Village Dental‘s many restorative dentistry options – Contact us today to learn more!                </p>

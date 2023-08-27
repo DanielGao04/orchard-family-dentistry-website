@@ -36,10 +36,10 @@ const CosmeticDentistry = () => {
             <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
               <div class="px-6 py-12 md:px-12">
                 <h1 class=" text-4xl font-semi-bold">
-                  <span class="text-danger dark:text-danger-500">Cosmetic Dentistry in Oshawa</span>
+                  <span class="text-danger">Cosmetic Dentistry in Oshawa</span>
                 </h1>
                 <h2 class="mb-6 text-2xl">
-                  <span class="text-danger dark:text-danger-500">Having a great smile can make a huge difference in the way you look & feel.</span>
+                  <span class="text-danger">Having a great smile can make a huge difference in the way you look & feel.</span>
                 </h2>
                 <p class="mb-3 text-neutral-500 text-2xl">
                 Taunton Village Dental offers a complete range of cosmetic dentistry treatments to create the confident smile you’ve always wanted.</p>

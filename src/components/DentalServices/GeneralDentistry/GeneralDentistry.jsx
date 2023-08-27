@@ -37,10 +37,10 @@ const GeneralDentistry = () => {
             <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
               <div class="px-4 py-12 md:px-12">
                 <h1 class=" text-4xl font-semi-bold">
-                  <span class="text-danger dark:text-danger-500">General Dental Care</span>
+                  <span class="text-danger">General Dental Care</span>
                 </h1>
                 <h2 class="mb-6 text-2xl ">
-                  <span class="text-danger dark:text-danger-500">Here at Taunton Village Dental, we are committed to making sure your dental experience is comfortable, personalized & affordable.</span>
+                  <span class="text-danger">Here at Taunton Village Dental, we are committed to making sure your dental experience is comfortable, personalized & affordable.</span>
                 </h2>
                 <p class="mb-6 pb-2 text-neutral-500 text-2xl">
                 We are part of a Oshawa tradition of dental excellence, offering state-of-the-art general dentistry services. We are conveniently located in Oshawa & are here for all your general dentistry needs. With a focus on family & cosmetic dentistry, we are happy to help you achieve a beautiful smile in our comfortable, safe & friendly environment. Our team offers a wide array of procedures, including crowns, dental implants, tooth-coloured dentistry, sedation dentistry, teeth whitening & more.           

@@ -20,7 +20,7 @@ const TeethWhitening = () => {
   }, []);
 
   return (
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white">
         <div class="container px-6 py-5 mx-auto mb-12">
             <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
                 
@@ -32,15 +32,15 @@ const TeethWhitening = () => {
                     WHITER & BRIGHTER SMILE
                     </p>
     
-                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 md:text-5xl">
                     Teeth Whitening
                     </h2>
     
-                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800 md:text-5xl">
                     Now you can have significantly whiter teeth in a matter of a few days using advanced teeth whitening techniques.
                     </h2>
 
-                    <p class="mt-3 text-gray-500 dark:text-gray-300 md:text-lg">
+                    <p class="mt-3 text-gray-500 md:text-lg">
                     Both comfortable & affordable, our teeth whitening procedure involves you wearing a specially crafted tray for a few hours in order to achieve a surprising difference in your smile! Call Taunton Village Dental today for more details.                    
                     </p>    
 

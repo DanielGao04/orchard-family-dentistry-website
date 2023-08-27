@@ -11,7 +11,7 @@ const Invisaline = () => {
   }, []);
 
   return (
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white">
         <div class="container px-6 py-5 mx-auto mb-12">
             <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
                 
@@ -23,15 +23,15 @@ const Invisaline = () => {
                     You can get that beautiful, straighter smile!                   
                     </p>
     
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-5xl">
+                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 md:text-5xl">
                     What Orthodontics and Invisalign Can Do for Your Smile
                     </h2>
     
-                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 dark:text-white md:text-2xl">
+                    <h2 class="block mt-4 text-6xl font-semibold text-gray-800 md:text-2xl">
                     The family-own dental practice of Taunton Village Dental in Oshawa offers complete orthodontics and restorative dentistry that will have you smiling from ear to ear!          
                     </h2>
 
-                    <p class="mt-3 text-gray-500 dark:text-gray-300 md:text-lg">
+                    <p class="mt-3 text-gray-500 md:text-lg">
                     The office is open seven days a week with early morning, late evening, and weekend appointments available so you will always have convenience with your dental care. Treatment options for orthodontics include Invisalign, traditional metal braces, clear braces, braces put behind the teeth, so they are hidden (lingual braces), temporary anchoring devices, and retainers. We serve both children and adults in their orthodontic needs.
                     Here is more information about our orthodontic options and treatments.
                     </p>    
