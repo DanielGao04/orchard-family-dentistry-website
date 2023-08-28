@@ -27,7 +27,7 @@ const DentalServices = () => {
             Dental Care Services
           </h1>
           <h2 className="my-5 mx-8 text-2xl md:text-2xl text-left text-blue-200 md:text-left md:max-w-[80%]">
-          At Taunton Village Dental, we offer an array of different dental care services that we can provide for your family right here in Oshawa, ON. From preventive cleanings to dental implants & dentures, Taunton Village Dental is the place to go for all of your dental needs & in one convenient location. Please take your time to view & read more about all the dental services below that our patients can receive.
+          At Orchard Family Dentistry, we offer an array of different dental care services that we can provide for your family right here in Burlington, ON. From preventive cleanings to dental implants & dentures, Orchard Family Dentistry is the place to go for all of your dental needs & in one convenient location. Please take your time to view & read more about all the dental services below that our patients can receive.
           </h2>
         </div>
       </div>
@@ -44,7 +44,7 @@ const DentalServices = () => {
       <div className="py-4 mx-7 text-blue-900 text-center md:px-80">
         <h1 className="text-4xl md:text-6xl md:mt-20 mb-5">Preventive Dental Care for the Entire Family</h1>
         <p className="text-blue-400 text-xl mx-8 md:text-2xl">
-        At Taunton Village Dental, we practice dentistry for the whole family. From preventive education & regular hygiene to identifying & caring for dental issues that may arise, your continued oral health is our top priority.
+        At Orchard Family Dentistry, we practice dentistry for the whole family. From preventive education & regular hygiene to identifying & caring for dental issues that may arise, your continued oral health is our top priority.
         </p>
       </div>
 
@@ -105,7 +105,7 @@ const DentalServices = () => {
       <div className="py-4 text-blue-900 text-center md:px-80">
       <h1 className="text-4xl md:text-6xl mt-20 mb-5">Cosmetic Dental Care</h1>
       <p className="text-blue-400 text-xl mx-8 md:text-2xl">
-        Having a great smile can make a huge difference in the way you look & feel. Taunton Village Dental offers a complete range of cosmetic dental care treatments to create the confident smile you’ve always wanted. We begin with a detailed smile assessment, discussing with you which aspects you like & dislike about your smile. Once our assessment is complete, we will discuss with you treatment options to help your smile look more natural, youthful & healthy.
+        Having a great smile can make a huge difference in the way you look & feel. Orchard Family Dentistry offers a complete range of cosmetic dental care treatments to create the confident smile you’ve always wanted. We begin with a detailed smile assessment, discussing with you which aspects you like & dislike about your smile. Once our assessment is complete, we will discuss with you treatment options to help your smile look more natural, youthful & healthy.
         </p>
         <div className="mt-8 p-7 md:flex justify-center md:space-x-4">
           {/* Tooth-Coloured Dentistry */}
@@ -168,10 +168,10 @@ const DentalServices = () => {
       </div>
 
 
-      <div className="py-4 text-blue-900 text-center md:px-80 md:mb-24">
+      <div className="py-4 text-blue-900 text-center md:px-80 md:mb-16">
       <h1 className="text-4xl mx-7 md:text-6xl md:mt-20 mb-5">General Dental Care</h1>
       <p className="text-blue-400 text-xl mx-8 md:text-2xl">
-        The dentists of Taunton Village Dental have extensive experience in the diagnosis, treatment, management & coordination of dental care services to care for their patients & their families. General dental care includes everything from preventive education & regular visits to fillings, crowns, bridges & more. Moreover, the dentists provide care for both kids & adults, & know how best to care for both. At Taunton Village Dental, your continued oral health is our top priority.
+        The dentists of Orchard Family Dentistry have extensive experience in the diagnosis, treatment, management & coordination of dental care services to care for their patients & their families. General dental care includes everything from preventive education & regular visits to fillings, crowns, bridges & more. Moreover, the dentists provide care for both kids & adults, & know how best to care for both. At Orchard Family Dentistry, your continued oral health is our top priority.
         </p>
         <div className="mt-8 p-7 md:flex justify-center md:space-x-4">
           {/* Digital X-Rays */}
@@ -203,11 +203,23 @@ const DentalServices = () => {
             </a>
           </div>
           {/* TMD (Jaw Pain) Therapy */}
-          <div className="mt-5 w-full md:w-1/3">
-            <a href="/">
-              <div className="min-w-sm rounded overflow-hidden shadow-lg p-4 h-full hover:bg-blue-300 hover:text-white transition">
+          <div className="my-5 w-full md:w-1/3">
+            
+            <a href="/askfja;sldkfjals;dkfjals;kfjl;askdfjal;sdkfjals;kfjl;
+            sakdfjal;skdfjasld;kfjasl;fkjsal;dfkjasd;flkjasdfl;kajsfl
+            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
+            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
+            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
+            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
+            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
+            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
+            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
+            ;kasjdfl;aksjfl;kajsf;lkasdfj;lkasdfjl;kjfasdl;kfl;jafslkd;jflsajkdflk
+            jsadf;lkjdasf;lkjsadfl;ksajdfl;kajsfdasflj;ksajdf;lkasjf;lsakjf">
+
+              <div className="rounded overflow-hidden shadow-lg p-4 hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
-                  <img className="w-1/3 h-auto" src={jaw} alt="chair" />
+                  <img className="w-1/3" src={jaw} alt="chair" />
                 </div>
                 <h1 className="text-2xl">TMD (Jaw Pain) Therapy</h1>
                 <p className="text-1xl">
