@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import diseaseprevention from "../../images/dental.jpg";
+import diseaseprevention from "../../images/diseaseprevention.jpg";
 
 const QualityService = () => {
   const [animate, setAnimate] = useState(false);

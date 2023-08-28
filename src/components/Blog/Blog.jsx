@@ -1,4 +1,4 @@
-import dentist from "../../images/dentist.jpg";
+import dentist from "../../images/blog.jpg";
 
 const Contact = () => {
 

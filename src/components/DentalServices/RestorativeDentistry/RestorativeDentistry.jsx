@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import qualityServiceImg from "../../../images/dental.jpg";
+import qualityServiceImg2 from "../../../images/restorativedentistry.jpg";
 import crown from "../../../images/crown.png";
 import denture from "../../../images/denture.png";
 import dentalimplant from "../../../images/dental-implant.png";
@@ -29,7 +30,7 @@ const RestorativeDentistry = () => {
             <div
               class="block w-full shrink-0 grow-0 basis-auto md:w-4/12 lg:flex">
               <img
-                src={qualityServiceImg}
+                src={qualityServiceImg2}
                 alt=""
                 class="w-full" />
             </div>

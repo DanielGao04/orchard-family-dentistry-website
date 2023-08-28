@@ -1,4 +1,4 @@
-import qualityServiceImg from "../../images/dental.jpg";
+import qualityServiceImg from "../../images/preventivedentistry.jpg";
 
 const PreventiveDentistry = () => {
 

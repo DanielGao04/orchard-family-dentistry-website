@@ -1,5 +1,5 @@
 import React from "react";
-import dentist from "../../images/dentist.jpg";
+import dentist from "../../images/patientinformation.png";
 
 const PatientInformation = () => {
   

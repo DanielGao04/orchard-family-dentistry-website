@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Orchard2 from "../../images/Orchard2.jpg";
+import Orchard2 from "../../images/dentalservices.png";
 import crown from "../../images/crown.png";
 import denture from "../../images/denture.png";
 import dentalimplant from "../../images/dental-implant.png";

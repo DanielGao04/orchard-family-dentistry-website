@@ -1,5 +1,5 @@
 import React from "react";
-import qualityServiceImg from "../../images/dental.jpg";
+import qualityServiceImg from "../../images/emergencydentistry.jpg";
 
 const EmergencyDentistry = () => {
 
