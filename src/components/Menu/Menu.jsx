@@ -249,7 +249,7 @@ const Menu = () => {
                       
                       <li>
                         <div class="flex">
-                          <a href="/dentalservices/patienteducation">
+                          <a href="/dentalservices/cosmeticdentist">
                             <button type="button" class="items-center w-full mx-6 py-2">
                               Cosmetic Dentist
                             </button>
