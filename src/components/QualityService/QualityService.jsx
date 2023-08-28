@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import qualityServiceImg from "../../images/dental.jpg";
+import qualityServiceImg from "../../images/qualityservice.png";
 
 const QualityService = () => {
   const [animate, setAnimate] = useState(false);
@@ -28,7 +28,7 @@ const QualityService = () => {
     // Mobile Screen
     <section>
       <div className={`md:hidden relative overflow-hidden bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
-        <img className={`w-full`} src={qualityServiceImg} alt="Quality Service" />
+        <img className={`w-max`} src={qualityServiceImg} alt="Quality Service" />
         <div className={`absolute inset-0 flex flex-col justify-center px-5 py-12 ext-center md:text-left bg-opacity-75 bg-white`}>
           <h1 className={`text-3xl text-blue-900 mb-4 text-center`}>
             Trusted, Personalized & Affordable Dental Care

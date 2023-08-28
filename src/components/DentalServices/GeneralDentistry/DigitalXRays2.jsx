@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Orchard2 from "../../../images/OrchardFarm.jpg";
+import Orchard2 from "../../../images/digitalxray2.jpg";
 
 const Xray2 = () => {
   const [,setAnimate] = useState(false);
