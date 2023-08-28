@@ -39,10 +39,10 @@ const GeneralDentistry = () => {
                   <span class="text-danger">General Dental Care</span>
                 </h1>
                 <h2 class="mb-6 text-2xl ">
-                  <span class="text-danger">Here at Taunton Village Dental, we are committed to making sure your dental experience is comfortable, personalized & affordable.</span>
+                  <span class="text-danger">Here at Orchard Family Dentistry, we are committed to making sure your dental experience is comfortable, personalized & affordable.</span>
                 </h2>
                 <p class="mb-6 pb-2 text-neutral-500 text-2xl">
-                We are part of a Oshawa tradition of dental excellence, offering state-of-the-art general dentistry services. We are conveniently located in Oshawa & are here for all your general dentistry needs. With a focus on family & cosmetic dentistry, we are happy to help you achieve a beautiful smile in our comfortable, safe & friendly environment. Our team offers a wide array of procedures, including crowns, dental implants, tooth-coloured dentistry, sedation dentistry, teeth whitening & more.           
+                We are part of a Burlington tradition of dental excellence, offering state-of-the-art general dentistry services. We are conveniently located in Burlington & are here for all your general dentistry needs. With a focus on family & cosmetic dentistry, we are happy to help you achieve a beautiful smile in our comfortable, safe & friendly environment. Our team offers a wide array of procedures, including crowns, dental implants, tooth-coloured dentistry, sedation dentistry, teeth whitening & more.           
                 </p>
                 <a href="tel:99999999">
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">

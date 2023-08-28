@@ -21,16 +21,16 @@ const TeethWhitening = () => {
                     WHITER & BRIGHTER SMILE
                     </p>
     
-                    <h2 class="block mt-4 text-4xl md:text-5xl font-semibold text-gray-800">
+                    <h2 class="block mt-4 text-3xl md:text-5xl font-semibold text-gray-800">
                     Teeth Whitening
                     </h2>
     
-                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800">
+                    <h2 class="block mt-2 md:mt-4 md:text-3xl font-semibold text-gray-800">
                     Now you can have significantly whiter teeth in a matter of a few days using advanced teeth whitening techniques.
                     </h2>
 
                     <p class="mt-3 text-gray-500 md:text-lg">
-                    Both comfortable & affordable, our teeth whitening procedure involves you wearing a specially crafted tray for a few hours in order to achieve a surprising difference in your smile! Call Taunton Village Dental today for more details.                    
+                    Both comfortable & affordable, our teeth whitening procedure involves you wearing a specially crafted tray for a few hours in order to achieve a surprising difference in your smile! Call Orchard Family Dentistry today for more details.                    
                     </p>    
 
                 </div>

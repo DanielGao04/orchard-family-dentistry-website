@@ -16,14 +16,15 @@ const ToothColouredDentistry = () => {
                 <img class="object-cover w-full lg:mx-6 lg:w-2/4 rounded-xl h-78 lg:h-200" src={Orchard2}alt=""/>
     
                 <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">
-                    <p class="text-lg text-blue-300">MODERN TOOTH-COLOURED FILLINGS
-</p>
+                    <p class="text-lg text-blue-300">
+                      MODERN TOOTH-COLOURED FILLINGS
+                    </p>
     
-                    <h2 class="block mt-4 text-4xl md:text-5xl font-semibold text-gray-800">
+                    <h2 class="block mt-4 text-3xl md:text-5xl font-semibold text-gray-800">
                     Tooth-Coloured Dentistry
                     </h2>
                         
-                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800">
+                    <h2 class="block mt-2 md:mt-4 md:text-3xl font-semibold text-gray-800">
                     Did you know that the days when tooth ailments & cavities could only be treated with unsightly metal fillings are gone?
                     </h2>
                     <p class="mt-3 text-gray-500 md:text-lg">

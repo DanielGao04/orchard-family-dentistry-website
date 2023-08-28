@@ -11,11 +11,11 @@ const PatientEducation = () => {
       <div className="px-10 md:px-16 md:px-48 py-16 md:mx-24">
         <div className="md:mx-24">
         <section className="mb-16">
-          <h1 className="text-6xl font-semibold text-left text-blue-900 ">
+          <h1 className="text-5xl md:text-6xl font-semibold text-left text-blue-900 ">
           Patient Education
           </h1>
           <p className="mt-4 text-3xl text-left text-blue-900 ">
-          At Studio Dental, we want you to be an active participant in your own health. We take the time to listen to your concerns & explain different options, so you can make informed decisions about your dental care & stay involved.
+          At Orchard Family Dentistry, we want you to be an active participant in your own health. We take the time to listen to your concerns & explain different options, so you can make informed decisions about your dental care & stay involved.
           </p>
           <p className="mt-4 text-2xl text-left text-blue-900 ">
           We encourage an open dialogue between our dental professionals & our patients. Like any health professionals, we are prone to doctor-speak, but we always strive to speak plainly & avoid jargon! If we ever say a word you don't 

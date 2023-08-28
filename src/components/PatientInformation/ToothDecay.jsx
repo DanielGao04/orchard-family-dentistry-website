@@ -11,7 +11,7 @@ const ToothDecay = () => {
       <div className="px-10 md:px-16 md:px-48 py-16 md:mx-24">
         <div className="md:mx-24">
         <section className="mb-16">
-          <h1 className="text-6xl font-semibold text-left text-blue-900 ">
+          <h1 className="text-5xl md:text-6xl font-semibold text-left text-blue-900 ">
           Tooth Decay
           </h1>
           <p className="mt-4 text-2xl text-left text-blue-900 ">

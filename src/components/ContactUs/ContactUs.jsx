@@ -11,10 +11,10 @@ const Contact = () => {
         className={`flex bg-cover bg-sky-200 transform transition-transform duration-1500 justify-center`}
       >
         <div className={`px-5 py-16 md:py-15 md:px-40 md:p-15 flex flex-col justify-center md:w-3/4`}>
-          <h1 className={`my-5 text-5xl md:text-6xl text-sky-900 font-semibold text-center`}>
+          <h1 className={`my-5 text-5xl md:text-6xl text-sky-900 md:font-semibold text-center`}>
           Contact Orchard Family Dentistry
           </h1>
-          <p className={`text-2xl md:text-3xl text-blue-900 md:py-8 whitespace-wrap text-center`}>
+          <p className={`text-lg md:text-3xl text-blue-900 md:py-8 whitespace-wrap text-center`}>
           If you are looking for dentists in Orchard Family Dentistry, look no further. 
           We’ve revolutionized dentistry to be truly personalized & convenient. 
           We have hours that fit your busy schedule. Plus, we take the time to 
@@ -33,10 +33,10 @@ const Contact = () => {
   <img className={`md:w-0 h-1/8 w-full`} src={qualityServiceImg} alt="" />
     
     <div className="my-5 md:my-0 mx-10 md:mx-0">
-      <h1 className={`mt-10 md:mt-0 md:my-5 text-6xl text-green-800 font-semibold text-left`}>
+      <h1 className={`mt-10 md:mt-0 md:my-5 text-5xl md:text-6xl text-green-800 md:font-semibold text-left`}>
         Contact Orchard Family Dentistry
       </h1>
-      <p className={`text-3xl py-8 text-black whitespace-wrap text-left`}>
+      <p className={`text-lg md:text-3xl py-8 text-black whitespace-wrap text-left`}>
         If you are looking for dentists in Orchard Family Dentistry, look no further.
         We’ve revolutionized dentistry to be truly personalized & convenient.
         We have hours that fit your busy schedule. Plus, we take the time to

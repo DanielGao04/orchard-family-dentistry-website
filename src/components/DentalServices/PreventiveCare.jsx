@@ -23,7 +23,7 @@ const PreventiveDentistry = () => {
             </div>
             <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
               <div class="px-6 py-12 md:px-12">
-                <h1 class=" text-4xl font-semi-bold">
+                <h1 class="mb-3 md:mb-0 text-4xl font-semi-bold">
                   <span class="text-danger">Preventive Care for the Entire Family</span>
                 </h1>
                 <h2 class="mb-6 text-2xl ">

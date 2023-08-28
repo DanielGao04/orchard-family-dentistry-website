@@ -18,8 +18,8 @@ const RootCanalTherapy = () => {
                 <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">
                     <p class="text-lg text-blue-300">Why Root Canals Are the Right Dental Option</p>
     
-                    <h2 class="block mt-4 text-4xl md:text-4xl font-semibold text-gray-800 md:text-5xl">
-                    Root Canal Treatment in Oshawa
+                    <h2 class="block mt-4 text-3xl md:text-4xl font-semibold text-gray-800 md:text-5xl">
+                    Root Canal Treatment in Burlington
                     </h2>
                         
                     <p class="mt-3 text-gray-500 md:text-lg">
@@ -33,7 +33,7 @@ const RootCanalTherapy = () => {
 
         <div className="flex bg-cover bg-sky-100 transform transition-transform duration-1500 justify-center py-10">
         <div className="px-10 md:px-40 md:w-3/4">
-          <h1 className="my-5 text-5xl text-blue-900 font-semibold text-center pb-1">
+          <h1 className="my-5 text-4xl md:text-5xl text-blue-900 font-semibold text-left md:text-center pb-1">
             What Happens During a Root Canal
           </h1>
                    
@@ -56,11 +56,11 @@ const RootCanalTherapy = () => {
                 </li>
             </ul>
         </div>
-          <h1 className=" text-5xl text-blue-900 font-semibold text-left pt-7 pb-1">
-          Taunton Village Dental Services
+          <h1 className="text-4xl md:text-5xl text-blue-900 font-semibold text-left pt-7 pb-1">
+          Orchard Family Dentistry Services
           </h1>
-          <p className=" p-2 my-2 text-2xl text-green-900 text-left mb-12">
-          Taunton Village Dental in Oshawa offers full-service oral care including preventive dental care, restorative dental solutions, cosmetic dental services, and emergency dental care. It provides root canals and crowns among its many services. You will need to maintain oral care after a root canal to promote healing such as brushing, flossing, and using an antibacterial oral rinse. The dentist may also prescribe antibiotics to stop the spread or prevent infection.
+          <p className=" md:p-2 my-2 text-2xl text-green-900 text-left mb-12">
+          Orchard Family Dentistry in Burlington offers full-service oral care including preventive dental care, restorative dental solutions, cosmetic dental services, and emergency dental care. It provides root canals and crowns among its many services. You will need to maintain oral care after a root canal to promote healing such as brushing, flossing, and using an antibacterial oral rinse. The dentist may also prescribe antibiotics to stop the spread or prevent infection.
 
       
             </p>

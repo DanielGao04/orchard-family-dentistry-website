@@ -22,16 +22,16 @@ const MercuryFreeDentistry = () => {
                     YOUR OVERALL HEALTH COMES FIRST                    
                     </p>
     
-                    <h2 class="block mt-4 text-4xl md:text-5xl font-semibold text-gray-800">
+                    <h2 class="block mt-4 text-3xl md:text-5xl font-semibold text-gray-800">
                     Mercury-Free Dentistry
                     </h2>
     
-                    <h2 class="block mt-4 text-3xl md:text-3xl font-semibold text-gray-800">
+                    <h2 class="block mt-2 md:mt-4 md:text-3xl font-semibold text-gray-800">
                     Mercury amalgam (silver) fillings may be hazardous to your health.                    
                     </h2>
 
                     <p class="mt-3 text-gray-500 md:text-lg">
-                    At Taunton Village Dental, we believe that the overall health of our patients always comes first. Accordingly, at our office we have elected to only use new & advanced fillings made of tooth-coloured materials that contain no metals or mercury. It’s just one more way that we show our patients how much we care. Your safety & smile are our primary concerns!                    
+                    At Orchard Family Dentistry, we believe that the overall health of our patients always comes first. Accordingly, at our office we have elected to only use new & advanced fillings made of tooth-coloured materials that contain no metals or mercury. It’s just one more way that we show our patients how much we care. Your safety & smile are our primary concerns!                    
                     </p>    
 
                 </div>
