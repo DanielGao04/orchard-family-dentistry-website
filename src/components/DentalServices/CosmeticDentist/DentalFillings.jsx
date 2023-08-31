@@ -13,7 +13,7 @@ const DentalFillings = () => {
     <section class="bg-white">
         <div class="container px-6 py-5 mx-auto mb-12">
             <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
-                <img class="object-cover w-full lg:mx-6 lg:w-2/4 rounded-xl h-78 lg:h-200" src={Orchard2}alt=""/>
+                <img class="object-cover w-full lg:mx-2 lg:w-2/4 rounded-xl h-78 lg:h-200" src={Orchard2}alt=""/>
     
                 <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6">
                     <p class="text-lg text-blue-300">

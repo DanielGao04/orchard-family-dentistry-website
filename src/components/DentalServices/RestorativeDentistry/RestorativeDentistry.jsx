@@ -63,7 +63,7 @@ const RestorativeDentistry = () => {
 
       <img className={`md:hidden w-full`} src={qualityServiceImg} alt="" />
 
-            <a href="/DentalServices/GeneralDentistry/DigitalXRays2" className="mb-5 md:mb-0 mt-5 md:mt-0">
+            <a href="/DentalServices/RestorativeDentistry/Crowns" className="mb-5 md:mb-0 mt-5 md:mt-0">
             <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 md:mb-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={crown} alt="crown" />

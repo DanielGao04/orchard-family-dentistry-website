@@ -27,7 +27,7 @@ const QualityService = () => {
 
     // Mobile Screen
     <section>
-      <div className={`md:hidden relative overflow-hidden bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+      <div className={`md:hidden relative overflow-hidden bg-sky-200 transform  transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
         <img className={`w-max`} src={qualityServiceImg} alt="Quality Service" />
         <div className={`absolute inset-0 flex flex-col justify-center px-5 py-12 ext-center md:text-left bg-opacity-75 bg-white`}>
           <h1 className={`text-3xl text-blue-900 mb-4 text-center`}>
@@ -46,7 +46,7 @@ const QualityService = () => {
             Trusted, Personalized & Affordable Dental Care for Your Whole Family
           </h1>
           <p className={`text-3xl text-blue-900 py-8 whitespace-wrap text-center`}>
-            At Lake Tahoe Dental, it’s the mission of our caring team to provide
+            At Orchard Family Dentistry, it’s the mission of our caring team to provide
             the highest level of convenience & personalized care for your entire
             family. We are your one-stop location for all aspects of safe &
             modern dentistry & we want to do our part to keep you healthy through

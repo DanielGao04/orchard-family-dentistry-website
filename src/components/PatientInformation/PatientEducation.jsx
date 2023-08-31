@@ -131,39 +131,47 @@ const PatientEducation = () => {
             Additional Information
           </h2>
           
-          <nav className="nav-container flex justify-left text-3xl">
+          <nav className="nav-container flex justify-left text-xl md:text-3xl">
             <div className="nav-column mr-8">
               <ul className="space-y-1">
-
                 <li>
-                  <a href="/patientinformation/patienteducation/digitalxrays" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/scheduling" className="underline md:no-underline md:hover:underline transition duration-300">
+                    Scheduling
+                  </a>
+                </li>
+                <li>
+                  <a href="/patientinformation/studentdiscount" className="underline md:no-underline hover:underline transition duration-300">
+                    Student Discounts
+                  </a>
+                </li>
+
+                <li className="text-left justify-left">
+                  <a href="/patientinformation/patienteducation/digitalxrays" className="underline md:no-underline hover:underline transition duration-300">
                     Digital X-Rays
                   </a>
                 </li>
-                <li>
-                  <a href="/patientinformation/patienteducation/intraoralcamera" className="hover:underline transition duration-300">
-                    Intraoral Camera
-                  </a>
-                </li>
-
               </ul>
             </div>
             
             <div className="nav-column">
               <ul className="space-y-1">
-
                 <li>
-                  <a href="/patientinformation/patienteducation/localanesthesia" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/patienteducation/intraoralcamera" className="underline md:no-underline hover:underline transition duration-300">
+                    Intraoral Camera
+                  </a>
+                </li>
+                <li>
+                  <a href="/patientinformation/patienteducation/localanesthesia" className="underline md:no-underline hover:underline transition duration-300">
                     Local Anesthesia
                   </a>
                 </li>
                 <li>
-                  <a href="/patientinformation/patienteducation/patientsafety" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/patienteducation/patientsafety" className="underline md:no-underline hover:underline transition duration-300">
                     Patient Safety
                   </a>
                 </li>
                 <li>
-                  <a href="/patientinformation/patienteducation/toothdecay" className="hover:underline transition duration-300">
+                  <a href="/patientinformation/patienteducation/toothdecay" className="underline md:no-underline hover:underline transition duration-300">
                     Tooth Decay
                   </a>
                 </li>

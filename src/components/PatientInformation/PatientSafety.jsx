@@ -15,7 +15,7 @@ const PatientSafety = () => {
           Your Safety Is Our Top Priority
           </h1>
           <p className="mt-4 text-2xl text-left text-blue-900 ">
-          At Lake Tahoe Dental, your health & safety is our top priority. We do everything we can to make sure our office is as clean & sterile as possible, so you don’t have to worry about getting sick at your appointment.
+          At Orchard Family Dentistry, your health & safety is our top priority. We do everything we can to make sure our office is as clean & sterile as possible, so you don’t have to worry about getting sick at your appointment.
           </p>
         </section>
 
