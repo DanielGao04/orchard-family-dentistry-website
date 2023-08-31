@@ -41,16 +41,16 @@ const Footer = () => {
           <h1 className="text-2xl font-Poppins">Quick Links</h1>
           <ul className="py-3.5">
             <li className="py-0.5 hover:text-primary">
-              <Link to="/">Home</Link>
+              <a href="/">Home</a>
             </li>
             <li className="py-0.5 hover:text-primary">
-              <Link to="/about">About Us</Link>
+              <a href="/MeetUs">About Us</a>
             </li>
             <li className="py-0.5 hover:text-primary">
-              <Link to="/services">Services</Link>
+              <a href="/dentalservices">Services</a>
             </li>
             <li className="py-0.5 hover:text-primary">
-              <Link to="/contact">Contact us</Link>
+              <a href="/ContactUs">Contact Us</a>
             </li>
           </ul>
         </div>
