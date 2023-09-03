@@ -22,7 +22,7 @@ const Offers = () => {
       </div>
 
       {/* First Animated Section */}
-      <div className={`md:shadow-lg	flex bg-cover bg-transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+      <div className={`md:shadow-lg	flex bg-cover bg-transform items-center transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className={`md:px-40 flex flex-col justify-center md:w-3/4`}>
 
           <img className={`md:w-0 h-1/8 lg:h-1/3 w-full`} src={qualityServiceImg} alt="" />
@@ -41,7 +41,7 @@ const Offers = () => {
           <p className="text-1xl text-blue-900 whitespace-wrap text-center mx-auto">
             *Patient responsible for deductible & co-payment fees.
           </p>
-          <h1 className={`my-5 mt-0 mb-0 md:my-0 md:mt-5 md:mb-40 text-3xl md:text-4xl text-blue-900 font-semibold text-center`}>
+          <h1 className={`my-5 mt-0 mb-0 md:my-0 md:mt-5 text-3xl md:text-4xl text-blue-900 font-semibold text-center`}>
             At Orchard Family Dentistry, we have convenient hours that won’t make you miss work or school. In fact, we can see you this week & you’ll be in & out within an hour.
           </h1>
           </div>

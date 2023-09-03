@@ -34,7 +34,9 @@ const Footer = () => {
 
         <div className="mb-5 w-1/2 mx-auto md:w-1/3 md:w-1/5 md:mb-6">
           {/* Image Section */}
-          <img src={footerImage} alt="" className="mx-7" />
+          <a href="/">
+            <img src={footerImage} alt=""/>
+          </a>
         </div>
         
         <div className="text-center md:w-1/3 md:text-right">
