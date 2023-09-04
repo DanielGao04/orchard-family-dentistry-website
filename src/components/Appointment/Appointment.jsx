@@ -65,6 +65,9 @@ const Appointment = () => {
           className="border-opacity-100 w-full border px-4 border-gray-800 py-2"
           rows="4"
           cols="50"
+          type="text"
+          id="reason"
+          name="reason"
           placeholder="Reason for your visit"
           required
         />
