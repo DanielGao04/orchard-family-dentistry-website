@@ -5,7 +5,7 @@ import banner from "../../images/Orchard3.png";
 const Banner = () => {
   return (
     <div
-      className="md:w-90 bg-center md:bg-cover md:bg-no-repeat md:bg-center py-20 md:py-20 lg:py-20 xl:py-28 md:shadow-xl md:z-20"
+      className="md:w-90 bg-center md:bg-cover md:bg-no-repeat md:bg-center py-20 md:py-20 lg:py-20 xl:py-28 md:shadow-xl md:z-6"
       style={{
         backgroundImage: `url(${banner})`,
         backgroundPosition: "center",

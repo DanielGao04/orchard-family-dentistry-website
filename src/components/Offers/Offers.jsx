@@ -22,11 +22,11 @@ const Offers = () => {
       </div>
 
       {/* First Animated Section */}
-      <div className={`md:shadow-lg	flex bg-cover bg-transform items-center transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+      <div className={`shadow-lg flex bg-cover bg-transform items-center transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className={`md:px-40 flex flex-col justify-center md:w-3/4`}>
 
-          <img className={`md:w-0 h-1/8 lg:h-1/3 w-full`} src={qualityServiceImg} alt="" />
-          <div className="px-7 md:px-7">
+          <img className={`md:w-0 h-auto w-full`} src={qualityServiceImg} alt="tree" />
+          <div className="px-7 py-5 md:w-6/7 md:px-0">
           <h1 className={`mb-0 my-5 md:mb-5 md:my-0 text-4xl text-blue-900 font-semibold text-center`}>
             Little or No Out-of-Pocket Costs for Insured
             Patients on the Services Below*
@@ -46,7 +46,7 @@ const Offers = () => {
           </h1>
           </div>
         </div>
-        <img className={`md:w-1/3 h-1/8 lg:h-1/3 w-0`} src={qualityServiceImg} alt="" />
+        <img className={`md:w-1/3 h-auto w-0`} src={qualityServiceImg} alt="tree" />
       </div>
 
       {/* Second Animated Section */}

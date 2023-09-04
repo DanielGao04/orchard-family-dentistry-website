@@ -33,25 +33,25 @@ const DentalServices = () => {
       </div>
 
       {/* Student Discounts Banner */}
-      <div className="py-4 text-blue-900 text-center md:px-80">
-        <h1 className="text-4xl mx-7 md:text-6xl mt-10 md:mt-20 mb-5">The professionals on our dental care team have dedicated their careers to providing the best care possible to our patients.</h1>
-        <p className="text-blue-400 text-xl mx-8 md:text-2xl">
+      <div className="py-4 text-blue-900 text-center md:w-2/3 md:mx-auto">
+        <h1 className="text-4xl mx-7 md:mx-0 md:text-6xl mt-10 md:mt-20 mb-5">The professionals on our dental care team have dedicated their careers to providing the best care possible to our patients.</h1>
+        <p className="text-blue-400 text-xl mx-8 md:mx-0 md:text-2xl">
         While this page lists most of the dental care services we provide, please know that we are continuously educating ourselves on the latest dental care techniques, technologies & materials to provide you with the most advanced dental care available. All treatment decisions at our practice come from conversations between you & your dentist, & we are happy to offer dental care beyond the treatments listed here to fit your individual needs. If you have questions about any of our dental care services, please do not hesitate to ask.
         </p>
       </div>
 
       {/* Divider */}
-      <div className="py-4 mx-7 text-blue-900 text-center md:px-80">
+      <div className="py-4 mx-7 text-blue-900 text-center md:w-2/3 md:mx-auto">
         <h1 className="text-4xl md:text-6xl md:mt-20 mb-5">Preventive Dental Care for the Entire Family</h1>
-        <p className="text-blue-400 text-xl mx-8 md:text-2xl">
+        <p className="text-blue-400 text-xl mx-8 md:mx-0 md:text-2xl">
         At Orchard Family Dentistry, we practice dentistry for the whole family. From preventive education & regular hygiene to identifying & caring for dental issues that may arise, your continued oral health is our top priority.
         </p>
       </div>
 
       {/* Restorative Dental Care */}
-      <div className="py-4 text-blue-900 text-center md:px-80">
-      <h1 className="text-4xl mx-7 md:text-6xl md:mt-20 mb-5">Restorative Dental Care</h1>
-      <p className="text-blue-400 text-xl mx-8 md:text-2xl">
+      <div className="py-4 text-blue-900 text-center md:w-2/3 md:mx-auto">
+      <h1 className="text-4xl mx-7 md:mx-0 md:text-6xl md:mt-20 mb-5">Restorative Dental Care</h1>
+      <p className="text-blue-400 text-xl mx-8 md:mx-0 md:text-2xl">
         We offer restorative dental care. We know that even when you do everything right, something can go wrong. If you are suffering from a dental problem, we are here to help. Modern technology, combined with the in-depth experience of our clinical team, can assure you of a successful & long-lasting result. Whether the cause is accident or disease, we can restore your smile.
         </p>
         <div className="mt-8 p-7 md:flex justify-center md:space-x-4">
@@ -102,9 +102,9 @@ const DentalServices = () => {
 
       
       {/* Cosmetic Dental Care */}
-      <div className="py-4 text-blue-900 text-center md:px-80">
+      <div className="py-4 text-blue-900 text-center md:w-2/3 md:mx-auto">
       <h1 className="text-4xl md:text-6xl mt-20 mb-5">Cosmetic Dental Care</h1>
-      <p className="text-blue-400 text-xl mx-8 md:text-2xl">
+      <p className="text-blue-400 text-xl mx-8 md:mx-0 md:text-2xl">
         Having a great smile can make a huge difference in the way you look & feel. Orchard Family Dentistry offers a complete range of cosmetic dental care treatments to create the confident smile you’ve always wanted. We begin with a detailed smile assessment, discussing with you which aspects you like & dislike about your smile. Once our assessment is complete, we will discuss with you treatment options to help your smile look more natural, youthful & healthy.
         </p>
         <div className="mt-8 p-7 md:flex justify-center md:space-x-4">
@@ -168,9 +168,9 @@ const DentalServices = () => {
       </div>
 
 
-      <div className="py-4 text-blue-900 text-center md:px-80 md:mb-16">
-      <h1 className="text-4xl mx-7 md:text-6xl md:mt-20 mb-5">General Dental Care</h1>
-      <p className="text-blue-400 text-xl mx-8 md:text-2xl">
+      <div className="py-4 text-blue-900 text-center md:w-2/3 md:mx-auto md:mb-16">
+      <h1 className="text-4xl mx-7 md:mx-0 md:text-6xl md:mt-20 mb-5">General Dental Care</h1>
+      <p className="text-blue-400 text-xl mx-8 md:mx-0 md:text-2xl">
         The dentists of Orchard Family Dentistry have extensive experience in the diagnosis, treatment, management & coordination of dental care services to care for their patients & their families. General dental care includes everything from preventive education & regular visits to fillings, crowns, bridges & more. Moreover, the dentists provide care for both kids & adults, & know how best to care for both. At Orchard Family Dentistry, your continued oral health is our top priority.
         </p>
         <div className="mt-8 p-7 md:flex justify-center md:space-x-4">

@@ -28,7 +28,7 @@ const QualityService = () => {
     // Mobile Screen
     <section>
       <div className={`md:hidden relative overflow-hidden bg-sky-200 transform  transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
-        <img className={`w-max`} src={qualityServiceImg} alt="Quality Service" />
+        <img className="w-full" src={qualityServiceImg} alt="Quality Service" />
         <div className={`absolute inset-0 flex flex-col justify-center px-5 py-12 ext-center md:text-left bg-opacity-75 bg-white`}>
           <h1 className={`text-3xl text-blue-900 mb-4 text-center`}>
             Trusted, Personalized & Affordable Dental Care
@@ -41,11 +41,11 @@ const QualityService = () => {
 
       {/* Desktop Screen */}
       <div className={`hidden md:flex bg-cover bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
-        <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
-          <h1 className={`my-5 text-6xl text-blue-900 text-center`}>
+        <div className={`flex flex-col justify-center md:w-3/4`}>
+          <h1 className={`mx-auto w-2/3 py-5 text-6xl text-blue-900 text-center`}>
             Trusted, Personalized & Affordable Dental Care for Your Whole Family
           </h1>
-          <p className={`text-3xl text-blue-900 py-8 whitespace-wrap text-center`}>
+          <p className={`mx-auto w-2/3 text-3xl text-blue-900 py-8 whitespace-wrap text-center`}>
             At Orchard Family Dentistry, it’s the mission of our caring team to provide
             the highest level of convenience & personalized care for your entire
             family. We are your one-stop location for all aspects of safe &
@@ -53,7 +53,7 @@ const QualityService = () => {
             your entire life!
           </p>
         </div>
-        <img className={`md:w-1/8 h-1/8 lg:h-1/3 w-1/3`} src={qualityServiceImg} alt="" />
+        <img className={`md:w-1/8 h-auto w-1/3 object-cover`} src={qualityServiceImg} alt="" />
       </div>
       </section>
 

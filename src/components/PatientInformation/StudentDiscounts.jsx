@@ -39,7 +39,7 @@ const StudentDiscounts = () => {
 
       {/* Desktop Screen */}
       <div className={`hidden md:flex bg-cover bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
-        <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
+        <div className={`w-1/2 mx-auto py-5 flex flex-col justify-center`}>
           <h1 className={`my-5 text-6xl text-blue-900 text-center`}>
             100% Covered With Student ID
           </h1>
@@ -52,7 +52,7 @@ const StudentDiscounts = () => {
           •Fluoride Treatment
           </p>
         </div>
-        <img className={`md:w-1/8 h-1/8 lg:h-1/3 w-1/3`} src={qualityServiceImg} alt="" />
+        <img className={`md:w-1/8 h-auto w-1/3 object-cover`} src={qualityServiceImg} alt="" />
       </div>
 
 
@@ -80,8 +80,8 @@ const StudentDiscounts = () => {
       
       {/* Desktop */}
         <div className={`hidden md:flex bg-cover bg-sky-100 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : 'translate-x-full'}`}>
-        <img className="md:w-1/8 h-1/8 lg: h-1/3 w-1/3" src={qualityServiceImg2} alt=""/>
-          <div className="px-40 flex flex-col justify-center md:w-3/4">
+        <img className="md:w-1/8 h-auto w-1/3 object-cover" src={qualityServiceImg2} alt=""/>
+          <div className="w-1/2 mx-auto py-5 flex flex-col justify-center md:w-3/4">
           <h1 className={`md:my-5 text-6xl text-blue-900 text-center`}>
           Participating Schools:
           </h1>
@@ -118,7 +118,7 @@ const StudentDiscounts = () => {
           </div>
 
           {/* Flexible Appointments */}
-          <div className="mb-10 md:mb-16 bg-cover bg-sky-100 mx-8 px-5 py-6 md:px-16 md:px-48 md:py-16 md:mx-12 flex flex-col items-center justify-center">
+          <div className="mb-10 md:mb-16 bg-cover bg-sky-100 mx-8 px-5 py-6 md:px-16 md:py-16 md:mx-12 flex flex-col items-center justify-center">
             <h2 className="pb-3 text-4xl md:text-5xl text-center text-blue-900 ">Healthy Gums Improve Your Overall Health</h2>
             <p className="md:mt-4 text-xl md:text-2xl text-center text-blue-900 pb-5">
               Research has linked gum disease to health problems like diabetes, heart disease, dementia & respiratory infection.

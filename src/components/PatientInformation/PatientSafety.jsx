@@ -8,8 +8,8 @@ const PatientSafety = () => {
           Book Your Dental Appointment Today! Call: (123) 456-7890
         </p>
       </div>
-      <div className="px-10 md:px-16 md:px-48 py-16 md:mx-24">
-        <div className="md:mx-24">
+      <div className="px-10 md:px-0 md:w-3/5 py-16 md:mx-auto">
+        <div className="md:px-0">
         <section className="mb-16">
           <h1 className="text-5xl md:text-6xl font-semibold text-left text-blue-900 ">
           Your Safety Is Our Top Priority

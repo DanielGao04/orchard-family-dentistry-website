@@ -9,19 +9,17 @@ const Menu = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const isDesktop = window.innerWidth >= 768;
-
   return (
   // Mobile
   <section>
-    <div className="sm:hidden">
+    <div className="lg:hidden">
       <div className="flex flex-wrap z-10">
         <div className="w-full">
           <nav className="static flex flex-wrap items-center justify-between px-2 py-3">
             <div className="px-4 mx-auto flex flex-wrap items-center justify-between">
               <div className="flex">
                 <a href="/">
-                  <img src={logo} alt="logo" className="w-1/3 py-2"/>
+                  <img src={logo} alt="logo" className="w-1/5 py-2"/>
                 </a>
                 <button
                   className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -365,7 +363,7 @@ const Menu = () => {
     </div>
 
     {/*Desktop*/}
-    <div className="hidden sm:flex">
+    <div className="hidden lg:flex">
       <div className="z-10 mx-auto">
           <nav className="py-3">
               <div className="flex justify-between items-center space-x-8">
