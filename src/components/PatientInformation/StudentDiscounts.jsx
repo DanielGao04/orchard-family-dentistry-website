@@ -12,7 +12,7 @@ const StudentDiscounts = () => {
     <div className="bg-cover">
 
       {/* Student Discounts Banner */}
-      <div className="bg-sky-100 py-4 text-blue-900 text-center md:p-24">
+      <div className="bg-cyan-800 py-4 text-white text-center md:p-24">
         <h1 className="text-6xl mt-10 md:mt-24 mb-5">Student Discounts</h1>
         <p className="text-2xl mx-6 md:mx-0 md:text-4xl mb-10 md:mb-24">
           Orchard Family Dentistry is proud to be a part of the Student Discount Network.
@@ -21,7 +21,7 @@ const StudentDiscounts = () => {
       </div>
 
       {/* First Animated Section Mobile*/}
-      <div className={`md:hidden relative overflow-hidden bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+      <div className={`md:hidden relative overflow-hidden bg-sky-300 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
         <img className={`w-full`} src={qualityServiceImg} alt="Quality Service" />
         <div className={`absolute inset-0 flex flex-col justify-center px-5 py-12 ext-center md:text-left bg-opacity-75 bg-white`}>
           <h1 className={`text-5xl text-blue-900 mb-4 text-center`}>
@@ -38,7 +38,7 @@ const StudentDiscounts = () => {
       </div>
 
       {/* Desktop Screen */}
-      <div className={`hidden md:flex bg-cover bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+      <div className={`hidden md:flex bg-cover bg-sky-300 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className={`w-1/2 mx-auto py-5 flex flex-col justify-center`}>
           <h1 className={`my-5 text-6xl text-blue-900 text-center`}>
             100% Covered With Student ID
@@ -59,7 +59,7 @@ const StudentDiscounts = () => {
 
       {/* Second Animated Section Mobile*/}
       <section>
-        <div className={`md:hidden relative overflow-hidden bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+        <div className={`md:hidden relative overflow-hidden bg-blue-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
         <img className={`w-full`} src={qualityServiceImg} alt="Quality Service" />
         <div className={`absolute inset-0 flex flex-col justify-center px-6 py-12 text-center bg-opacity-75 bg-white`}>
           <h1 className={`my-5 text-5xl text-blue-900 text-center`}>
@@ -79,7 +79,7 @@ const StudentDiscounts = () => {
       </div>
       
       {/* Desktop */}
-        <div className={`hidden md:flex bg-cover bg-sky-100 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : 'translate-x-full'}`}>
+        <div className={`hidden md:flex bg-cover bg-blue-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : 'translate-x-full'}`}>
         <img className="md:w-1/8 h-auto w-1/3 object-cover" src={qualityServiceImg2} alt=""/>
           <div className="w-1/2 mx-auto py-5 flex flex-col justify-center md:w-3/4">
           <h1 className={`md:my-5 text-6xl text-blue-900 text-center`}>

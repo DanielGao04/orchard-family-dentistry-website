@@ -45,7 +45,7 @@ const QualityService = () => {
       </div>
 
       {/* Secondary Words Section */}
-      <div className="flex bg-cover bg-sky-200 transform transition-transform duration-1500 justify-center py-10">
+      <div className="flex bg-cover bg-teal-100 transform transition-transform duration-1500 justify-center py-10">
         <div className="md:w-3/5">
           <h1 className="px-5 md:px-0 my-5 text-4xl text-blue-900 font-semibold text-center pb-3">
             Orchard Family Dentistry Staff Put Your Comfort & Safety First

@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import qualityServiceImg from "../../images/dental.jpg";
 
 const ThankYouPage = () => {
