@@ -13,7 +13,7 @@ const ClinicalFacts = () => {
         <div className="opacity-80 absolute bg-black  w-full h-80"></div>
         <div className="container relative py-8 text-center text-white">
           <h1 className="text-4xl py-2  font-semibold">
-            Our <span className="text-primary">Clinical</span> Facts
+            One Office for all your Needs
           </h1>
           <p>
             If your smile is not becoming to you, then you should be coming to
@@ -21,14 +21,14 @@ const ClinicalFacts = () => {
           </p>
           <div className="flex justify-between items-center py-16">
             <div className="">
-              <h1 className="text-4xl font-extrabold">08</h1>
+              <h1 className="text-4xl font-extrabold">Many</h1>
               <p className="text-secondary italic text-2xl  font-semibold">
-                Years Experience
+                Years Of Experience
               </p>
             </div>
 
             <div className="">
-              <h1 className="text-4xl font-extrabold">25K</h1>
+              <h1 className="text-4xl font-extrabold">Only</h1>
               <p className="text-secondary italic text-2xl  font-semibold">
                 Happy Customers
               </p>

@@ -1,5 +1,6 @@
 import React from "react";
 import Orchard2 from "../../images/Orchard2.jpg";
+import EmployeeCard from "./EmployeeCard";
 
 const QualityService = () => {
   return (
@@ -7,7 +8,7 @@ const QualityService = () => {
       {/* Top Words Section */}
       <div className="flex bg-cover bg-sky-300 transform transition-transform duration-1500 justify-center md:py-20" style={{ backgroundImage: `url(${Orchard2})` }}>
         <div className="md: w-4/5 py-20">
-          <h1 className="md:my-5 text-3xl md:text-6xl text-white text-center pb-10">
+          <h1 className="md:my-5 text-3xl md:text-6xl text-white font-semibold md:font-normal text-center pb-10">
             We Are Orchard Family Dentistry Most Trusted & Comprehensive Dental Care Provider
           </h1>
           <h2 className="md:my-5 text-xl md:text-xl text-white text-center md:w-4/5 md:mx-auto">
@@ -58,7 +59,7 @@ const QualityService = () => {
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
         <div className="md:px-40 md:w-3/4">
-          <h1 className="my-9 text-6xl text-blue-900 text-center py-10">
+          <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12 md:mt-32">
             Meet Our Doctors
           </h1>
         </div>
@@ -66,25 +67,29 @@ const QualityService = () => {
 
       {/* Employees Section */}
       <div className="flex justify-center py-10">
-        <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-4 mx-auto">
-          <EmployeeCard
+        <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 xl-grid-cols-4 2xl-grid-cols-5 mx-auto">
+        <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content="David Hu"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content="Dominic"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="David Hu"
+            content="Dominic"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="David Hu"
+            content="Dominic"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           {/* Add more EmployeeCard components here */}
         </div>
@@ -92,7 +97,7 @@ const QualityService = () => {
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
         <div className="md:px-40 md:w-3/4">
-          <h1 className="my-9 text-6xl text-blue-900 text-center py-10">
+          <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12 md:mt-32">
             Meet Our Dental Assistants
           </h1>
         </div>
@@ -100,25 +105,29 @@ const QualityService = () => {
 
       {/* Employees Section */}
       <div className="flex justify-center py-10">
-        <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-4 mx-auto">
+        <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 xl-grid-cols-4 2xl-grid-cols-5 mx-auto">
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="David Hu"
+            content="Dominic"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content="Dominic"
-          />
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+          />  
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="David Hu"
+            content="Dominic"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="David Hu"
+            content="Dominic"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           {/* Add more EmployeeCard components here */}
         </div>
@@ -126,7 +135,7 @@ const QualityService = () => {
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
         <div className="md:px-40 md:w-3/4">
-          <h1 className="my-9 text-6xl text-blue-900 text-center py-10">
+          <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12 md:mt-32">
             Meet Our Hygenists
           </h1>
         </div>
@@ -134,25 +143,29 @@ const QualityService = () => {
 
       {/* Employees Section */}
       <div className="flex justify-center py-10">
-        <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-4 mx-auto">
+        <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 xl-grid-cols-4 2xl-grid-cols-5 mx-auto">
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="David Hu"
+            content="Dominic"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content="Dominic"
-          />
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
+          />    
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="David Hu"
+            content="Dominic"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="David Hu"
+            content="Dominic"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           {/* Add more EmployeeCard components here */}
         </div>
@@ -160,33 +173,37 @@ const QualityService = () => {
 
       <div className="flex bg-cover transform transition-transform duration-1500 justify-center">
         <div className=" md:px-40 md:w-3/4">
-          <h1 className="my-9 text-6xl text-blue-900 text-center py-10">
+          <h1 className="px-2 md:px-0 md:my-9 text-5xl md:text-6xl text-blue-900 text-center mt-12 md:mt-32">
             Meet Our Receptionists
           </h1>
         </div>
       </div>
 
       {/* Employees Section */}
-      <div className="flex justify-center py-10">
-        <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-4 mx-auto">
+      <div className="flex justify-center py-10 md:mb-32">
+        <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 xl-grid-cols-4 2xl-grid-cols-5 mx-auto">
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="David Hu"
+            content="Dominic"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
             content="Dominic"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="David Hu"
+            content="Dominic"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="David Hu"
+            content="Dominic"
+            bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           {/* Add more EmployeeCard components here */}
         </div>
@@ -195,17 +212,6 @@ const QualityService = () => {
     </div>
   );
 };
-
-const EmployeeCard = ({ imgSrc, content }) => (
-  <div className="block max-w-[18rem] bg-white rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] mx-8">
-    <div className="relative overflow-hidden bg-cover bg-no-repeat">
-      <img className="h-full w-full rounded-t-lg" src={imgSrc} alt="" />
-    </div>
-    <div className="p-6">
-      <p className="text-2xl text-blue-900 text-center text-neutral-600">{content}</p>
-    </div>
-  </div>
-);
 
 const DifferenceCard = ({ title, content }) => (
   <div className="bg-white rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] p-6">

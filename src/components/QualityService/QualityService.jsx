@@ -34,18 +34,18 @@ const QualityService = () => {
             Trusted, Personalized & Affordable Dental Care
           </h1>
           <p className={`text-base text-blue-900 leading-relaxed text-center`}>
-            At Lake Tahoe Dental, our caring team is dedicated to providing the highest level of convenience and personalized care for your entire family. We offer a range of modern dentistry services and aim to keep you healthy throughout your life.
+            At Orchard Family Dentistry, our caring team is dedicated to providing the highest level of convenience and personalized care for your entire family. We offer a range of modern dentistry services and aim to keep you healthy throughout your life.
           </p>
         </div>
       </div>
 
       {/* Desktop Screen */}
       <div className={`hidden md:flex bg-cover bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
-        <div className={`flex flex-col justify-center md:w-3/4`}>
-          <h1 className={`mx-auto w-2/3 py-5 text-6xl text-blue-900 text-center`}>
+        <div className={`flex flex-col py-10 justify-center md:w-3/4`}>
+          <h1 className={`mx-auto w-4/5 pb-5 text-6xl text-blue-900 text-center`}>
             Trusted, Personalized & Affordable Dental Care for Your Whole Family
           </h1>
-          <p className={`mx-auto w-2/3 text-3xl text-blue-900 py-8 whitespace-wrap text-center`}>
+          <p className={`mx-auto w-4/5 text-2xl text-blue-900 pt-2 whitespace-wrap text-center`}>
             At Orchard Family Dentistry, it’s the mission of our caring team to provide
             the highest level of convenience & personalized care for your entire
             family. We are your one-stop location for all aspects of safe &

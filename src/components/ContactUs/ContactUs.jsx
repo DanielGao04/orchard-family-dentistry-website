@@ -5,11 +5,8 @@ const Contact = () => {
 
   return (
     <div>
-
     {/* Section 1 */}
-      <div
-        className={`flex bg-cover bg-sky-200 transform transition-transform duration-1500 justify-center`}
-      >
+      <div className={`flex bg-cover bg-cyan-200 transform transition-transform duration-1500 justify-center`}>
         <div className={`px-5 py-16 md:py-15 md:px-0 md:p-15 flex flex-col justify-center md:w-3/4`}>
           <h1 className={`my-5 text-5xl md:text-6xl text-sky-900 md:font-semibold text-center`}>
           Contact Orchard Family Dentistry
@@ -23,29 +20,30 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Section 2 */}
-      <div
-  className={`flex bg-cover`}
-  
->
+    {/* Section 2 */}
+    <div className={`flex bg-cover`}>
+      <div className={`md:mx-0 md:px-0 md:my-10 flex-col md:flex justify-center md:w-3/4`}>
+        <img className={`md:w-0 h-1/8 w-full`} src={qualityServiceImg} alt="" />
+        
+        <div className="my-5 md:my-auto mx-10 md:w-4/5 md:mx-auto">
+          <h1 className={`mt-10 md:mt-0 md:my-auto text-5xl md:text-6xl text-green-800 md:font-semibold text-left`}>
+            Your Trusted Local Dentist
+          </h1>
+          <p className={`text-lg md:text-3xl py-8 text-black whitespace-wrap text-left`}>
+          We are conveniently located near the Northgate Mall, at the corner of Professional Center Parkway.
+          </p>
 
-  <div className={`md:mx-0 md:px-0 md:my-auto flex-col md:flex md:mt-40 justify-center md:w-3/4`}>
-  <img className={`md:w-0 h-1/8 w-full`} src={qualityServiceImg} alt="" />
-    
-    <div className="my-5 md:my-auto mx-10 md:w-4/5 md:mx-auto">
-      <h1 className={`mt-10 md:mt-0 md:my-0 text-5xl md:text-6xl text-green-800 md:font-semibold text-left`}>
-        Contact Orchard Family Dentistry
-      </h1>
-      <p className={`text-lg md:text-3xl py-8 text-black whitespace-wrap text-left`}>
-        If you are looking for dentists in Orchard Family Dentistry, look no further.
-        We’ve revolutionized dentistry to be truly personalized & convenient.
-        We have hours that fit your busy schedule. Plus, we take the time to
-        listen & clearly explain everything.
-      </p>
+          <p className={`text-lg md:text-3xl md:pt-8 text-black whitespace-wrap text-left`}>
+          Address: 101 Nellen Ave, Lake Tahoe, CA 94964
+          </p>
+          <p className={`text-lg md:text-3xl text-black whitespace-wrap text-left`}>
+          Phone: 650-665-5854
+          </p> 
+
+        </div>
+      </div>
+      <img className={`md:w-3/5 h-auto object-cover w-0`} src={qualityServiceImg} alt="" />
     </div>
-    </div>
-    <img className={`md:w-3/5 h-auto object-cover w-0`} src={qualityServiceImg} alt="" />
-</div>
 
 
 
