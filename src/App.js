@@ -7,7 +7,6 @@ import ClinicalFacts from "./components/ClinicalFacts/ClinicalFacts";
 import MeetUs from "./components/MeetUs/MeetUs";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
 import Menu from "./components/Menu/Menu";
 import NotFound from "./components/NotFound/NotFound";
 import QualityService from "./components/QualityService/QualityService";
@@ -50,7 +49,6 @@ function App() {
   return (
     <div>
       <Router>
-        <Header />
         <Menu />
         <Switch>
           <Route exact path="/">
