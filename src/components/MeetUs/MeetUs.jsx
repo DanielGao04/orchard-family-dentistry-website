@@ -7,10 +7,10 @@ const QualityService = () => {
       {/* Top Words Section */}
       <div className="flex bg-cover bg-sky-300 transform transition-transform duration-1500 justify-center md:py-20" style={{ backgroundImage: `url(${Orchard2})` }}>
         <div className="md: w-4/5 py-20">
-          <h1 className="md:my-5 text-3xl md:text-7xl text-white font-semibold text-center pb-10">
+          <h1 className="md:my-5 text-3xl md:text-6xl text-white text-center pb-10">
             We Are Orchard Family Dentistry Most Trusted & Comprehensive Dental Care Provider
           </h1>
-          <h2 className="md:my-5 text-xl md:text-2xl text-blue-200 font-semibold text-center md:w-4/5 md:mx-auto">
+          <h2 className="md:my-5 text-xl md:text-xl text-white text-center md:w-4/5 md:mx-auto">
             At our community-focused practice, your comfort & satisfaction come first. We look forward 
             to meeting you soon & developing a relationship with you to build the bridge toward long-term 
             trust & successful dental care. Orchard Family Dentistry invites you to see why our patients can’t stop 
@@ -38,7 +38,7 @@ const QualityService = () => {
 
             <DifferenceCard
               title="We Won’t Make You Miss Work or School"
-              content="Taking time off from work or school for your dental appointments isn’t just a massive inconvenience—it’s a barrier to seeing the dentist on a regular basis. At Lake Tahoe Dental, we have lifted this barrier by opening our schedule on weekday evenings & weekends. Now there’s no need to miss work to get your teeth cleaned!"
+              content="Taking time off from work or school for your dental appointments isn’t just a massive inconvenience—it’s a barrier to seeing the dentist on a regular basis. At Orchard Family Dentistry, we have lifted this barrier by opening our schedule on weekday evenings & weekends. Now there’s no need to miss work to get your teeth cleaned!"
             />
           </div>
         </div>
@@ -47,7 +47,7 @@ const QualityService = () => {
       {/* Secondary Words Section */}
       <div className="flex bg-cover bg-teal-100 transform transition-transform duration-1500 justify-center py-10">
         <div className="md:w-3/5">
-          <h1 className="px-5 md:px-0 my-5 text-4xl text-blue-900 font-semibold text-center pb-3">
+          <h1 className="px-5 md:px-0 my-5 text-4xl text-green-900 font-semibold text-center pb-3">
             Orchard Family Dentistry Staff Put Your Comfort & Safety First
           </h1>
           <p className="my-5 text-2xl text-green-900 text-center px-7 md:px-0 md:w-5/6 md:mx-auto">
