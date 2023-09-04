@@ -10,10 +10,12 @@ const Appointment = () => {
       <p className="text-gray-400 py-2 text-center">
         Have a question or just want to say hi? We'd love to hear from you.
       </p>
-      <form action="https://formsubmit.co/d01ce65ad2396cb23c891f82e4146a9e" method="POST">
+      <form action="https://formsubmit.co/3b76424b6596af422a7555256218b6c4" method="POST">
         <input type="hidden" name="_subject" value="Appointment"/>
-        <input type="hidden" name="_next" value="/"/>
+        <input type="hidden" name="_next" value="https://orchardfamilydentistry.netlify.app/src/components/ThankYou/ThankYouPage.jsx"/>
         <input type="hidden" name="_template" value="table"/>
+        <input type="hidden" name="_captcha" value="false"/>
+
         <label for="name">First name:</label>
         <input
           className="border-opacity-100 w-full border px-4 border-gray-800 py-2"

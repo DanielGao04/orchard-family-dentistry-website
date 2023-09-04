@@ -2,29 +2,8 @@ import React, { useState, useEffect } from "react";
 import qualityServiceImg from "../../images/dental.jpg";
 
 const ThankYouPage = () => {
-  const [animate, setAnimate] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      const windowHeight = window.innerHeight;
-
-      // Customize the threshold value as needed
-      const threshold = windowHeight * 0.3;
-
-      if (scrollTop > threshold) {
-        setAnimate(true);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
-    <div className={`flex bg-cover bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+    <div className={`flex bg-cover bg-sky-200 transform transition-transform duration-1500`}>
       <div className={`px-40 flex flex-col justify-center md:w-3/4`}>
         <h1 className={`my-5 text-6xl text-blue-900 text-center`}>
          Thank You For Your Time!

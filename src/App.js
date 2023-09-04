@@ -44,6 +44,7 @@ import CosmeticDentist from "./components/DentalServices/CosmeticDentist/Cosmeti
   import TeethWhitening from "./components/DentalServices/CosmeticDentist/TeethWhitening";
 import PreventativeCare from "./components/DentalServices/PreventiveCare";
 import Invisaline from "./components/DentalServices/Invisaline";
+import ThankYouPage from "./components/ThankYou/ThankYouPage";
 
 function App() {
   return (
@@ -201,6 +202,10 @@ function App() {
 
           <Route path="/appointment">
             <Appointment />
+          </Route>
+
+          <Route path="/thankyou">
+            <ThankYouPage />
           </Route>
 
           <Route path="*">
