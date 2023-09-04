@@ -14,7 +14,6 @@ const Appointment = () => {
         <input type="hidden" name="_subject" value="Appointment"/>
         <input type="hidden" name="_next" value="https://orchardfamilydentistry.netlify.app/thankyou"/>
         <input type="hidden" name="_template" value="table"/>
-        <input type="hidden" name="_captcha" value="false"/>
 
         <label for="name">First name:</label>
         <input
@@ -66,8 +65,8 @@ const Appointment = () => {
           rows="4"
           cols="50"
           type="text"
-          id="reason"
-          name="reason"
+          id="message"
+          name="message"
           placeholder="Reason for your visit"
           required
         />
