@@ -37,9 +37,9 @@ const Invisaline = () => {
             </div>
         </div>
 
-      <div className="flex bg-cover bg-sky-100 transform transition-transform duration-1500 justify-center py-10">
-        <div className="px-10 md:p-0 md:w-3/5">
-          <h1 className="my-5 text-5xl text-blue-900 md:font-semibold text-center pb-1">
+      <div className="flex bg-cover bg-sky-100 transform transition-transform duration-1500 justify-center py-12 md:py-16">
+        <div className="px-10 md:px-0 md:w-3/5">
+          <h1 className="mb-5 text-5xl text-blue-900 md:font-semibold text-center pb-1">
             Invisalign
           </h1>
           <p className="my-1 text-xl md:text-2xl text-blue-900 text-center">
