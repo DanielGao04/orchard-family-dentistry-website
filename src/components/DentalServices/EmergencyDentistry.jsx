@@ -20,7 +20,7 @@ const EmergencyDentistry = () => {
               <img
                 src={qualityServiceImg}
                 alt=""
-                class="w-full" />
+                class="w-full rounded-2xl" />
             </div>
             <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
               <div class="px-4 py-8 md:px-6 md:py-12">

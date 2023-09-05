@@ -19,7 +19,7 @@ const PreventiveDentistry = () => {
               <img
                 src={qualityServiceImg}
                 alt=""
-                class="w-full" />
+                class="w-full rounded-2xl" />
             </div>
             <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
               <div class="px-6 py-12 md:px-12">
@@ -44,11 +44,11 @@ const PreventiveDentistry = () => {
       </section>
       </div>
       
-      <div className="px-5 bg-blue-100 py-1 md:py-4 md:px-72 text-blue-900 text-center md:p-24">
-        <h1 className="text-4xl md:text-6xl mt-24 mb-5">
+      <div className="px-5 bg-blue-100 py-1 md:py-4 md:px-0 text-blue-900 text-center md:p-0">
+        <h1 className="text-4xl md:w-3/4 md:mx-auto md:text-6xl mt-24 mb-5">
         Additionally, we are a family practice.
         </h1>
-        <p className="text-2xl md:text-3xl mb-24">
+        <p className="text-2xl md:w-3/4 md:mx-auto md:text-3xl mb-24">
         Our dentists have extensive experience with children & teens, so we can provide preventive care to everyone & make the dental experience better for the entire family.
         </p>
       </div>

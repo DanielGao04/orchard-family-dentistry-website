@@ -32,7 +32,7 @@ const RestorativeDentistry = () => {
               <img
                 src={qualityServiceImg2}
                 alt=""
-                class="w-full" />
+                class="w-full rounded-2xl" />
             </div>
             <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
               <div class="px-6 py-12 md:px-12">
