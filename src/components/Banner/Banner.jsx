@@ -1,23 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import banner from "../../images/Orchard3.png";
+import banner from "../../images/orchard.jpg";
+import logo from "../../images/logo192.png";
 
 const Banner = () => {
   return (
     <div
-      className="md:w-90 bg-center md:bg-cover md:bg-no-repeat md:bg-center py-20 md:py-20 lg:py-20 xl:py-28 md:shadow-xl md:z-6"
+      className="bg-center bg-cover py-20 md:py-2 lg:py-2 xl:py-2 md:shadow-xl md:z-6 relative flex flex-col justify-center items-center"
       style={{
         backgroundImage: `url(${banner})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        position: "relative",
-        shrink: 0,
-        grow: 0
-
       }}
     >
-      <div className="container text-center text-white py-0 md:mt-40 md:py-40 ">
-        <h1 className="text-3xl capitalize mb-0 mt-64 font-semibold md:mb-5 md:mt-52 text-white md:text-8xl">
+      <img src={logo} alt="logo" className="w-1/2 md:w-1/3 md:mt-8 mb-6 md:mb-0" />
+
+      <div className="container text-center text-white py-0 md:py-10 lg:py-10 xl:py-20">
+        <h1 className="text-3xl capitalize mb-0 mt-2 font-semibold md:font-normal md:mb-5 md:mt-0 text-white md:text-6xl">
           Eat Wisely, Smile Nicely
         </h1>
         <p className="mb-10 text-gray-200 text-md md:text-2xl md:mx-auto md:mb-8 md:w-2/3 ">
@@ -38,3 +35,4 @@ const Banner = () => {
 };
 
 export default Banner;
+
