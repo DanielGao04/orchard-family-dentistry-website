@@ -4,12 +4,12 @@ import footerImage from "../../images/Logo.png";
 const Footer = () => {
   return (
     <div className="bg-gray-100 py-16">
-      <div className="container lg:flex lg:justify-between items-center">
-        <div className="lg:w-1/3 text-center lg:text-left mb-6 lg:mb-0">
+      <div className="container sm:container sm:items-center md:container md:items-center lg:flex lg:justify-between items-center">
+        <div className="sm:w-full md:w-full lg:w-1/3 text-center sm:text-center md:text-center lg:text-left mb-6 sm:mb-6 md:mb-6 lg:mb-0">
           <div className="flex justify-center lg:justify-start mb-4">
             <span className="text-2xl font-Poppins">Orchard Family Dentistry</span>
           </div>
-          <p className="mb-5 md:text-justify md:py-4 md:px-2">
+          <p className="mb-5 sm:mb-5 sm:py-0 sm:px-0 md:mb-5 md:py-0 md:px-0 lg:text-justify lg:py-4 lg:px-2">
             5220 Dundas St #6 <br />
             Burlington, ON L7L 0J4 <br />
             Call Today <br />
@@ -31,14 +31,14 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mb-5 w-1/2 mx-auto md:w-1/3 md:w-1/5 md:mb-6">
+        <div className="mb-5 w-1/2 mx-auto sm:w-1/3 sm:mb-5 md:w-1/3 md:mb-5 lg:w-1/4 lg:mb-6">
           {/* Image Section */}
           <a href="/">
             <img src={footerImage} alt=""/>
           </a>
         </div>
         
-        <div className="text-center md:w-1/3 md:text-right">
+        <div className="text-center sm:text-center sm:w-full md:text-center md:w-full lg:w-1/3 lg:text-right">
           <h1 className="text-2xl font-Poppins">Quick Links</h1>
           <ul className="py-3.5">
             <li className="py-0.5 hover:text-primary">
