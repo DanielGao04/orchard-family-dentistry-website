@@ -45,7 +45,7 @@ const EmergencyDentistry = () => {
       </section>
       </div>
       <div className="flex bg-cover bg-sky-100 transform transition-transform duration-1500 justify-center py-10">
-        <div className="px-10 md:px-40 md:w-3/4">
+        <div className="px-10 md:p-0 md:w-3/5">
           <h1 className="my-5 text-5xl text-blue-900 md:font-semibold text-center pb-1">
             How to Determine If a Dental Problem Is an Emergency
           </h1>

@@ -12,7 +12,7 @@ const Offers = () => {
     <div className="bg-cover">
 
       {/* Student Discounts Banner */}
-      <div className="bg-sky-800 py-4 px-7 md:px-72 text-white text-center md:p-24">
+      <div className="bg-sky-800 py-4 px-7 md:px-72 text-white text-center md:p-6">
         <h1 className="text-5xl md:text-6xl mt-24 mb-5">
           Special Offers for All Patients
         </h1>

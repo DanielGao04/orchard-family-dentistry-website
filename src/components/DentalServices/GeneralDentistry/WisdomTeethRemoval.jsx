@@ -16,7 +16,7 @@ const WisdomTeethRemoval = () => {
             <p class="w-full pt-5 mx-2 mt-2 text-2xl text-left text-gray-700 intro sm:max-w-5xl">Wisdom teeth are considered third molars and are the last four teeth to emerge after all other adult teeth have grown in. This typically occurs between the ages of 17 and 25-years-old. Wisdom teeth are located at the very end of the molars on the top, bottom, and both sides of the mouth. Ages ago, when people ate raw foods in their natural state, wisdom teeth were important for chewing. Today, food is cut, chopped, pureed, and cooked, so wisdom teeth are not needed. </p>
         </div>
         <div class="flex flex-col mb-8 animated fadeIn sm:flex-row">
-            <div class="flex flex-col md:mx-auto justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-10/12 sm:pr-16">
+            <div class="flex flex-col md:mx-auto justify-center mt-5 mb-8 md:mt-0 md:w-10/12 sm:pr-16">
                 <h3 class="mt-2 text-3xl md:text-center sm:text-left md:text-5xl">Four types of impacted wisdom teeth</h3>
                 <p class="mt-5 text-2xl text-gray-700 text md:text-center">When there isn’t enough room in the back of the mouth, wisdom teeth may not be able to erupt or emerge, and they become impacted. There are four types of impacted wisdom teeth</p>
             </div>
@@ -64,14 +64,14 @@ const WisdomTeethRemoval = () => {
 
 
         <div className="flex bg-cover  transform transition-transform duration-1500 justify-center py-10">
-          <div className=" px-auto md:w-full">
+          <div className="px-auto md:w-4/5">
           <h1 className="my-5 text-5xl md:mb-8 md:text-6xl text-blue-900 text-leftpb-1">
           Orchard Family Dentistry Can Remove Painful Wisdom Teeth
           </h1>
         
-          <p className="my-1 text-2xl text-green-900 text-left mb-5">
+          <p className="my-1 text-2xl text-blue-900 text-left mb-5">
           Orchard Family Dentistry conducts a full examination of your wisdom teeth, including x-rays, to evaluate the position of the teeth and which ones may need to be pulled. While some people need all four teeth pulled, some may only need one, two, or three taken out. When you come in for a tooth extraction, Orchard Family Denistry's friendly and experienced staff make sure you’re comfortable and will administer soothing anesthesia or sedation. State-of-the-art equipment allows for precise removal of each tooth to minimize discomfort.          </p>
-          <p className="my-1 text-2xl text-green-900 text-left">
+          <p className="my-1 text-2xl text-blue-900 text-left">
           Wisdom teeth removal does not require an overnight stay, and once you’ve recovered and the pain is under control, you can return home. Our caring staff will provide after-care instructions and contact information in case of any problems. Recovery takes about a week, and a staff member will check with you to see how you’re doing. Don’t ignore the pain caused by impacted wisdom teeth. Let Orchard Family Dentistry do an examination and evaluation of your wisdom teeth for possible removal to prevent additional health issues and pain.         
           </p>
         </div>

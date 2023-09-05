@@ -23,48 +23,48 @@ const GeneralDentistry = () => {
           Book Your Dental Appointment Today! Call: (123) 456-7890
         </p>
       </div>
-    <div class=" container my-12 md:my-24 ">
-      <section class=" md:mb-32 text-center md:text-left">
-        <div class="block bg-white">
-          <div class="flex flex-wrap items-center">
-            <div
-              class="block w-full shrink-0 grow-0 basis-auto md:w-4/12 lg:flex">
-              <img
-                src={qualityServiceImg2}
-                alt=""
-                class="w-full" />
-            </div>
-            <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
-              <div class="px-4 py-12 md:px-12">
-                <h1 class=" text-4xl font-semi-bold">
-                  <span class="text-danger">General Dental Care</span>
-                </h1>
-                <h2 class="mb-6 text-2xl ">
-                  <span class="text-danger">Here at Orchard Family Dentistry, we are committed to making sure your dental experience is comfortable, personalized & affordable.</span>
-                </h2>
-                <p class="mb-6 pb-2 text-neutral-500 text-2xl">
-                We are part of a Burlington tradition of dental excellence, offering state-of-the-art general dentistry services. We are conveniently located in Burlington & are here for all your general dentistry needs. With a focus on family & cosmetic dentistry, we are happy to help you achieve a beautiful smile in our comfortable, safe & friendly environment. Our team offers a wide array of procedures, including crowns, dental implants, tooth-coloured dentistry, sedation dentistry, teeth whitening & more.           
-                </p>
-                <a href="tel:99999999">
-                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">
-                    Call Us 99999999
-                </button>
-                </a>
-                
+      <div class=" container my-12 md:my-24 ">
+        <section class=" md:mb-32 text-center md:text-left">
+          <div class="block bg-white">
+            <div class="flex flex-wrap items-center">
+              <div
+                class="block w-full shrink-0 grow-0 basis-auto md:w-4/12 lg:flex">
+                <img
+                  src={qualityServiceImg2}
+                  alt=""
+                  class="w-full" />
+              </div>
+              <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
+                <div class="px-4 py-12 md:px-12">
+                  <h1 class=" text-4xl font-semi-bold">
+                    <span class="text-danger">General Dental Care</span>
+                  </h1>
+                  <h2 class="mb-6 text-2xl ">
+                    <span class="text-danger">Here at Orchard Family Dentistry, we are committed to making sure your dental experience is comfortable, personalized & affordable.</span>
+                  </h2>
+                  <p class="mb-6 pb-2 text-neutral-500 text-2xl">
+                  We are part of a Burlington tradition of dental excellence, offering state-of-the-art general dentistry services. We are conveniently located in Burlington & are here for all your general dentistry needs. With a focus on family & cosmetic dentistry, we are happy to help you achieve a beautiful smile in our comfortable, safe & friendly environment. Our team offers a wide array of procedures, including crowns, dental implants, tooth-coloured dentistry, sedation dentistry, teeth whitening & more.           
+                  </p>
+                  <a href="tel:99999999">
+                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">
+                      Call Us 99999999
+                  </button>
+                  </a>
+                  
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
       </div>
-      <div className={`flex bg-cover bg-sky-100 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
-      <div className={`md:px-40 flex flex-col justify-center md:w-3/4`}>
-      <div class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 text-center">
 
-            <img className={`md:hidden w-full`} src={qualityServiceImg} alt="" />
+      <div className={`flex bg-cover md:py-auto bg-sky-100 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
+        <div className={`flex flex-col justify-center md:w-3/4`}>
+          <div class="px-5 md:px-0 md:py-10 md:w-3/4 md:mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 text-center">
+            <img className={`md:hidden w-full object-cover`} src={qualityServiceImg} alt="" />
           
             <a href="/DentalServices/GeneralDentistry/DigitalXRays2" className="mb-5 md:mb-0 mt-5 md:mt-0">
-            <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 md:mb-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
+              <div className="p-12 md:p-8 bg-white rounded overflow-hidden shadow-lg md:my-1.5 mx-1.5 h-[95%] hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={xray} alt="crown" />
                 </div>
@@ -76,7 +76,7 @@ const GeneralDentistry = () => {
             </a>
 
             <a href="/DentalServices/RestorativeDentistry/Crowns">
-            <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 md:mb-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
+              <div className="p-12 md:p-8 bg-white rounded overflow-hidden shadow-lg p-4 md:my-1.5 mx-1.5 h-[95%] hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={jaw} alt="crown" />
                 </div>
@@ -88,7 +88,7 @@ const GeneralDentistry = () => {
             </a>
 
             <a href="/DentalServices/GeneralDentistry/SedationDentistry" className="mb-5 mt-5 md:mt-0 md:mb-0">
-            <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 md:mb-3 md:mt-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
+              <div className="p-12 md:p-8 bg-white rounded overflow-hidden shadow-lg p-4 md:my-1.5 mx-1.5 h-[95%] hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={sedation} alt="crown"/>
                 </div>
@@ -98,8 +98,9 @@ const GeneralDentistry = () => {
                 </p>
               </div>
             </a>
+
             <a href="/dentalservices/emergencydentistry" className="mb-12 md:mb-0">
-            <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 md:mb-0 md:mt-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
+              <div className="p-12 md:p-8 bg-white rounded overflow-hidden shadow-lg p-4 md:my-1.5 mx-1.5 h-[95%] hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={emergency} alt="crown" />
                 </div>
@@ -110,17 +111,10 @@ const GeneralDentistry = () => {
               </div>
             </a>
 
-            
-
-    </div>
-
+          </div>
+        </div>
+        <img className={`md:w-1/3 h-auto w-0 object-cover`} src={qualityServiceImg} alt="" />
       </div>
-      <img className={`md:w-1/3 h-1/8 lg:h-1/3 w-0`} src={qualityServiceImg} alt="" />
-    </div>
-
-
-
-
     </div>
 
 

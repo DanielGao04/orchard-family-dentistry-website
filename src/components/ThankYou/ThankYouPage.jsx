@@ -8,7 +8,7 @@ const ThankYouPage = () => {
          Thank You For Your Time!
         </h1>
         <p className={`text-3xl text-blue-900 py-8 whitespace-wrap text-center`}>
-          We will respond back to you as soon as possible to confirm appointment dentails!
+          We will respond back to you as soon as possible to confirm appointment dentails.
         </p>
       </div>
       <img className={`md:w-1/8 h-1/8 lg:h-1/3 w-1/3`} src={qualityServiceImg} alt="" />

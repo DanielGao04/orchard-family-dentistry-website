@@ -58,13 +58,13 @@ const RestorativeDentistry = () => {
       </div>
 
       <div className={`flex bg-cover bg-sky-100 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
-      <div className={`md:px-40 flex flex-col justify-center md:w-3/4`}>
-      <div class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 text-center md:py-10">
+        <div className={`flex flex-col justify-center md:w-3/4`}>
+          <div class="px-5 md:px-0 md:py-10 md:w-3/4 md:mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 text-center">
 
-      <img className={`md:hidden w-full`} src={qualityServiceImg} alt="" />
+          <img className={`md:hidden w-full object-cover`} src={qualityServiceImg} alt="" />
 
             <a href="/DentalServices/RestorativeDentistry/Crowns" className="mb-5 md:mb-0 mt-5 md:mt-0">
-            <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 md:mb-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
+            <div className="p-12 md:p-8 bg-white rounded overflow-hidden shadow-lg md:my-1.5 mx-1.5 h-[95%] hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={crown} alt="crown" />
                 </div>
@@ -76,7 +76,7 @@ const RestorativeDentistry = () => {
             </a>
 
             <a href="/DentalServices/RestorativeDentistry/Dentures">
-              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 md:mb-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
+              <div className="p-12 md:p-8 bg-white rounded overflow-hidden shadow-lg md:my-1.5 mx-1.5 h-[95%] hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={denture} alt="denture" />
                 </div>
@@ -88,7 +88,7 @@ const RestorativeDentistry = () => {
             </a>
 
             <a href="/DentalServices/RestorativeDentistry/DentalImplants" className="mb-5 mt-5 md:mt-0 md:mb-0">
-              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 md:mb-3 md:mt-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
+              <div className="p-12 md:p-8 bg-white rounded overflow-hidden shadow-lg md:my-1.5 mx-1.5 h-[95%] hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={dentalimplant} alt="dentalimplant" />
                 </div>
@@ -99,7 +99,7 @@ const RestorativeDentistry = () => {
               </div>
             </a>
             <a href="/dentalservices/emergencydentistry" className="mb-12 md:mb-0">
-              <div className="min-w-sm bg-white rounded overflow-hidden shadow-lg p-4 md:mb-3 md:mt-3 mx-1.5 h-full hover:bg-blue-300 hover:text-white transition">
+              <div className="p-12 md:p-8 bg-white rounded overflow-hidden shadow-lg md:my-1.5 mx-1.5 h-[95%] hover:bg-blue-300 hover:text-white transition">
                 <div className="flex justify-center items-center mb-4">
                   <img className="w-1/3 h-auto" src={emergency} alt="emergency" />
                 </div>
@@ -109,16 +109,10 @@ const RestorativeDentistry = () => {
                 </p>
               </div>
             </a>
-
-    </div>
-
+          </div>
+        </div>
+        <img className={`md:w-1/3 h-auto w-0 object-cover`} src={qualityServiceImg} alt="" />
       </div>
-      <img className={`md:w-1/3 h-1/8 lg:h-1/3 w-0`} src={qualityServiceImg} alt="" />
-    </div>
-
-
-
-
     </div>
 
 

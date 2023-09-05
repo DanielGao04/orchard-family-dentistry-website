@@ -33,8 +33,7 @@ const DentalFillings = () => {
 
                     <p class="mt-3 text-gray-500">
                     Our licensed dentists at Orchard Family Dentistry have the expertise, experience, and tools to perform the dental filling procedure. We offer comprehensive dental care in Burlington, so you can achieve a healthy and beautiful smile.
-
-</p>
+                    </p>
 
                     <p class="mt-3 text-gray-500">
                     From preventive care and routine hygiene to dental crown and root canal treatment, we are capable of helping you with your overall oral health needs. Visit us today to enjoy a comfortable and patient-focused environment.
@@ -44,7 +43,7 @@ const DentalFillings = () => {
             </div>
         </div>
         <div className="flex bg-cover bg-sky-100 transform transition-transform duration-1500 justify-center py-10">
-        <div className="px-10 md:px-40 md:w-3/4">
+        <div className="px-10 md:px-0 md:w-3/5">
           <h1 className="my-5 text-3xl md:text-5xl text-blue-900 font-semibold text-left md:pb-1">
           Choosing the Type of Dental Filling
         </h1>
