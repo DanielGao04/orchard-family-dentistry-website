@@ -1,4 +1,8 @@
 import React, { useState, useEffect } from "react";
+import MesialImpaction from "../../../images/Mesial.png";
+import HorizontalImpaction from "../../../images/Horizontal.png";
+import VerticalImpaction from "../../../images/Vertical.png";
+import DistalImpaction from "../../../images/Distal.png";
 
 const WisdomTeethRemoval = () => {
   const [,setAnimate] = useState(false);
@@ -26,7 +30,7 @@ const WisdomTeethRemoval = () => {
         <div className="border-solid p-5 md:p-24 border-2 border-gray-100 rounded-lg">
         <div class="flex flex-col mb-8 animated fadeIn sm:flex-row">
             <div class="flex items-center mb-8 sm:w-1/2 md:w-5/12">
-                <img class="rounded-lg shadow-xl" src="https://cdn.devdojo.com/images/december2020/dashboard-04.png" alt=""/>
+                <img class="rounded-lg shadow-xl" src={MesialImpaction} alt="Mesial Impaction"/>
             </div>
             <div class="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pl-16">
                 <h3 class="mt-2 text-2xl sm:text-left md:text-4xl">Mesial Impaction</h3>
@@ -35,7 +39,7 @@ const WisdomTeethRemoval = () => {
         </div>
         <div class="flex flex-col mb-8 animated fadeIn sm:flex-row">
             <div class="flex items-center mb-8 sm:w-1/2 md:w-5/12">
-                <img class="rounded-lg shadow-xl" src="https://cdn.devdojo.com/images/december2020/dashboard-04.png" alt=""/>
+                <img class="rounded-lg shadow-xl" src={HorizontalImpaction} alt="Horizontal Impaction"/>
             </div>
             <div class="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pl-16">
                 <h3 class="mt-2 text-2xl sm:text-left md:text-4xl">Horizontal Impaction</h3>
@@ -44,7 +48,7 @@ const WisdomTeethRemoval = () => {
         </div>
         <div class="flex flex-col mb-8 animated fadeIn sm:flex-row">
             <div class="flex items-center mb-8 sm:w-1/2 md:w-5/12">
-                <img class="rounded-lg shadow-xl" src="https://cdn.devdojo.com/images/december2020/dashboard-04.png" alt=""/>
+                <img class="rounded-lg shadow-xl" src={VerticalImpaction} alt="Vertical Impaction"/>
             </div>
             <div class="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pl-16">
                 <h3 class="mt-2 text-2xl sm:text-left md:text-4xl">Vertical Impaction</h3>
@@ -53,7 +57,7 @@ const WisdomTeethRemoval = () => {
         </div>
         <div class="flex flex-col mb-8 animated fadeIn sm:flex-row">
             <div class="flex items-center mb-8 sm:w-1/2 md:w-5/12">
-                <img class="rounded-lg shadow-xl" src="https://cdn.devdojo.com/images/december2020/dashboard-04.png" alt=""/>
+                <img class="rounded-lg shadow-xl" src={DistalImpaction} alt="Distal Impaction"/>
             </div>
             <div class="flex flex-col justify-center mt-5 mb-8 md:mt-0 sm:w-1/2 md:w-7/12 sm:pl-16">
                 <h3 class="mt-2 text-2xl sm:text-left md:text-4xl">Distal Impaction</h3>

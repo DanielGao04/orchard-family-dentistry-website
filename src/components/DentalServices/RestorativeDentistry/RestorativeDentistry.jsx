@@ -32,7 +32,7 @@ const RestorativeDentistry = () => {
               <img
                 src={qualityServiceImg2}
                 alt=""
-                class="w-full rounded-2xl" />
+                class="shadow-2xl w-full rounded-2xl" />
             </div>
             <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
               <div class="px-6 py-12 md:px-12">
@@ -42,7 +42,7 @@ const RestorativeDentistry = () => {
                 <h2 class="mb-6 text-2xl">
                   <span class="text-danger">We offer restorative dentistry. We know that even when you do everything right, something can go wrong. If you are suffering from a dental problem, we are here to help.</span>
                 </h2>
-                <p class="mb-6 pb-2 text-neutral-500 text-2xl">
+                <p class="mb-6 pb-2 text-neutral-500 text-xl">
                 Modern technology, combined with the in-depth experience of our clinical team, can assure you of a successful & long-lasting result. Whether the cause is accident or disease, we can restore your smile with Orchard Family Dentistry's many restorative dentistry options – Contact us today to learn more!                </p>
                 <a href="tel:99999999">
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">
@@ -61,7 +61,7 @@ const RestorativeDentistry = () => {
         <div className={`flex flex-col justify-center md:w-3/4`}>
           <div class="px-5 md:px-0 md:py-10 md:w-3/4 md:mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 text-center">
 
-          <img className={`md:hidden w-full object-cover`} src={qualityServiceImg} alt="" />
+          <img className={`shadow-2xl md:hidden w-full object-cover`} src={qualityServiceImg} alt="" />
 
             <a href="/DentalServices/RestorativeDentistry/Crowns" className="mb-5 md:mb-0 mt-5 md:mt-0">
             <div className="p-12 md:p-8 bg-white rounded overflow-hidden shadow-lg md:my-1.5 mx-1.5 h-[95%] hover:bg-blue-300 hover:text-white transition">

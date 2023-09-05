@@ -30,7 +30,7 @@ const CosmeticDentistry = () => {
               <img
                 src={qualityServiceImg2}
                 alt=""
-                class="w-full rounded-2xl" />
+                class="shadow-2xl w-full rounded-2xl" />
             </div>
             <div class="w-full shrink-0 grow-0 basis-auto md:w-8/12">
               <div class="px-6 py-12 md:px-12">
@@ -40,9 +40,9 @@ const CosmeticDentistry = () => {
                 <h2 class="mb-6 text-2xl">
                   <span class="text-danger">Having a great smile can make a huge difference in the way you look & feel.</span>
                 </h2>
-                <p class="mb-3 text-neutral-500 text-2xl">
+                <p class="mb-3 text-neutral-500 text-xl">
                 Orchard Family Dentistry offers a complete range of cosmetic dentistry treatments to create the confident smile you’ve always wanted.</p>
-                <p class="mb-6 text-neutral-500 text-2xl">
+                <p class="mb-6 text-neutral-500 text-xl">
                 We begin with a detailed smile assessment, discussing with you which aspects you like & dislike about your smile. Once our assessment is complete, we will discuss with you some treatment options to help your smile look more natural, healthy & youthful. Call today to schedule your free cosmetic dentistry consultation!</p>
                 <a href="tel:99999999">
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">
@@ -59,7 +59,7 @@ const CosmeticDentistry = () => {
       <div className={`flex bg-cover bg-sky-100 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
         <div className={`flex flex-col justify-center md:w-3/4`}>
           <div class="px-5 md:px-0 md:py-10 md:w-3/4 md:mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 text-center">
-              <img className={`md:hidden w-full object-cover`} src={qualityServiceImg} alt="" />
+              <img className={`shadow-2xl md:hidden w-full object-cover`} src={qualityServiceImg} alt="" />
 
               <a href="/DentalServices/CosmeticDentist/ToothColouredDentistry" className="mb-5 md:mb-0 mt-5 md:mt-0">
                 <div className="p-12 md:p-8 bg-white rounded overflow-hidden shadow-lg md:my-1.5 mx-1.5 h-[95%] hover:bg-blue-300 hover:text-white transition">
