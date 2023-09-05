@@ -17,7 +17,7 @@ const ClinicalFacts = () => {
           </h1>
           <p>
             If your smile is not becoming to you, then you should be coming to
-            me!
+            us!
           </p>
           <div className="flex justify-between items-center py-16">
             <div className="">
