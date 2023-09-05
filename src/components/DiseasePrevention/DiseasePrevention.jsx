@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import diseaseprevention from "../../images/diseaseprevention.jpg";
+import family2 from "../../images/family2.jpg"
 
 const QualityService = () => {
   const [animate, setAnimate] = useState(false);
@@ -27,7 +27,7 @@ const QualityService = () => {
     // Mobile 
     <section>
     <div className={`md:hidden relative overflow-hidden bg-sky-200 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : '-translate-x-full'}`}>
-    <img className={`w-full`} src={diseaseprevention} alt="Quality Service" />
+    <img className={`scale-x-[200%] scale-y-[200%] py-32`} src={family2} alt="Quality Service" />
     <div className={`absolute inset-0 flex flex-col justify-center px-6 py-12 text-center bg-opacity-75 bg-white`}>
       <h1 className={`text-3xl text-blue-900 mb-4`}>
       Cleanings Brighten Your Smile & Help Prevent Disease
@@ -43,7 +43,7 @@ const QualityService = () => {
   
   {/* Desktop */}
     <div className={`hidden md:flex bg-cover bg-sky-100 transform transition-transform duration-1500 ${animate ? 'translate-x-0' : 'translate-x-full'}`}>
-    <img className="md:w-1/8 h-auto w-1/3 object-cover" src={diseaseprevention} alt=""/>
+    <img className="md:w-1/8 h-auto w-1/3 object-cover" src={family2} alt=""/>
       <div className="w-1/2 mx-auto py-5 flex flex-col justify-center">
         <h1 className="my-5 text-6xl text-blue-900 text-center">
         Cleanings Brighten Your Smile & Help Prevent Disease
