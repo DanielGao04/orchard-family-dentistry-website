@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import banner from "../../images/orchard.jpg";
+import banner from "../../images/Orchard-Banner.jpeg";
 import logo from "../../images/logo192.png";
 
 const Banner = () => {
   return (
     <div
-      className="bg-center bg-cover py-20 md:py-2 lg:py-2 xl:py-2 md:shadow-xl md:z-6 relative flex flex-col justify-center items-center"
+      className="bg-center bg-cover py-20 md:py-2 lg:py-2 xl:py-2 md:shadow-xl md:z-6 relative flex flex-col justify-center items-center bg-black opacity-100"
       style={{
-        backgroundImage: `url(${banner})`,
+        backgroundImage:`url(${banner})`,
       }}
     >
       <img src={logo} alt="logo" className="w-1/2 md:w-1/3 md:mt-8 mb-6 md:mb-0" />
