@@ -26,12 +26,8 @@ const Invisaline = () => {
                     What Invisalign Can Do for Your Smile
                     </h2>
     
-                    <h2 class="mb-6 text-2xl">
-                    The family-owned dental practice of Orchard Family Dentistry in Burlington offers complete restorative dentistry that will have you smiling from ear to ear!          
-                    </h2>
-
                     <p class="mb-6 pb-2 text-neutral-500 text-xl">
-                    The office is open seven days a week with early morning, late evening, and weekend appointments available so you will always have convenience with your dental care. Treatment options for orthodontics include Invisalign.
+                    The office is open seven days a week with morning, late evening, and weekend appointments available so you will always have convenience with your dental care. Treatment options for orthodontics include Invisalign.
                     </p>    
                 </div>
             </div>
