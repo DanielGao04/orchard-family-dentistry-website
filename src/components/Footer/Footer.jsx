@@ -45,7 +45,7 @@ const Footer = () => {
               <a href="/">Home</a>
             </li>
             <li className="py-0.5 hover:text-primary">
-              <a href="/MeetUs">About Us</a>
+              <a href="/MeetUs">Meet Us</a>
             </li>
             <li className="py-0.5 hover:text-primary">
               <a href="/dentalservices">Services</a>
