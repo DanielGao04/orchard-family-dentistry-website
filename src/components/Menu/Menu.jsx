@@ -345,10 +345,10 @@ const Menu = () => {
                     </div>
                   </li>
 
-                  <li className="nav-item bg-sky-600">
+                  <li className="nav-item bg-sky-500">
                     <a
                       href="/appointment"
-                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                      className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 transition"
                     >
                       Book Appointment
                     </a>
@@ -677,10 +677,10 @@ const Menu = () => {
                     </div>
                   </li>
 
-                  <li className="nav-item bg-sky-600">
+                  <li className="nav-item bg-sky-500">
                     <a
                       href="/appointment"
-                      className="z-10 px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                      className="z-10 px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75 transition"
                     >
                       Book Appointment
                     </a>

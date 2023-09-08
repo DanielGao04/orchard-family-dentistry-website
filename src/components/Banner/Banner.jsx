@@ -24,7 +24,7 @@ const Banner = () => {
         <div>
           <Link
             to="/appointment"
-            className="bg-sky-800 text-white px-6 py-4 font-medium rounded hover:bg-sky-700 transition"
+            className="bg-sky-600 text-white px-6 py-4 font-medium rounded hover:bg-sky-400 transition"
           >
             Make an Appointment
           </Link>
