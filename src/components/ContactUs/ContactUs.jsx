@@ -30,14 +30,14 @@ const Contact = () => {
             Your Trusted Local Dentist
           </h1>
           <p className={`text-lg md:text-3xl py-8 text-black whitespace-wrap text-left`}>
-          We are conveniently located near the Northgate Mall, at the corner of Professional Center Parkway.
+          We are conveniently located near the Appleby Crossing Mall.
           </p>
 
           <p className={`text-lg md:text-3xl md:pt-8 text-black whitespace-wrap text-left`}>
-          Address: 101 Nellen Ave, Lake Tahoe, CA 94964
+          Address: 5220 Dundas St #6, Burlington, ON L7L 0J4
           </p>
           <p className={`text-lg md:text-3xl text-black whitespace-wrap text-left`}>
-          Phone: 650-665-5854
+          Phone: 
           </p> 
 
         </div>

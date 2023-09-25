@@ -70,25 +70,25 @@ const QualityService = () => {
         <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 xl-grid-cols-4 2xl-grid-cols-5 mx-auto">
         <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="David Hu"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           {/* Add more EmployeeCard components here */}
@@ -108,25 +108,25 @@ const QualityService = () => {
         <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 xl-grid-cols-4 2xl-grid-cols-5 mx-auto">
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />  
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           {/* Add more EmployeeCard components here */}
@@ -146,25 +146,25 @@ const QualityService = () => {
         <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 xl-grid-cols-4 2xl-grid-cols-5 mx-auto">
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />    
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           {/* Add more EmployeeCard components here */}
@@ -184,25 +184,25 @@ const QualityService = () => {
         <div className="max-l-4xl max-w-7xl grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 xl-grid-cols-4 2xl-grid-cols-5 mx-auto">
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
 
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           
           <EmployeeCard
             imgSrc="https://tecdn.b-cdn.net/img/new/standard/nature/182.jpg"
-            content="Dominic"
+            content=""
             bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero atque similique debitis assumenda hic. Recusandae eligendi aliquam in sed nostrum corrupti cupiditate consequatur illo laudantium vero. Exercitationem non laudantium possimus!"
           />
           {/* Add more EmployeeCard components here */}
