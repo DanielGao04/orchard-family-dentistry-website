@@ -7,7 +7,7 @@ const Header = () => {
         <div className="hidden md:flex">
           <span className="border-r-2 border-black px-2">
             <i className="far fa-envelope w-5 text-primary"></i>
-            info@adc.com
+            orchardfamilydentist@gmail.com
           </span>
           <span className="px-2">
             <i className="fas fa-phone text-primary"></i> 905-315-9937
