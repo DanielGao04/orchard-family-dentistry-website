@@ -13,7 +13,7 @@ const Footer = () => {
             5220 Dundas St #6 <br />
             Burlington, ON L7L 0J4 <br />
             Call Today <br />
-            650-665-5854
+            (905)-315-9937
           </p>
           <div className="text-primary text-2xl flex justify-center lg:justify-start">
             <a rel="noreferrer" target="_blank" href="https://www.facebook.com/">

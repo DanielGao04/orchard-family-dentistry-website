@@ -10,7 +10,7 @@ const Header = () => {
             info@adc.com
           </span>
           <span className="px-2">
-            <i className="fas fa-phone text-primary"></i> +8801600000000
+            <i className="fas fa-phone text-primary"></i> (905) 315 9937
           </span>
         </div>
         <div className="flex items-center justify-between text-primary ">
