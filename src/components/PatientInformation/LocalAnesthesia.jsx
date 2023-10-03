@@ -5,7 +5,7 @@ const LocalAnesthesia = () => {
     <div className="bg-cover">
       <div className="bg-sky-300 py-4 text-white text-center">
         <p className="text-2xl font-semibold">
-          Book Your Dental Appointment Today! Call: (123) 456-7890
+          Book Your Dental Appointment Today! Call: 905-315-9937
         </p>
       </div>
       <div className="px-10 md:px-0 md:w-3/5 py-16 md:mx-auto">

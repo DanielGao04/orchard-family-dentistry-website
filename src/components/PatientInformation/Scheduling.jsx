@@ -6,7 +6,7 @@ const Scheduling = () => {
     <div className="bg-cover">
       <div className="bg-sky-300 py-4 text-white text-center">
         <p className="text-2xl font-semibold">
-          Book Your Dental Appointment Today! Call: (123) 456-7890
+          Book Your Dental Appointment Today! Call: 905-315-9937
         </p>
       </div>
       <div className="mx-0 px-10 md:w-2/3 md:px-0 md:mx-auto align py-16">

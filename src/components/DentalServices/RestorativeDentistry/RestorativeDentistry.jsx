@@ -20,7 +20,7 @@ const RestorativeDentistry = () => {
     <div class="">
       <div className="bg-sky-300 py-4 text-white text-center">
         <p className="text-2xl font-semibold">
-          Book Your Dental Appointment Today! Call: (123) 456-7890
+          Book Your Dental Appointment Today! Call: 905-315-9937
         </p>
       </div>
     <div class=" container my-24 ">
@@ -44,9 +44,9 @@ const RestorativeDentistry = () => {
                 </h2>
                 <p class="mb-6 pb-2 text-neutral-500 text-xl">
                 Modern technology, combined with the in-depth experience of our clinical team, can assure you of a successful & long-lasting result. Whether the cause is accident or disease, we can restore your smile with Orchard Family Dentistry's many restorative dentistry options – Contact us today to learn more!                </p>
-                <a href="tel:99999999">
+                <a href="tel:9053159937">
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">
-                    Call Us 99999999
+                    Call Us 905-315-9937
                 </button>
                 </a>
                 

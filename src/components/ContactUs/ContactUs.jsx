@@ -37,7 +37,7 @@ const Contact = () => {
           Address: 5220 Dundas St #6, Burlington, ON L7L 0J4
           </p>
           <p className={`text-lg md:text-3xl text-black whitespace-wrap text-left`}>
-          Phone: 
+          Phone: 905-315-9937
           </p> 
 
         </div>
@@ -72,15 +72,13 @@ const Contact = () => {
               <i className="far fa-envelope text-4xl text-secondary"></i>
               <div className="pl-4">
                 <p className="text-2xl">info@adc.com</p>
-                <p className="text-2xl">support@adc.com</p>
               </div>
             </div>
 
             <div className="flex items-center py-4 mb-10 md:mb-0">
               <i className="fas fa-phone text-3xl text-secondary"></i>
               <div className="pl-4 font-bold">
-                <p className="text-2xl">+1800 562 2487</p>
-                <p className="text-2xl">+3215 546 8975</p>
+                <p className="text-2xl">905-315-9937</p>
               </div>
             </div>
           </div>

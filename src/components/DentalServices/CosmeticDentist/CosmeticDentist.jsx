@@ -18,7 +18,7 @@ const CosmeticDentistry = () => {
     <div class="">
       <div className="bg-sky-300 py-4 text-white text-center">
         <p className="text-2xl font-semibold">
-          Book Your Dental Appointment Today! Call: (123) 456-7890
+          Book Your Dental Appointment Today! Call: 905-315-9937
         </p>
       </div>
     <div class=" container my-24 ">
@@ -44,9 +44,9 @@ const CosmeticDentistry = () => {
                 Orchard Family Dentistry offers a complete range of cosmetic dentistry treatments to create the confident smile you’ve always wanted.</p>
                 <p class="mb-6 text-neutral-500 text-xl">
                 We begin with a detailed smile assessment, discussing with you which aspects you like & dislike about your smile. Once our assessment is complete, we will discuss with you some treatment options to help your smile look more natural, healthy & youthful. Call today to schedule your free cosmetic dentistry consultation!</p>
-                <a href="tel:99999999">
+                <a href="tel:9053159937">
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">
-                    Call Us 99999999
+                    Call Us 905-315-9937
                 </button>
                 </a>
                 

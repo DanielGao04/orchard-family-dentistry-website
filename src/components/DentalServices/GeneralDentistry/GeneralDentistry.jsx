@@ -20,7 +20,7 @@ const GeneralDentistry = () => {
     <div class="">
       <div className="bg-sky-300 py-4 text-white text-center">
         <p className="text-2xl font-semibold">
-          Book Your Dental Appointment Today! Call: (123) 456-7890
+          Book Your Dental Appointment Today! Call: 905-315-9937
         </p>
       </div>
       <div class=" container my-12 md:my-24 ">
