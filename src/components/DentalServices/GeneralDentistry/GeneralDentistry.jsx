@@ -45,9 +45,9 @@ const GeneralDentistry = () => {
                   <p class="mb-6 pb-2 text-neutral-500 text-xl">
                   We are part of a Burlington tradition of dental excellence, offering state-of-the-art general dentistry services. We are conveniently located in Burlington & are here for all your general dentistry needs. With a focus on family & cosmetic dentistry, we are happy to help you achieve a beautiful smile in our comfortable, safe & friendly environment. Our team offers a wide array of procedures, including crowns, dental implants, tooth-coloured dentistry, sedation dentistry, teeth whitening & more.           
                   </p>
-                  <a href="tel:99999999">
+                  <a href="tel:9053159937">
                   <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4">
-                      Call Us 99999999
+                      Call Us 905-315-9937
                   </button>
                   </a>
                   
