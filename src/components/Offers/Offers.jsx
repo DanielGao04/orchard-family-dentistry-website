@@ -17,7 +17,9 @@ const Offers = () => {
           Special Offers for All Patients
         </h1>
         <p className="text-3xl mb-24">
-          We want to make it as easy as possible for all Burlington residents to get the dental care they need. Whether you are new to our office or a longtime patient, we're here for you & will make sure you pay as little as possible, in some cases nothing at all, for our excellent services.
+          We want to make it as easy as possible for all Burlington residents to get the dental care they need. 
+          Whether you are new to our office or a longtime patient, we're here for you & will make sure you pay 
+          as little as possible for our excellent services.
         </p>
       </div>
 
