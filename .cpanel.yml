@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/Users/kevinhu/Downloads/web-projects/AYSHA-DENTAL-CARE-master
+    - /bin/git -C $DEPLOYPATH pull
