@@ -1,3 +1,3 @@
 # orchard-family-dentistry-website
 
-Visit our website at wwww.orchardfamilydentistry.ca
+Visit our website at www.orchardfamilydentistry.ca
